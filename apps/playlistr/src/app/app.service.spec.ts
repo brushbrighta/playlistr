@@ -15,7 +15,7 @@ describe('AppService', () => {
 
   describe('getData', () => {
     it('should return "Welcome to playlistr!"', () => {
-      expect(service.getData()).toEqual({ message: 'Welcome to playlistr!' });
+      expect(service.getCollection()).toEqual({ message: 'Welcome to playlistr!' });
     });
   });
 });

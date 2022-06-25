@@ -2,6 +2,11 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "playlistr": "apps/playlistr"
+    "fe-api": "libs/fe/api",
+    "fe-collection-data-access": "libs/fe/collection/data-access",
+    "fe-collection-features-discogs-releases": "libs/fe/collection/features/discogs-releases",
+    "playlistr": "apps/playlistr",
+    "plstr-fe": "apps/plstr-fe",
+    "shared-types": "libs/shared/types"
   }
 }

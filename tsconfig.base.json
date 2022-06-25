@@ -14,7 +14,16 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@playlistr/fe/api": ["libs/fe/api/src/index.ts"],
+      "@playlistr/fe/collection/data-access": [
+        "libs/fe/collection/data-access/src/index.ts"
+      ],
+      "@playlistr/fe/collection/features/discogs-releases": [
+        "libs/fe/collection/features/discogs-releases/src/index.ts"
+      ],
+      "@playlistr/shared/types": ["libs/shared/types/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
