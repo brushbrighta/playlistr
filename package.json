@@ -30,6 +30,7 @@
     "@ngrx/router-store": "~13.2.0",
     "@ngrx/store": "~13.2.0",
     "@nrwl/angular": "^14.3.6",
+    "itunes-data": "^0.1.4",
     "puppeteer": "^15.1.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.0.0",

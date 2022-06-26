@@ -8,6 +8,7 @@ import { RetrieveDiscogsCollectionService } from './retrieve-discogs-collection.
 import { RetrieveTrackBpmService } from './retrieve-track-bpm.service';
 import { DataAccessService } from './data.access.service';
 import { RetrieveMergedTracksService } from './retrieve-merged-tracks.service';
+import { RetrieveAppleMusicService } from './retrieve-apple-music.service';
 
 @Module({
   imports: [HttpModule],
@@ -19,6 +20,7 @@ import { RetrieveMergedTracksService } from './retrieve-merged-tracks.service';
     RetrieveTrackBpmService,
     DataAccessService,
     RetrieveMergedTracksService,
+    RetrieveAppleMusicService,
   ],
 })
 export class AppModule {}

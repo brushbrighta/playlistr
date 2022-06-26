@@ -7,6 +7,7 @@ export class DataAccessService {
   private CollectionMetaJsonName = 'collection-meta.json';
   private CollectionReleasesJsonName = 'collection-releases.json';
   private CollectionTracksJsonName = 'collection-tracks.json';
+  private AppleMusicJsonName = 'apple-music.json';
 
   private getJson(fileName) {
     return readFileSync(join(process.cwd(), 'data', fileName), 'utf8');
@@ -38,7 +39,19 @@ export class DataAccessService {
     return this.getJson(this.CollectionTracksJsonName);
   }
   public writeCollectionTracksJson(data) {
-    Logger.log('writing collection tracks', JSON.stringify(data));
     this.writeJson(data, this.CollectionTracksJsonName);
+  }
+  // apple-music
+  public getAppleMusicXMLLocation(): string {
+    const fileName = 'Vinyl.xml';
+    return join(process.cwd(), 'data', fileName);
+  }
+
+  public getAppleMusicJson(): string {
+    return this.getJson(this.AppleMusicJsonName);
+  }
+
+  public writetAppleMusicJson(data) {
+    return this.writeJson(data, this.AppleMusicJsonName);
   }
 }

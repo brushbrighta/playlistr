@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { TracksApiService } from '@playlistr/fe/api';
 import { Dictionary, MergedTrack, Release } from '@playlistr/shared/types';
 import { DiscogsReleaseFacade } from '@playlistr/fe/collection/data-access';
+import { AppleMusicTracksApiService } from '../../../../../api/src/lib/apple-tracks.api.service';
 
 @Component({
   selector: 'pl-merged-tracks',
@@ -23,6 +24,10 @@ import { DiscogsReleaseFacade } from '@playlistr/fe/collection/data-access';
         }}
         - {{ findTitle(releases[track.discogsreleaseId], track) }}
       </h3>
+      <div *ngIf="findAppleMusic(track.appleMusicTrackId) as details">
+        <div>Genre: {{ details.Genre }}</div>
+        <div>Meta: {{ details.Comments }}</div>
+      </div>
       <plstr-release-video [video]="track.video"></plstr-release-video>
     </div>
   `,
@@ -30,9 +35,11 @@ import { DiscogsReleaseFacade } from '@playlistr/fe/collection/data-access';
 export class MergedTracksComponent implements OnInit {
   tracks: MergedTrack[] = [];
   releases: Dictionary<Release> = {};
+  apple: Dictionary<any> = {};
 
   constructor(
     private tracksApiService: TracksApiService,
+    private appleMusicTracksApiService: AppleMusicTracksApiService,
     private discogsReleaseFacade: DiscogsReleaseFacade
   ) {}
 
@@ -40,10 +47,15 @@ export class MergedTracksComponent implements OnInit {
     return release?.tracklist[track.discogsIndex]?.title || '';
   }
 
+  findAppleMusic(trackId: number): any {
+    return this.apple[trackId] || '';
+  }
+
   ngOnInit() {
     this.tracksApiService.getTracks().subscribe((tracks) => {
       this.tracks = tracks.filter((track) => !!track.video);
     });
+
     this.discogsReleaseFacade.allDiscogsRelease$.subscribe((releases) => {
       this.releases = releases.reduce((prev, curr) => {
         return {
@@ -52,5 +64,16 @@ export class MergedTracksComponent implements OnInit {
         };
       }, {});
     });
+
+    this.appleMusicTracksApiService
+      .getAppleMusicTracks()
+      .subscribe((tracks) => {
+        this.apple = tracks.reduce((prev, curr) => {
+          return {
+            ...prev,
+            [curr['Track ID']]: curr,
+          };
+        }, {});
+      });
   }
 }

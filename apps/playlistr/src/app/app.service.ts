@@ -6,6 +6,7 @@ import { RetrieveAlbumImageService } from './retrieve-album-image.service';
 import { RetrieveDiscogsCollectionService } from './retrieve-discogs-collection.service';
 import { RetrieveTrackBpmService } from './retrieve-track-bpm.service';
 import { RetrieveMergedTracksService } from './retrieve-merged-tracks.service';
+import { RetrieveAppleMusicService } from './retrieve-apple-music.service';
 
 @Injectable()
 export class AppService {
@@ -13,14 +14,15 @@ export class AppService {
     private retrieveAlbumImageService: RetrieveAlbumImageService,
     private discogsCollectionService: RetrieveDiscogsCollectionService,
     private retrieveTrackBpmService: RetrieveTrackBpmService,
-    private retrieveMergedTracksService: RetrieveMergedTracksService
+    private retrieveMergedTracksService: RetrieveMergedTracksService,
+    private retrieveAppleMusicService: RetrieveAppleMusicService
   ) {}
 
   getCollection(): Observable<Release[]> {
     return this.discogsCollectionService.getCollection();
   }
 
-  getTracks(): Observable<MergedTrack[]> {
+  getTracks(): Promise<Observable<MergedTrack[]>> {
     return this.retrieveMergedTracksService.getTracks();
   }
 
@@ -30,5 +32,13 @@ export class AppService {
 
   retrieveBpm(trackId: string): Promise<string> {
     return this.retrieveTrackBpmService.retrieveBpm(trackId);
+  }
+
+  convertAppleMusic() {
+    return this.retrieveAppleMusicService.convertPlaylist();
+  }
+
+  getAppleMusicJson() {
+    return this.retrieveAppleMusicService.getAppleMusicJson();
   }
 }

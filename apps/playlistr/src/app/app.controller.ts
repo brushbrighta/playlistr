@@ -14,7 +14,7 @@ export class AppController {
   }
 
   @Get('tracks')
-  getTracks(): Observable<MergedTrack[]> {
+  getTracks(): Promise<Observable<MergedTrack[]>> {
     return this.appService.getTracks();
   }
 
@@ -29,5 +29,15 @@ export class AppController {
       Logger.error(e);
       return '';
     });
+  }
+
+  @Get('convert-apple-music')
+  convertAppleMusic(): Promise<any[]> {
+    return this.appService.convertAppleMusic();
+  }
+
+  @Get('apple-music')
+  appleMusic() {
+    return this.appService.getAppleMusicJson();
   }
 }

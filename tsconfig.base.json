@@ -16,6 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@playlistr/fe/api": ["libs/fe/api/src/index.ts"],
+      "@playlistr/fe/apple-music/features/tracks": [
+        "libs/fe/apple-music/features/tracks/src/index.ts"
+      ],
       "@playlistr/fe/collection/data-access": [
         "libs/fe/collection/data-access/src/index.ts"
       ],
