@@ -22,6 +22,10 @@
       "@playlistr/fe/collection/features/discogs-releases": [
         "libs/fe/collection/features/discogs-releases/src/index.ts"
       ],
+      "@playlistr/fe/tracks/features/merged-tracks": [
+        "libs/fe/tracks/features/merged-tracks/src/index.ts"
+      ],
+      "@playlistr/fe/typed-ui": ["libs/fe/typed-ui/src/index.ts"],
       "@playlistr/shared/types": ["libs/shared/types/src/index.ts"]
     }
   },

@@ -10,6 +10,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { FeCollectionFeaturesDiscogsReleasesModule } from '@playlistr/fe/collection/features/discogs-releases';
+import { FeTracksFeaturesMergedTracksModule } from '@playlistr/fe/tracks/features/merged-tracks';
 
 @NgModule({
   declarations: [AppComponent],
@@ -30,7 +31,7 @@ import { FeCollectionFeaturesDiscogsReleasesModule } from '@playlistr/fe/collect
     EffectsModule.forRoot([]),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
     StoreRouterConnectingModule.forRoot(),
-
+    FeTracksFeaturesMergedTracksModule,
     FeCollectionFeaturesDiscogsReleasesModule,
   ],
   providers: [],

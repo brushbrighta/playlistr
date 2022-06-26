@@ -14,3 +14,5 @@ export * from './response/pagination';
 export * from './response/entityArtist';
 export * from './response/video';
 export * from './response';
+export * from './custom';
+export * from './generic';

@@ -33,6 +33,7 @@
     "puppeteer": "^15.1.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.0.0",
+    "string-similarity": "^4.0.4",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
