@@ -4,7 +4,13 @@
         "discogsreleaseId": 1673256,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=6ISKfEHEHvE",
+            "title": "DJ Haitian Star feat Donald D",
+            "description": "Haitian Star Video by Dave Hera feat Donald D. \nCheck Out: DJ Haitian Star Mixtape 01 & 10 Vinyl EP\nhttp://shop.360rec.de/sale-bundles/358/bundle-haitian-star-1?c=1182\nDistribution: Roughtrade/Groove Attack\nBooking: hello@booking-good.com",
+            "duration": 119,
+            "embed": true
+        }
     },
     {
         "id": "1673256_A2",
@@ -25,7 +31,13 @@
         "discogsreleaseId": 1673256,
         "discogsIndex": 3,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=6ISKfEHEHvE",
+            "title": "DJ Haitian Star feat Donald D",
+            "description": "Haitian Star Video by Dave Hera feat Donald D. \nCheck Out: DJ Haitian Star Mixtape 01 & 10 Vinyl EP\nhttp://shop.360rec.de/sale-bundles/358/bundle-haitian-star-1?c=1182\nDistribution: Roughtrade/Groove Attack\nBooking: hello@booking-good.com",
+            "duration": 119,
+            "embed": true
+        }
     },
     {
         "id": "1673256_A5",
@@ -53,7 +65,13 @@
         "discogsreleaseId": 1673256,
         "discogsIndex": 7,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=6ISKfEHEHvE",
+            "title": "DJ Haitian Star feat Donald D",
+            "description": "Haitian Star Video by Dave Hera feat Donald D. \nCheck Out: DJ Haitian Star Mixtape 01 & 10 Vinyl EP\nhttp://shop.360rec.de/sale-bundles/358/bundle-haitian-star-1?c=1182\nDistribution: Roughtrade/Groove Attack\nBooking: hello@booking-good.com",
+            "duration": 119,
+            "embed": true
+        }
     },
     {
         "id": "1673256_B4",
@@ -312,7 +330,13 @@
         "discogsreleaseId": 2847980,
         "discogsIndex": 0,
         "appleMusicTrackId": 12508,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=5x1VEeDbS1A",
+            "title": "Fab Samperi - Listen Up",
+            "description": "",
+            "duration": 253,
+            "embed": true
+        }
     },
     {
         "id": "2847980_A2",
@@ -487,7 +511,13 @@
         "discogsreleaseId": 19395361,
         "discogsIndex": 1,
         "appleMusicTrackId": 10483,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=Y-B0lXnierw",
+            "title": "Danger Dan - Das ist alles von der Kunstfreiheit gedeckt (Antilopen Gang)",
+            "description": "Das unerwartete Danger Dan-Klavieralbum „Das ist alles von der Kunstfreiheit gedeckt“ ist da! Jetzt streamen & bestellen: ► https://to.lopi.link/kunstfreiheit\n\nSingle streamen: ► https://dangerdan.lnk.to/diavdkg\n\nMusik & Text: Danger Dan\n\nVideo: D",
+            "duration": 257,
+            "embed": true
+        }
     },
     {
         "id": "19395361_A3",
@@ -624,7 +654,13 @@
         "discogsreleaseId": 14390848,
         "discogsIndex": 1,
         "appleMusicTrackId": 12384,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=7lD2mzpp40c",
+            "title": "Music",
+            "description": "Provided to YouTube by Sony Music Entertainment\n\nMusic · The Headhunters\n\nSurvival Of The Fittest\n\n℗ 1975 Arista Records LLC\n\nReleased on: 1975-04-03\n\nPiano, Saxophone, Vocal, Composer, Lyricist: Benny Maupin\nProducer: David Rubinson & Friends, Inc.\nPe",
+            "duration": 214,
+            "embed": true
+        }
     },
     {
         "id": "14390848_A3",
@@ -690,7 +726,13 @@
         "discogsreleaseId": 1931776,
         "discogsIndex": 1,
         "appleMusicTrackId": 8461,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=72o5P8ZLulo",
+            "title": "Wilson Pickett - Night Owl",
+            "description": "Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for fair use for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might ot",
+            "duration": 145,
+            "embed": true
+        }
     },
     {
         "id": "1096125_A1",
@@ -710,21 +752,39 @@
         "discogsreleaseId": 1096125,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=Pzull7scV2Y",
+            "title": "MAESTRO FRESH WES - Let Your Backbone Slide",
+            "description": "From Canadian hip hop artist Maestro Fresh Wes' 1989 debut album Symphony In Effect.",
+            "duration": 303,
+            "embed": true
+        }
     },
     {
         "id": "1096125_A3",
         "discogsreleaseId": 1096125,
         "discogsIndex": 2,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=Pzull7scV2Y",
+            "title": "MAESTRO FRESH WES - Let Your Backbone Slide",
+            "description": "From Canadian hip hop artist Maestro Fresh Wes' 1989 debut album Symphony In Effect.",
+            "duration": 303,
+            "embed": true
+        }
     },
     {
         "id": "1096125_B1",
         "discogsreleaseId": 1096125,
         "discogsIndex": 3,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=Pzull7scV2Y",
+            "title": "MAESTRO FRESH WES - Let Your Backbone Slide",
+            "description": "From Canadian hip hop artist Maestro Fresh Wes' 1989 debut album Symphony In Effect.",
+            "duration": 303,
+            "embed": true
+        }
     },
     {
         "id": "1096125_B2",
@@ -744,14 +804,26 @@
         "discogsreleaseId": 16212064,
         "discogsIndex": 0,
         "appleMusicTrackId": 8595,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=j9iBjPWtyck",
+            "title": "Dave & Ansel Collins - Monkey Spanner",
+            "description": "For more Back to Mine music follow: https://smarturl.it/BackToMineChill\nBuy Vinyl / CD: https://smarturl.it/BACKLP031\nBuy Digital: https://smarturl.it/BACKCD031\n\nNext in the compiler hotseat for seminal mix series ‘Back to Mine’ is the legendary DJ an",
+            "duration": 151,
+            "embed": true
+        }
     },
     {
         "id": "16212064_A2",
         "discogsreleaseId": 16212064,
         "discogsIndex": 1,
         "appleMusicTrackId": 8597,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=tzkxyp0ofZQ",
+            "title": "Betty Chung - Bang Bang",
+            "description": "For more Back to Mine music follow: https://smarturl.it/BackToMineChill\nBuy Vinyl / CD: https://smarturl.it/BACKLP031\nBuy Digital: https://smarturl.it/BACKCD031\n\nNext in the compiler hotseat for seminal mix series ‘Back to Mine’ is the legendary DJ an",
+            "duration": 137,
+            "embed": true
+        }
     },
     {
         "id": "16212064_A3",
@@ -845,7 +917,13 @@
         "discogsreleaseId": 16212064,
         "discogsIndex": 11,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=BTuY0eIslac",
+            "title": "Dr Rubberfunk - A Matter of Time",
+            "description": "For more Back to Mine music follow: https://smarturl.it/BackToMineChill\nBuy Vinyl / CD: https://smarturl.it/BACKLP031\nBuy Digital: https://smarturl.it/BACKCD031\n\nNext in the compiler hotseat for seminal mix series ‘Back to Mine’ is the legendary DJ an",
+            "duration": 273,
+            "embed": true
+        }
     },
     {
         "id": "16212064_C3",
@@ -859,7 +937,13 @@
         "discogsreleaseId": 16212064,
         "discogsIndex": 13,
         "appleMusicTrackId": 8603,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=oFA9fei2M_g",
+            "title": "Wilbert Harrison - Let's Work Together",
+            "description": "For more Back to Mine music follow: https://smarturl.it/BackToMineChill\nBuy Vinyl / CD: https://smarturl.it/BACKLP031\nBuy Digital: https://smarturl.it/BACKCD031\n\nNext in the compiler hotseat for seminal mix series ‘Back to Mine’ is the legendary DJ an",
+            "duration": 336,
+            "embed": true
+        }
     },
     {
         "id": "16212064_C5",
@@ -873,7 +957,13 @@
         "discogsreleaseId": 16212064,
         "discogsIndex": 15,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=4AMAh7sETMs",
+            "title": "Manu Dibango - Big Blow",
+            "description": "For more Back to Mine music follow: https://smarturl.it/BackToMineChill\nBuy Vinyl / CD: https://smarturl.it/BACKLP031\nBuy Digital: https://smarturl.it/BACKCD031\n\nNext in the compiler hotseat for seminal mix series ‘Back to Mine’ is the legendary DJ an",
+            "duration": 481,
+            "embed": true
+        }
     },
     {
         "id": "16212064_D2",
@@ -914,7 +1004,13 @@
         "discogsreleaseId": 16212064,
         "discogsIndex": 20,
         "appleMusicTrackId": 8599,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=Vlof00M7c1w",
+            "title": "Yum Yum Head Food, Fatboy Slim - The Voice of Experience",
+            "description": "For more Back to Mine music follow: https://smarturl.it/BackToMineChill\nPre-order Vinyl / CD: https://smarturl.it/BACKLP031\nPre-order Digital: https://smarturl.it/BACKCD031\n\nNext in the compiler hotseat for seminal mix series ‘Back to Mine’ is the leg",
+            "duration": 417,
+            "embed": true
+        }
     },
     {
         "id": "20589772_A1",
@@ -1520,7 +1616,13 @@
         "discogsreleaseId": 5698804,
         "discogsIndex": 16,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=cpFbiNlDjXw",
+            "title": "Spunk - La Bimini - 1981",
+            "description": "My selection work involves considerable investments of resources and time. \nYou can help me ensure the continuity of my work by donating to this link:\nhttps://www.paypal.com/paypalme/magrosi65\nThanks in advance!",
+            "duration": 300,
+            "embed": true
+        }
     },
     {
         "id": "5698804_",
@@ -1628,7 +1730,13 @@
         "discogsreleaseId": 5698804,
         "discogsIndex": 28,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=U5cHhdsHzwM",
+            "title": "Harry Beckett - Ring Within Rings",
+            "description": "Album : Joy Unlimited (1975)\nHarry Beckett : Trumpet, Flugelhorn\nDarryl Runswick : Bass, Electric Bass \nMartin David : Congas\nNigel Morris : Drums\nRay Russell : Guitar\nBrian Miller : Piano, Electric Piano, Synthesizer",
+            "duration": 419,
+            "embed": true
+        }
     },
     {
         "id": "5698804_12",
@@ -1696,7 +1804,13 @@
         "discogsreleaseId": 21794182,
         "discogsIndex": 1,
         "appleMusicTrackId": 27512,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=pI2-Wpx4M1E",
+            "title": "Freestyle Fellowship- Bullies Of The Block Explicit (HD)",
+            "description": "LA's underground super group Freestyle Fellowship  blasted off in 1993 with their debut album Innercity Griots. on 4th & Broadway. The 2nd single Bullies of the Block is featured here.",
+            "duration": 297,
+            "embed": true
+        }
     },
     {
         "id": "21794182_A3",
@@ -1792,7 +1906,13 @@
         "discogsreleaseId": 21794182,
         "discogsIndex": 13,
         "appleMusicTrackId": 27540,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=IXyqB5EHl7k",
+            "title": "Freestyle Fellowship - Park Bench People",
+            "description": "From Innercity Griots (1993)",
+            "duration": 321,
+            "embed": true
+        }
     },
     {
         "id": "21794182_D1",
@@ -1826,7 +1946,13 @@
         "discogsreleaseId": 21794182,
         "discogsIndex": 17,
         "appleMusicTrackId": 27526,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=mYJWClwdK6A",
+            "title": "Freestyle Fellowship - Pure Thought",
+            "description": "Album: Innercity Griots (1993)",
+            "duration": 196,
+            "embed": true
+        }
     },
     {
         "id": "9918409_A1",
@@ -1840,7 +1966,13 @@
         "discogsreleaseId": 9918409,
         "discogsIndex": 1,
         "appleMusicTrackId": 14896,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=DrQRS40OKNE",
+            "title": "Fleet Foxes - White Winter Hymnal [OFFICIAL VIDEO]",
+            "description": "Fleet Foxes (Release Date: 06/03/08) \nSub Pop Mega Mart https://megamart.subpop.com/releases/fleet_foxes/fleet_foxes\niTunes https://itunes.apple.com/us/album/fleet-foxes/id281086394\nAmazon http://amzn.com/B0017R5UAA\n\nSubscribe to Sub Pop: https://www.yout",
+            "duration": 148,
+            "embed": true
+        }
     },
     {
         "id": "9918409_A3",
@@ -1868,7 +2000,13 @@
         "discogsreleaseId": 9918409,
         "discogsIndex": 5,
         "appleMusicTrackId": 14886,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=brZTvGIzeGg",
+            "title": "Fleet Foxes - He Doesn't Know Why [OFFICIAL VIDEO]",
+            "description": "Fleet Foxes (Release Date: 06/03/08) \nSub Pop Mega Mart https://megamart.subpop.com/releases/fleet_foxes/fleet_foxes\niTunes https://itunes.apple.com/us/album/fleet-foxes/id281086394\nAmazon http://amzn.com/B0017R5UAA\n\nDirected by Sean Pecknold http://seanp",
+            "duration": 202,
+            "embed": true
+        }
     },
     {
         "id": "9918409_B1",
@@ -1952,7 +2090,13 @@
         "discogsreleaseId": 16902522,
         "discogsIndex": 0,
         "appleMusicTrackId": 5932,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=0JF8_GgEaTE",
+            "title": "Kikagaku Moyo - Semicircle",
+            "description": "From Kikagaku Moyo's Forest of Lost Children \nReleased May 20, 2014\nBeyond Beyond is Beyond Records\n\nAvailable for purchase on vinyl or CD at:\nhttp://beyondbeyondisbeyondrecords.bigcartel.com/product/kikagaku-moyo-forest-of-lost-children",
+            "duration": 197,
+            "embed": true
+        }
     },
     {
         "id": "16902522_A2",
@@ -1966,7 +2110,13 @@
         "discogsreleaseId": 16902522,
         "discogsIndex": 2,
         "appleMusicTrackId": 5938,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=_rIBXu6jnD0",
+            "title": "Kikagaku Moyo - Smoke and Mirrors",
+            "description": "From Kikagaku Moyo's Forest of Lost Children \nReleased May 20, 2014\nBeyond Beyond is Beyond Records\n\nAvailable for purchase on vinyl or CD at:\nhttp://beyondbeyondisbeyondrecords.bigcartel.com/product/kikagaku-moyo-forest-of-lost-children",
+            "duration": 439,
+            "embed": true
+        }
     },
     {
         "id": "16902522_B1",
@@ -1993,7 +2143,13 @@
         "discogsreleaseId": 16902522,
         "discogsIndex": 5,
         "appleMusicTrackId": 5941,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=8n5P9CdTuqA",
+            "title": "Kikagaku Moyo - White Moon",
+            "description": "From Kikagaku Moyo's Forest of Lost Children \nReleased May 20, 2014\nBeyond Beyond is Beyond Records\n\nAvailable for purchase on vinyl or CD at:\nhttp://beyondbeyondisbeyondrecords.bigcartel.com/product/kikagaku-moyo-forest-of-lost-children",
+            "duration": 507,
+            "embed": true
+        }
     },
     {
         "id": "12403520_A1",
@@ -2202,14 +2358,26 @@
         "discogsreleaseId": 2351861,
         "discogsIndex": 1,
         "appleMusicTrackId": 26766,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=5rTTlSa0laE",
+            "title": "Billy Garner - I Got Some",
+            "description": "Kicking off with an instantly recognisable break",
+            "duration": 167,
+            "embed": true
+        }
     },
     {
         "id": "2744962_A",
         "discogsreleaseId": 2744962,
         "discogsIndex": 0,
         "appleMusicTrackId": 11102,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=endRujmvpro",
+            "title": "Betty Barney - Momma Momma",
+            "description": "Creative Musicians, Vol. 2",
+            "duration": 159,
+            "embed": true
+        }
     },
     {
         "id": "2744962_B",
@@ -2243,7 +2411,13 @@
         "discogsreleaseId": 10178923,
         "discogsIndex": 2,
         "appleMusicTrackId": 7096,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=AK5gDN8AfY0",
+            "title": "El Michels Affair - Shaolin Brew",
+            "description": "Purchase Return To The 37th Chamber now:\nLP / CD - BIG CROWN WEBSTORE : https://bigcrownrecords.com/store/\n\nDigital - http://geni.us/EMA37thChamber\n\n\nWritten and Directed by: El Oms\n\nShot and Edited by: Joseph Hernandez\n\nLeading Role: B-Girl Wonda\n\nThe ",
+            "duration": 163,
+            "embed": true
+        }
     },
     {
         "id": "10178923_A4",
@@ -2354,7 +2528,13 @@
         "discogsreleaseId": 17975506,
         "discogsIndex": 4,
         "appleMusicTrackId": 7082,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=_pb__LcK6NU",
+            "title": "El Michels Affair - Murkit Gem",
+            "description": "Taken from the El Michels Affair album Yeti Season out on Big Crown Records. \n\nOrder the Deluxe Box Set, LP, and CD in the BCR Webstore:\nhttps://bigcrownrecords.com/store/yeti-season-dlx/ \n\nOrder / Stream here:\nhttps://smarturl.it/yeti-season\n\n\n\nFollow ",
+            "duration": 193,
+            "embed": true
+        }
     },
     {
         "id": "17975506_B1",
@@ -2423,7 +2603,13 @@
         "discogsreleaseId": 3693460,
         "discogsIndex": 2,
         "appleMusicTrackId": 17950,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=weUVPDRuS0k",
+            "title": "The Gemini Bros - Trump Skyscrapers (original mix)",
+            "description": "",
+            "duration": 269,
+            "embed": true
+        }
     },
     {
         "id": "3693460_B2",
@@ -2699,7 +2885,13 @@
         "discogsreleaseId": 19302766,
         "discogsIndex": 2,
         "appleMusicTrackId": 22595,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=aaNm48wiezs",
+            "title": "Hiatus Kaiyote - 'Chivalry Is Not Dead' (Official Audio)",
+            "description": "If I were a leopard slug, I would reach out with the blue rose of ours, wrapping myself around you\nHigh up in the treetops, we could get lost in our lust, us\n\nIf I were a seahorse, I’d only dance around you, underneath the green water, I could fill you ",
+            "duration": 207,
+            "embed": true
+        }
     },
     {
         "id": "19302766_A4",
@@ -2769,28 +2961,52 @@
         "discogsreleaseId": 2941189,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=NjIEBmlH26I",
+            "title": "Freak Hop Pt. 2",
+            "description": "Provided to YouTube by Symphonic Distribution\n\nFreak Hop Pt. 2 · BadboE · BadboE\n\nFreak Hop EP\n\n℗ 2011 Breakbeat Paradise Recordings\n\nReleased on: 2011-11-07\n\nAuto-generated by YouTube.",
+            "duration": 315,
+            "embed": true
+        }
     },
     {
         "id": "2941189_A2",
         "discogsreleaseId": 2941189,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=NjIEBmlH26I",
+            "title": "Freak Hop Pt. 2",
+            "description": "Provided to YouTube by Symphonic Distribution\n\nFreak Hop Pt. 2 · BadboE · BadboE\n\nFreak Hop EP\n\n℗ 2011 Breakbeat Paradise Recordings\n\nReleased on: 2011-11-07\n\nAuto-generated by YouTube.",
+            "duration": 315,
+            "embed": true
+        }
     },
     {
         "id": "2941189_B1",
         "discogsreleaseId": 2941189,
         "discogsIndex": 2,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=NjIEBmlH26I",
+            "title": "Freak Hop Pt. 2",
+            "description": "Provided to YouTube by Symphonic Distribution\n\nFreak Hop Pt. 2 · BadboE · BadboE\n\nFreak Hop EP\n\n℗ 2011 Breakbeat Paradise Recordings\n\nReleased on: 2011-11-07\n\nAuto-generated by YouTube.",
+            "duration": 315,
+            "embed": true
+        }
     },
     {
         "id": "2941189_B2",
         "discogsreleaseId": 2941189,
         "discogsIndex": 3,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=NjIEBmlH26I",
+            "title": "Freak Hop Pt. 2",
+            "description": "Provided to YouTube by Symphonic Distribution\n\nFreak Hop Pt. 2 · BadboE · BadboE\n\nFreak Hop EP\n\n℗ 2011 Breakbeat Paradise Recordings\n\nReleased on: 2011-11-07\n\nAuto-generated by YouTube.",
+            "duration": 315,
+            "embed": true
+        }
     },
     {
         "id": "3587603_A",
@@ -2890,7 +3106,13 @@
         "discogsreleaseId": 5370676,
         "discogsIndex": 1,
         "appleMusicTrackId": 26720,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=f9K1xkfgW0Y",
+            "title": "Chris Read feat Myles Sanko & The So Much Soul Players - The Magic is Gone (Hammond Reprise)",
+            "description": "More info (2014):\n\nhttp://musicofsubstance.com/discography/chris-read-feat-myles-sanko-the-so-much-soul-players-the-magic-is-gone-7-single/",
+            "duration": 226,
+            "embed": true
+        }
     },
     {
         "id": "9072898_A1",
@@ -3484,7 +3706,13 @@
         "discogsreleaseId": 14223719,
         "discogsIndex": 7,
         "appleMusicTrackId": 18438,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=Naf5uJYGoiU",
+            "title": "Beastie Boys - Hey Ladies",
+            "description": "REMASTERED IN HD!\nRead the story behind the album that redefined the Beastie Boys:\nhttps://www.udiscovermusic.com/stories/rediscover-pauls-boutique/\n\nListen to more from the Beastie Boys: https://BeastieBoys.lnk.to/essential\n\nSubscribe for more videos: ht",
+            "duration": 230,
+            "embed": true
+        }
     },
     {
         "id": "14223719_C1",
@@ -3693,7 +3921,13 @@
         "discogsreleaseId": 2163975,
         "discogsIndex": 1,
         "appleMusicTrackId": 8449,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=g8Ksr0s63xM",
+            "title": "JUST BROTHERS sliced tomatoes",
+            "description": "",
+            "duration": 144,
+            "embed": true
+        }
     },
     {
         "id": "21718588_A1",
@@ -3755,7 +3989,13 @@
         "discogsreleaseId": 21718588,
         "discogsIndex": 7,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=BLPT0T1u8tY",
+            "title": "Tsugaru Yorebushi - B2",
+            "description": "木田林松栄, Akira Ishikawa & His Count Buffalos* ‎– Tsugaru Jongara Bushi - Drum & Tsugaru Jamisen = 津軽じょんがら節　ドラム＆津軽三味線\nLabel: Teichiku Records ‎– SL-111\nFormat: Vinyl, LP, Album\nCountry: Japan\nReleased: 19",
+            "duration": 156,
+            "embed": true
+        }
     },
     {
         "id": "21718588_B3",
@@ -3775,7 +4015,13 @@
         "discogsreleaseId": 21718588,
         "discogsIndex": 9,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=LZg87qNoUKY",
+            "title": "Tsugaru Koharabushi - B4",
+            "description": "木田林松栄, Akira Ishikawa & His Count Buffalos* ‎– Tsugaru Jongara Bushi - Drum & Tsugaru Jamisen = 津軽じょんがら節　ドラム＆津軽三味線\nLabel: Teichiku Records ‎– SL-111\nFormat: Vinyl, LP, Album\nCountry: Japan\nReleased: 19",
+            "duration": 159,
+            "embed": true
+        }
     },
     {
         "id": "21718588_B5",
@@ -4029,7 +4275,13 @@
         "discogsreleaseId": 10676369,
         "discogsIndex": 4,
         "appleMusicTrackId": 14836,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=CMJH2XWBQGU",
+            "title": "Nas - The World Is Yours (Re-Mix Version)",
+            "description": "Official video for The World Is Yours by Nas (Remix)\nListen to Nas: https://Nas.lnk.to/listenYD\nWatch more Nas videos: https://Nas.lnk.to/listenYD/youtube\n\nSubscribe to the Nas YouTube Channel: https://Nas.lnk.to/subscribeYD\n\nFollow Nas:\nFacebook: https",
+            "duration": 299,
+            "embed": true
+        }
     },
     {
         "id": "10676369_A5",
@@ -4076,7 +4328,13 @@
         "discogsreleaseId": 10676369,
         "discogsIndex": 9,
         "appleMusicTrackId": 14844,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=HDTJxsLEEU0",
+            "title": "One Time 4 Your Mind - Nas (lyrics on screen)",
+            "description": "Hey everyone, what do you think of my first lyrics video? \n\nAll rights reserved to Columbia Records.",
+            "duration": 201,
+            "embed": true
+        }
     },
     {
         "id": "10676369_B4",
@@ -4305,7 +4563,13 @@
         "discogsreleaseId": 12278181,
         "discogsIndex": 14,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=M109Jc7mN6I",
+            "title": "Masta Ace - Slaughtahouse - Saturday Nite Live",
+            "description": " ",
+            "duration": 360,
+            "embed": true
+        }
     },
     {
         "id": "5666751_A1",
@@ -4442,7 +4706,13 @@
         "discogsreleaseId": 3468635,
         "discogsIndex": 3,
         "appleMusicTrackId": 11324,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=L53XWtnD7yA",
+            "title": "Herr Kapellmeister (Alle Farben Remix)",
+            "description": "Provided to YouTube by dig dis! c/o Music Mail Tonträger GmbH\n\nHerr Kapellmeister (Alle Farben Remix) · Bebetta\n\nHerr Kapellmeister Remixe\n\n℗ Damm Records\n\nReleased on: 2014-03-12\n\nRemixer: Alle Farben\nArtist: Bebetta\n\nAuto-generated by YouTube.",
+            "duration": 374,
+            "embed": true
+        }
     },
     {
         "id": "3161290_A",
@@ -4456,7 +4726,13 @@
         "discogsreleaseId": 3161290,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=oLwo_CwbFew",
+            "title": "Sharon Jones & the Dap-Kings It Hurts To Be Alone",
+            "description": "45rpm Single Available here: http://bit.ly/1WFdMWa\n\nwww.sharonjonesandthedapkings.com",
+            "duration": 187,
+            "embed": true
+        }
     },
     {
         "id": "2512700_A1",
@@ -4496,14 +4772,26 @@
         "discogsreleaseId": 2512700,
         "discogsIndex": 3,
         "appleMusicTrackId": 11332,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=HtZIZmmU2XQ",
+            "title": "04 Paul Panzer Blues - Ton Steine Scherben",
+            "description": "Der vierte Track des Albums keine Macht für Niemand von Ton Steine Scherben!",
+            "duration": 402,
+            "embed": true
+        }
     },
     {
         "id": "2512700_B2",
         "discogsreleaseId": 2512700,
         "discogsIndex": 4,
         "appleMusicTrackId": 11332,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=ezCNQl7CmLg",
+            "title": "05 Menschenjäger - Ton Steine Scherben",
+            "description": "Track 5 der Band Ton Steine Scherben aus dem Album Keine Macht Für Niemand",
+            "duration": 305,
+            "embed": true
+        }
     },
     {
         "id": "2512700_B3",
@@ -4536,21 +4824,39 @@
         "discogsreleaseId": 2512700,
         "discogsIndex": 7,
         "appleMusicTrackId": 11332,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=XSfUtUiXixw",
+            "title": "08 Der Traum Ist Aus - Ton Steine Scherben",
+            "description": "Track 08 aus dem Album Keine Macht für Niemand",
+            "duration": 565,
+            "embed": true
+        }
     },
     {
         "id": "2512700_D1",
         "discogsreleaseId": 2512700,
         "discogsIndex": 8,
         "appleMusicTrackId": 11332,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=UyU7UOP4BnM",
+            "title": "09 Mensch Meier - Ton Steine Scherben",
+            "description": "Track 09 des Albums Keine Macht für Niemand!",
+            "duration": 224,
+            "embed": true
+        }
     },
     {
         "id": "2512700_D2",
         "discogsreleaseId": 2512700,
         "discogsIndex": 9,
         "appleMusicTrackId": 11332,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=fczGvrfBVUY",
+            "title": "10 Rauch-Haus-Song - Ton Steine Scherben",
+            "description": "Track 10 Des Albums Keine Macht für Niemand von Ton Steine Scherben!",
+            "duration": 240,
+            "embed": true
+        }
     },
     {
         "id": "2512700_D3",
@@ -4570,7 +4876,13 @@
         "discogsreleaseId": 2512700,
         "discogsIndex": 11,
         "appleMusicTrackId": 11332,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=u72eWdhgkOM",
+            "title": "12 Komm Schlaf Bei Mir - Ton Steine Scherben",
+            "description": "Track 12 des Albums Keine Macht für Niemand",
+            "duration": 243,
+            "embed": true
+        }
     },
     {
         "id": "15522351_A1",
@@ -4647,7 +4959,13 @@
         "discogsreleaseId": 2202433,
         "discogsIndex": 0,
         "appleMusicTrackId": 14063,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=wLgX3M3275o",
+            "title": "Marie Queenie Lyons - See And Don't See",
+            "description": "Facebook • http://bit.ly/2fkADaM\nInstagram • http://bit.ly/2fjFWaa\nMixcloud • http://bit.ly/2f8sYQ2\n\n#nowspinningandreamanzoni  #intermissionsounds",
+            "duration": 198,
+            "embed": true
+        }
     },
     {
         "id": "2202433_B",
@@ -4661,7 +4979,13 @@
         "discogsreleaseId": 4207995,
         "discogsIndex": 0,
         "appleMusicTrackId": 26810,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=COE8TEjBiKc",
+            "title": "The Soul Immigrants - The Ghetto, There's No Way Out [Dry Rooti] 2012 Afro Funk Revival 45",
+            "description": "The Soul Immigrants - The Ghetto, There's No Way Out\nDry Rooti Records # DR45001. Released in 2012. \nWe wouldn't blame you if you thought this was a rare re-release from the late 60s, but no, this is classic funk done by a band who are very much alive, ki",
+            "duration": 257,
+            "embed": true
+        }
     },
     {
         "id": "4207995_AA",
@@ -4695,21 +5019,39 @@
         "discogsreleaseId": 4869818,
         "discogsIndex": 0,
         "appleMusicTrackId": 26752,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=LDADBUPHt3U",
+            "title": "Charles Bradley - Confusion",
+            "description": "The Screaming Eagle of Soul, Charles Bradley, and his band recently stopped by Studio 1A to play live on KUTX. We'll be talking about Mr. Bradley's performance for a long time around here. Wow!",
+            "duration": 298,
+            "embed": true
+        }
     },
     {
         "id": "4869818_B",
         "discogsreleaseId": 4869818,
         "discogsIndex": 1,
         "appleMusicTrackId": 26754,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=LMuu4h6RdyQ",
+            "title": "Charles Bradley - Where Do We Go From Here? (OFFICIAL VIDEO)",
+            "description": "Directed by Michael Daye. From the album Victim Of Love, out now. See him live at the Daptone Super Soul Revue - http://bit.ly/1iPVnzm. \n\nhttp://www.TheCharlesBradley.com\nhttps://www.facebook.com/thecharlesbradley\nhttps://twitter.com/Charles_Bradley",
+            "duration": 192,
+            "embed": true
+        }
     },
     {
         "id": "9097846_A1",
         "discogsreleaseId": 9097846,
         "discogsIndex": 0,
         "appleMusicTrackId": 24039,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=uXj8FM7lTrw",
+            "title": "Justice - Safe And Sound (Audio)",
+            "description": "Safe and Sound available here : http://smarturl.it/JusticeWoman\n#alakazam\nCheck out FIRE video : https://www.youtube.com/watch?v=tkaEpUBUQDw\nTaken from Justice's new album WOMAN\nOUT NOW\n\nDownload Safe and Sound here : https://EdBanger.lnk.to/JusticeSafe",
+            "duration": 351,
+            "embed": true
+        }
     },
     {
         "id": "9097846_A2",
@@ -4779,7 +5121,13 @@
         "discogsreleaseId": 9097846,
         "discogsIndex": 10,
         "appleMusicTrackId": 24039,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=uXj8FM7lTrw",
+            "title": "Justice - Safe And Sound (Audio)",
+            "description": "Safe and Sound available here : http://smarturl.it/JusticeWoman\n#alakazam\nCheck out FIRE video : https://www.youtube.com/watch?v=tkaEpUBUQDw\nTaken from Justice's new album WOMAN\nOUT NOW\n\nDownload Safe and Sound here : https://EdBanger.lnk.to/JusticeSafe",
+            "duration": 351,
+            "embed": true
+        }
     },
     {
         "id": "9097846_CD-2",
@@ -4849,7 +5197,13 @@
         "discogsreleaseId": 1497811,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=DyHzDh9v0b4",
+            "title": "Rob Tex Reworks - Foxy Lady",
+            "description": "A gem of a track from my collection that always generates reactions when I Dj. People always want to know who is responsible for such a cool rework of one of my all time favorites. Well it's Rob Tex -- check 'em out and look him up!",
+            "duration": 223,
+            "embed": true
+        }
     },
     {
         "id": "1497811_B",
@@ -4884,7 +5238,13 @@
         "discogsreleaseId": 1465145,
         "discogsIndex": 0,
         "appleMusicTrackId": 10737,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=TIaHY1dcZAo",
+            "title": "Chris Joss - I Want Freedom",
+            "description": "",
+            "duration": 226,
+            "embed": true
+        }
     },
     {
         "id": "1465145_A2",
@@ -4912,7 +5272,13 @@
         "discogsreleaseId": 604278,
         "discogsIndex": 0,
         "appleMusicTrackId": 10471,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=pDUYOaMbIZk",
+            "title": "Dynamite Deluxe - Grüne Brille",
+            "description": "Unser Video zur dritten Single aus dem Deluxe Soundsystem Album.\r\n\r\nwww.dynamite-deluxe.de\r\nwww.myspace.com/dynamitedeluxe",
+            "duration": 216,
+            "embed": true
+        }
     },
     {
         "id": "604278_A2",
@@ -4996,7 +5362,13 @@
         "discogsreleaseId": 3201420,
         "discogsIndex": 0,
         "appleMusicTrackId": 16660,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=GAezd6ZU2nU",
+            "title": "NO BS! Brass-Take On Me",
+            "description": "",
+            "duration": 193,
+            "embed": true
+        }
     },
     {
         "id": "3201420_B",
@@ -5044,7 +5416,13 @@
         "discogsreleaseId": 951766,
         "discogsIndex": 1,
         "appleMusicTrackId": 11340,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=lw-QJv9CcOU",
+            "title": "Rock For (Club Version) - Parov Stelar",
+            "description": "I'll upload any song that's not on YouTube, as long as it's indie as hell\n\nMain channel: https://www.youtube.com/channel/UC3igQJryx9soAcUB6nziAtA",
+            "duration": 277,
+            "embed": true
+        }
     },
     {
         "id": "1321255_A1",
@@ -5161,14 +5539,26 @@
         "discogsreleaseId": 509780,
         "discogsIndex": 2,
         "appleMusicTrackId": 26710,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=_pa93fWALJA",
+            "title": "Joyce Moreno - Nome de Guerra",
+            "description": "Get The Album Here\nFar Out Shop: https://www.faroutrecordings.com/products/joyce-moreno-hard-bossa\niTunes: https://geo.itunes.apple.com/uk/album/id1044388185?at=1l3v9Tx&app=itunes\nAmazon: http://www.amazon.co.uk/dp/B01603KMQW?ie=UTF8&tag=musique006-21&lin",
+            "duration": 233,
+            "embed": true
+        }
     },
     {
         "id": "509780_A4",
         "discogsreleaseId": 509780,
         "discogsIndex": 3,
         "appleMusicTrackId": 26702,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=ruaJZjmSDps",
+            "title": "Joyce Moreno - Hard Bossa",
+            "description": "Get The Album Here\nFar Out Shop: https://www.faroutrecordings.com/products/joyce-moreno-hard-bossa\niTunes: https://geo.itunes.apple.com/uk/album/id1044388185?at=1l3v9Tx&app=itunes\nAmazon: http://www.amazon.co.uk/dp/B01603KMQW?ie=UTF8&tag=musique006-21&lin",
+            "duration": 176,
+            "embed": true
+        }
     },
     {
         "id": "509780_B1",
@@ -6205,7 +6595,13 @@
         "discogsreleaseId": 20408065,
         "discogsIndex": 5,
         "appleMusicTrackId": 22304,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=8EsExqdr-0I",
+            "title": "SAULT - Bitter Streets (Lyrics Video)",
+            "description": "From the new album 9. Lyrics also below. Another fantastic SAULT song: https://youtu.be/_xWmPGhqWRM  \nThank you for watching, likes, comments and subscribing. If you subscribe don't forget to click the bell-icon and click All. Then you'll be informed ab",
+            "duration": 243,
+            "embed": true
+        }
     },
     {
         "id": "20408065_B1",
@@ -6258,7 +6654,13 @@
         "discogsreleaseId": 4013705,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=oSiU49Ji2MY",
+            "title": "Nino Nikolaidis - Kiriakos 76",
+            "description": "",
+            "duration": 208,
+            "embed": true
+        }
     },
     {
         "id": "4013705_B",
@@ -6345,14 +6747,26 @@
         "discogsreleaseId": 3614502,
         "discogsIndex": 1,
         "appleMusicTrackId": 11366,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=PwTUJdhHAuM",
+            "title": "Mary Jane Hooper I've Got What You Need",
+            "description": "",
+            "duration": 170,
+            "embed": true
+        }
     },
     {
         "id": "2715214_A",
         "discogsreleaseId": 2715214,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=dra0HqKYHEQ",
+            "title": "Pedders - Hankuri",
+            "description": "get on 12 http://www.juno.co.uk/products/hankuri/415623-01/?ref=dig\n\nReleased by: GAMM \nRelease/catalogue number: GAMM066 \nRelease date: Feb 14, 2011",
+            "duration": 279,
+            "embed": true
+        }
     },
     {
         "id": "2715214_B",
@@ -6372,7 +6786,13 @@
         "discogsreleaseId": 2880123,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=fD_8WErcP9k",
+            "title": "Jazzy Jens ‎-- Undisputed",
+            "description": "Vinyl, 12 : Jazzy Jens ‎-- Undisputed / Guarapera (2011) Label G.A.M.M\nhttp://www.funkyband-radio.com/",
+            "duration": 380,
+            "embed": true
+        }
     },
     {
         "id": "2880123_B",
@@ -6460,14 +6880,26 @@
         "discogsreleaseId": 4097126,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=mtNJGfkmvlg",
+            "title": "AJ and the Jiggawatts - Don't Mess With Me",
+            "description": "From the debut self titled LP on G.E.D. Soul Records",
+            "duration": 174,
+            "embed": true
+        }
     },
     {
         "id": "4097126_B",
         "discogsreleaseId": 4097126,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=I3OInO33Ci8",
+            "title": "AJ and the Jiggawatts - Pimp Decisions",
+            "description": "From the debut self titled LP on G.E.D. Soul Records",
+            "duration": 198,
+            "embed": true
+        }
     },
     {
         "id": "19520236_",
@@ -6651,7 +7083,13 @@
         "discogsreleaseId": 19520236,
         "discogsIndex": 15,
         "appleMusicTrackId": 22339,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=Q_3GgAALPkQ",
+            "title": "KMD - Peachfuzz (Video)",
+            "description": "FROM THE ALBUM MR. HOOD (1991).",
+            "duration": 253,
+            "embed": true
+        }
     },
     {
         "id": "19520236_D2",
@@ -6691,7 +7129,13 @@
         "discogsreleaseId": 3198497,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=T-8z6SvkOJ0",
+            "title": "B-Side - Playa",
+            "description": "Ghetto Funk Presents B-Side (GFP05)",
+            "duration": 201,
+            "embed": true
+        }
     },
     {
         "id": "3198497_A2",
@@ -7180,7 +7624,13 @@
         "discogsreleaseId": 8000581,
         "discogsIndex": 2,
         "appleMusicTrackId": 10097,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=ykicELXiQyQ",
+            "title": "Guts - Score 20 feat Tanya Morgan & Lorine Chia (Tribute to Fugees)",
+            "description": "DopeAndBagels\nYoutube : https://www.youtube.com/user/dopeandb...\nFacebook : https://www.facebook.com/dopeandbagels\n\nMixed by Mr Mathieu (MrGib) Gibert @ Onetwopassit Studio\nMastered by John Dent @ Loud Mastering\nArtwork by Mambo\n\nHeavenly Sweetness\nSoundc",
+            "duration": 188,
+            "embed": true
+        }
     },
     {
         "id": "8000581_B1",
@@ -7234,7 +7684,13 @@
         "discogsreleaseId": 3998659,
         "discogsIndex": 2,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=VyqsrUKPkBw",
+            "title": "Guts - You Don't have to worry",
+            "description": "Unreleased 2012 http://soundcloud.com/guts/dont-worry\nGuts: https://www.facebook.com/GutsOfficial\nOur Sharing Page.: http://www.facebook.com/DLoawCo\nTrip Hop | Hip Hop Channel: http://www.youtube.com/user/DLoaw",
+            "duration": 243,
+            "embed": true
+        }
     },
     {
         "id": "3998659_D",
@@ -7385,28 +7841,52 @@
         "discogsreleaseId": 3760925,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=4fVA5VaaA5c",
+            "title": "Mankoora  - Boogaloo Tormenta  - BreakDance Music 2017",
+            "description": "Best Beats Beats for Practice,Cyphers, Events, Battles,  \nNew music everyday. Just like the page and be on date :)\nhttps://www.facebook.com/BreakBeatseveryday/\nArtist SoundCloud link below:\nhttps://soundcloud.com/mankoora\nBreak it !",
+            "duration": 241,
+            "embed": true
+        }
     },
     {
         "id": "3062133_A1",
         "discogsreleaseId": 3062133,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=heYgmHh--Gw",
+            "title": "Toute Freak - Neighbour",
+            "description": "the original track, no rights owned by me for this song. If you like it, buy it!\n\nhttps://www.beatport.com/en-US/html/content/release/detail/354861/Toute%20Freak",
+            "duration": 307,
+            "embed": true
+        }
     },
     {
         "id": "3062133_A2",
         "discogsreleaseId": 3062133,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=heYgmHh--Gw",
+            "title": "Toute Freak - Neighbour",
+            "description": "the original track, no rights owned by me for this song. If you like it, buy it!\n\nhttps://www.beatport.com/en-US/html/content/release/detail/354861/Toute%20Freak",
+            "duration": 307,
+            "embed": true
+        }
     },
     {
         "id": "3062133_B1",
         "discogsreleaseId": 3062133,
         "discogsIndex": 2,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=811NNwz6h50",
+            "title": "Toute Freak - Neighbour (Bumper remix)",
+            "description": "no rights owned... If you like it, buy it https://www.beatport.com/en-US/html/content/release/detail/354861/Toute%20Freak\n\nBumper remix.",
+            "duration": 260,
+            "embed": true
+        }
     },
     {
         "id": "3062133_B2",
@@ -7426,14 +7906,26 @@
         "discogsreleaseId": 3500359,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=vrq6y4D4Diw",
+            "title": "Rocket Juice & The Moon - Leave-Taking",
+            "description": "Leave-Taking by Rocket Juice & The Moon from the album Rocket Juice & The Moon\nReleased 2012-03-23 on Honest Jon's Records\nDownload on iTunes: https://geo.itunes.apple.com/album/id-1?uo=6&app=itunes&at=10ldAw&ct=YTAT4047179645225\nDownload on Google Play: ",
+            "duration": 128,
+            "embed": true
+        }
     },
     {
         "id": "3500359_B1",
         "discogsreleaseId": 3500359,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=ekXekaiKy-I",
+            "title": "Rocket Juice & The Moon - 1-2-3-4-5-6",
+            "description": "1-2-3-4-5-6 by Rocket Juice & The Moon from the album Rocket Juice & The Moon\nReleased 2012-03-23 on Honest Jon's Records\nDownload on iTunes: https://geo.itunes.apple.com/album/id-1?uo=6&app=itunes&at=10ldAw&ct=YTAT4047179645225\nDownload on Google Play: h",
+            "duration": 185,
+            "embed": true
+        }
     },
     {
         "id": "3500359_B2",
@@ -7488,7 +7980,13 @@
         "discogsreleaseId": 4156238,
         "discogsIndex": 3,
         "appleMusicTrackId": 8479,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=JbTpZzdJj0Q",
+            "title": "DJ Nu-Mark -- Our Generation ft. Ernie Hines",
+            "description": "",
+            "duration": 247,
+            "embed": true
+        }
     },
     {
         "id": "4156238_B2",
@@ -7516,7 +8014,13 @@
         "discogsreleaseId": 4156238,
         "discogsIndex": 7,
         "appleMusicTrackId": 8491,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=kiJTSiuJ3D4",
+            "title": "DJ Nu-Mark - Don't Play Around (instrumental)",
+            "description": "",
+            "duration": 170,
+            "embed": true
+        }
     },
     {
         "id": "4156238_C3",
@@ -7543,7 +8047,13 @@
         "discogsreleaseId": 4156238,
         "discogsIndex": 10,
         "appleMusicTrackId": 8493,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=lGIT2uZV_JA",
+            "title": "DJ Nu-Mark feat. Quantic Tropicalifornia",
+            "description": "Get Broken Sunlight on iTunes:  http://bit.ly/BrokenSunlightItunes\nOr from me directly: http://djnumark.spinshop.com/\n\nOfficial Music Video of Tropicalifornia feat. Quantic, from DJ Nu-Mark's album Broken Sunlight.\n\nSubscribe to my Youtube Channel! - http",
+            "duration": 264,
+            "embed": true
+        }
     },
     {
         "id": "4156238_D2",
@@ -7674,7 +8184,13 @@
         "discogsreleaseId": 11770803,
         "discogsIndex": 0,
         "appleMusicTrackId": 15092,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=T19IrfO3-LQ",
+            "title": "Sons Of Kemet - My Queen Is Ada Eastman (Audio) ft. Joshua Idehen",
+            "description": "Listen to “My Queen Is Ada Eastman” off the upcoming album “Your Queen Is A Reptile” here:\nhttps://Verve.lnk.to/SOKMyQueenAdaEastmanVe \n \nFollow:\nFacebook: https://Verve.lnk.to/SonsofKemetFacebookVe \nTwitter: https://Verve.lnk.to/SonsofKemetTwitte",
+            "duration": 403,
+            "embed": true
+        }
     },
     {
         "id": "11770803_A2",
@@ -8047,7 +8563,13 @@
         "discogsreleaseId": 1316768,
         "discogsIndex": 2,
         "appleMusicTrackId": 10063,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=5veK8KkkDE4",
+            "title": "Kraak & Smaak - Cornered",
+            "description": "⇓ Stream/Buy the album Plastic People by Kraak & Smaak → https://kraaksmaak.lnk.to/plasticpeople\n♫ Listen to the full album on YouTube → http://bit.ly/2xAnEfZ\n✔ Subscribe to Jalapeno's channel → http://bit.ly/2tDacEy\n\nFollow Kraak & Smaak\nhttps://www.fa",
+            "duration": 394,
+            "embed": true
+        }
     },
     {
         "id": "1316768_B1",
@@ -8119,7 +8641,13 @@
         "discogsreleaseId": 1316768,
         "discogsIndex": 8,
         "appleMusicTrackId": 10057,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=RxkHBElTQqo",
+            "title": "Kraak & Smaak - Il Serpente",
+            "description": "⇓ Stream/Buy the album Plastic People by Kraak & Smaak → https://kraaksmaak.lnk.to/plasticpeople\n♫ Listen to the full album on YouTube → http://bit.ly/2xAnEfZ\n✔ Subscribe to Jalapeno's channel → http://bit.ly/2tDacEy\n\nFollow Kraak & Smaak\nhttps://www.fa",
+            "duration": 296,
+            "embed": true
+        }
     },
     {
         "id": "1316768_D1",
@@ -8139,7 +8667,13 @@
         "discogsreleaseId": 1316768,
         "discogsIndex": 10,
         "appleMusicTrackId": 10043,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=wv4DMBhqyrw",
+            "title": "Kraak & Smaak - Ready for Life",
+            "description": "⇓ Stream/Buy the album Plastic People by Kraak & Smaak → https://kraaksmaak.lnk.to/plasticpeople\n♫ Listen to the full album on YouTube → http://bit.ly/2xAnEfZ\n✔ Subscribe to Jalapeno's channel → http://bit.ly/2tDacEy\n\nFollow Kraak & Smaak\nhttps://www.fa",
+            "duration": 303,
+            "embed": true
+        }
     },
     {
         "id": "1316768_D3",
@@ -8166,7 +8700,13 @@
         "discogsreleaseId": 2222857,
         "discogsIndex": 1,
         "appleMusicTrackId": 14133,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=7KgW9Lz4cfA",
+            "title": "The CB's - Misdemeanour ( A.Skillz Remix ).mov",
+            "description": "",
+            "duration": 243,
+            "embed": true
+        }
     },
     {
         "id": "2222857_AA",
@@ -8186,7 +8726,13 @@
         "discogsreleaseId": 3432239,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=5Qw6V4vbWz0",
+            "title": "Gil Bernal - The Dogs",
+            "description": "Cat. No. JBJ 1028 - A",
+            "duration": 123,
+            "embed": true
+        }
     },
     {
         "id": "3432239_B",
@@ -8200,14 +8746,26 @@
         "discogsreleaseId": 1974306,
         "discogsIndex": 0,
         "appleMusicTrackId": 13507,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=gzctLb683pY",
+            "title": "Helen Reddy - Hit the Road, Jack",
+            "description": "Great version of the song that was made popular by Ray Charles. No copyright infringement intended - buy it!",
+            "duration": 137,
+            "embed": true
+        }
     },
     {
         "id": "1974306_B",
         "discogsreleaseId": 1974306,
         "discogsIndex": 1,
         "appleMusicTrackId": 13507,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=565iQzT1MCo",
+            "title": "Salena Jones - Right Now",
+            "description": "",
+            "duration": 183,
+            "embed": true
+        }
     },
     {
         "id": "2300552_A",
@@ -8221,21 +8779,39 @@
         "discogsreleaseId": 2300552,
         "discogsIndex": 1,
         "appleMusicTrackId": 8457,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=h-zfXnUoujE",
+            "title": "Jon Hendricks - I'll bet you thought I'd never find you",
+            "description": "",
+            "duration": 203,
+            "embed": true
+        }
     },
     {
         "id": "1990742_A",
         "discogsreleaseId": 1990742,
         "discogsIndex": 0,
         "appleMusicTrackId": 8465,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=tzXTUk4TfSg",
+            "title": "Kenny Rankin - In The Name Of Love",
+            "description": "Kenny Rankin - In The Name Of Love",
+            "duration": 206,
+            "embed": true
+        }
     },
     {
         "id": "1990742_B",
         "discogsreleaseId": 1990742,
         "discogsIndex": 1,
         "appleMusicTrackId": 8465,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=I-u83NgRgr4",
+            "title": "Don Fardon - The Dreaming Room",
+            "description": "1968",
+            "duration": 119,
+            "embed": true
+        }
     },
     {
         "id": "295051_A",
@@ -8309,7 +8885,13 @@
         "discogsreleaseId": 3732308,
         "discogsIndex": 3,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=_o75GD8TXJk",
+            "title": "Lenny McDaniel & The New Era - Something Out Of Nothing (Seven B cat. 7016)",
+            "description": "Without a doubt this is one of the greatest records I own.  Sitting on the blurred line between Garage Rock, Soul and R&B Mr. McDaniel turns in one of the greatest vocal performances I have heard.  The backing track is just as exciting featuring screaming",
+            "duration": 167,
+            "embed": true
+        }
     },
     {
         "id": "3732308_E",
@@ -8349,7 +8931,13 @@
         "discogsreleaseId": 5192908,
         "discogsIndex": 1,
         "appleMusicTrackId": 8417,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=bYr9EFJkh-o",
+            "title": "Muguette - Ces bottes sont faites pour marcher",
+            "description": "Reprise du hit de Nancy Sinatra.\r\nAu Québec, Muguette se partage avec Dominique Michel et Renée Martel cette reprise de Eileen (France) en 1966.",
+            "duration": 150,
+            "embed": true
+        }
     },
     {
         "id": "917337_A1",
@@ -8432,7 +9020,13 @@
         "discogsreleaseId": 917337,
         "discogsIndex": 10,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=CKyeUSVM5hY",
+            "title": "Count Bass D - Down Easy",
+            "description": "",
+            "duration": 225,
+            "embed": true
+        }
     },
     {
         "id": "917337_B4",
@@ -8597,7 +9191,13 @@
         "discogsreleaseId": 6275050,
         "discogsIndex": 3,
         "appleMusicTrackId": 10223,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=JNLlR7ZvEC8",
+            "title": "Antilopen Gang - Verliebt",
+            "description": "Offizielles Video zu „Verliebt“ vom Antilopen Gang-Album „Aversion“. \n\nDas Antilopen Gang-Album Aversion ist überall erhältlich:\n\n► CD bei Amazon: http://amzn.to/1mlDyQ5\n► Vinyl bei Amazon: http://amzn.to/1r6NcFc\n► CD bei JPC: http://bit",
+            "duration": 268,
+            "embed": true
+        }
     },
     {
         "id": "6275050_B1",
@@ -8646,7 +9246,13 @@
         "discogsreleaseId": 6275050,
         "discogsIndex": 10,
         "appleMusicTrackId": 10237,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=rkSWWWQMZBg",
+            "title": "Antilopen Gang - Enkeltrick",
+            "description": "Offizielles Video zu „Enkeltrick“ vom Antilopen Gang-Album „Aversion“. \n\nDas Antilopen Gang-Album Aversion ist überall erhältlich:\n\n► CD bei Amazon: http://amzn.to/1mlDyQ5\n► Vinyl bei Amazon: http://amzn.to/1r6NcFc\n► CD bei JPC: http://b",
+            "duration": 207,
+            "embed": true
+        }
     },
     {
         "id": "6275050_C4",
@@ -8721,7 +9327,13 @@
         "discogsreleaseId": 6275050,
         "discogsIndex": 19,
         "appleMusicTrackId": 10223,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=JNLlR7ZvEC8",
+            "title": "Antilopen Gang - Verliebt",
+            "description": "Offizielles Video zu „Verliebt“ vom Antilopen Gang-Album „Aversion“. \n\nDas Antilopen Gang-Album Aversion ist überall erhältlich:\n\n► CD bei Amazon: http://amzn.to/1mlDyQ5\n► Vinyl bei Amazon: http://amzn.to/1r6NcFc\n► CD bei JPC: http://bit",
+            "duration": 268,
+            "embed": true
+        }
     },
     {
         "id": "6275050_CD-5",
@@ -8770,7 +9382,13 @@
         "discogsreleaseId": 6275050,
         "discogsIndex": 26,
         "appleMusicTrackId": 10237,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=rkSWWWQMZBg",
+            "title": "Antilopen Gang - Enkeltrick",
+            "description": "Offizielles Video zu „Enkeltrick“ vom Antilopen Gang-Album „Aversion“. \n\nDas Antilopen Gang-Album Aversion ist überall erhältlich:\n\n► CD bei Amazon: http://amzn.to/1mlDyQ5\n► Vinyl bei Amazon: http://amzn.to/1r6NcFc\n► CD bei JPC: http://b",
+            "duration": 207,
+            "embed": true
+        }
     },
     {
         "id": "6275050_CD-12",
@@ -9249,7 +9867,13 @@
         "discogsreleaseId": 1901358,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=OTp1R14OqfQ",
+            "title": "Angelina Goalie & The Football Funkateers - Rock Steady (Beef Jerky Edit)",
+            "description": "",
+            "duration": 249,
+            "embed": true
+        }
     },
     {
         "id": "1901358_B",
@@ -9462,7 +10086,13 @@
         "discogsreleaseId": 13379392,
         "discogsIndex": 1,
         "appleMusicTrackId": 16138,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=Bih6JQzbFY0",
+            "title": "The Comet Is Coming - Space Carnival",
+            "description": "'Space Carnival' is taken from the album Channel The Spirits. \nLP/CD/Download: http://bit.ly/ChannelSpirits\n\nhttps://facebook.com/thecometiscoming\nhttp://twitter.com/cometcoming\nhttp://thecometiscoming.co.uk\nhttp://theleaflabel.com\n\nVideo by Morgan Bering",
+            "duration": 222,
+            "embed": true
+        }
     },
     {
         "id": "13379392_A3",
@@ -9517,7 +10147,13 @@
         "discogsreleaseId": 13379392,
         "discogsIndex": 8,
         "appleMusicTrackId": 16136,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=FXH5nv1aQpw",
+            "title": "The Comet Is Coming ‎– Channel The Spirits (2016)",
+            "description": "",
+            "duration": 2453,
+            "embed": true
+        }
     },
     {
         "id": "13379392_B4",
@@ -9597,28 +10233,52 @@
         "discogsreleaseId": 11758168,
         "discogsIndex": 0,
         "appleMusicTrackId": 12205,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=gmiXco-6_c0",
+            "title": "01 - Altin Gün - Tatli Dile Guler Yuze",
+            "description": "◉ Altin Gün / On | BJR025 | March 30, 2018 ◉ \n\nLP & Digital album available on : https://lesdisquesbongojoe.bandcamp.com\nOur Record Store & Label : http://www.bongojoe.ch\nStay in touch with our latest releases and info on Facebook : https://www.fa",
+            "duration": 165,
+            "embed": true
+        }
     },
     {
         "id": "11758168_A2",
         "discogsreleaseId": 11758168,
         "discogsIndex": 1,
         "appleMusicTrackId": 12211,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=nMoGeFQKJqM",
+            "title": "02 - Altin Gün - Kirsehirin Gulleri",
+            "description": "◉ Altin Gün / On | BJR025 | March 30, 2018 ◉ \n\nLP & Digital album available on : https://lesdisquesbongojoe.bandcamp.com\nOur Record Store & Label : http://www.bongojoe.ch\nStay in touch with our latest releases and info on Facebook : https://www.fa",
+            "duration": 205,
+            "embed": true
+        }
     },
     {
         "id": "11758168_A3",
         "discogsreleaseId": 11758168,
         "discogsIndex": 2,
         "appleMusicTrackId": 12215,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=1PKHSierrOQ",
+            "title": "03 - Altin Gün - Goca Dunya",
+            "description": "◉ Altin Gün / On | BJR025 | March 30, 2018 ◉ \n\nLP & Digital album available on : https://lesdisquesbongojoe.bandcamp.com\nOur Record Store & Label : http://www.bongojoe.ch\nStay in touch with our latest releases and info on Facebook : https://www.fa",
+            "duration": 241,
+            "embed": true
+        }
     },
     {
         "id": "11758168_A4",
         "discogsreleaseId": 11758168,
         "discogsIndex": 3,
         "appleMusicTrackId": 12209,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=mLGiLTW-J_U",
+            "title": "04 - Altin Gün - Halkali Seker",
+            "description": "◉ Altin Gün / On | BJR025 | March 30, 2018 ◉ \n\nLP & Digital album available on : https://lesdisquesbongojoe.bandcamp.com\nOur Record Store & Label : http://www.bongojoe.ch\nStay in touch with our latest releases and info on Facebook : https://www.fa",
+            "duration": 222,
+            "embed": true
+        }
     },
     {
         "id": "11758168_A5",
@@ -9652,7 +10312,13 @@
         "discogsreleaseId": 11758168,
         "discogsIndex": 7,
         "appleMusicTrackId": 12207,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=qkrVJBGqsKA",
+            "title": "08 - Altin Gün - Cicekler Ekiliyor",
+            "description": "◉ Altin Gün / On | BJR025 | March 30, 2018 ◉ \n\nLP & Digital album available on : https://lesdisquesbongojoe.bandcamp.com\nOur Record Store & Label : http://www.bongojoe.ch\nStay in touch with our latest releases and info on Facebook : https://www.fa",
+            "duration": 206,
+            "embed": true
+        }
     },
     {
         "id": "11758168_B4",
@@ -9692,7 +10358,13 @@
         "discogsreleaseId": 23565143,
         "discogsIndex": 1,
         "appleMusicTrackId": 25157,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=cLUHTuj-yQ8",
+            "title": "Edan - Funky Voltron ft. Insight",
+            "description": "off Beauty & the Beat",
+            "duration": 138,
+            "embed": true
+        }
     },
     {
         "id": "23565143_A3",
@@ -10181,7 +10853,13 @@
         "discogsreleaseId": 4997673,
         "discogsIndex": 3,
         "appleMusicTrackId": 11482,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=EGjDxCGqC4U",
+            "title": "William Onyeabor – Something You Will Never Forget (Official Animated Audio)",
+            "description": "From the album World Psychedelic Classics 5: Who is William Onyeabor?, out now on Luaka Bop.\n\nBuy World Psychedelic Classics 5: Who is William Onyeabor? on Vinyl & CD:\nLuaka Bop Store: https://luakabop.com/catalog/who-is-william-onyeabor/\n\nStream World Ps",
+            "duration": 513,
+            "embed": true
+        }
     },
     {
         "id": "4997673_C1",
@@ -10265,7 +10943,13 @@
         "discogsreleaseId": 2805883,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=NRIVsnKTTgg",
+            "title": "RAYKO/EM VEE - Broadway",
+            "description": "",
+            "duration": 260,
+            "embed": true
+        }
     },
     {
         "id": "2805883_A2",
@@ -10319,7 +11003,13 @@
         "discogsreleaseId": 16051697,
         "discogsIndex": 2,
         "appleMusicTrackId": 8523,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=k5Ax-po3HGU",
+            "title": "Paulo Jeronimo - Vida Agitada (1983)",
+            "description": "Paulo Jeronimo ‎- O Versatil\n\nLabel: Sonarte\nFormat: Vinyl, 7 \nReleased: 1983",
+            "duration": 210,
+            "embed": true
+        }
     },
     {
         "id": "16051697_A4",
@@ -10333,14 +11023,26 @@
         "discogsreleaseId": 16051697,
         "discogsIndex": 4,
         "appleMusicTrackId": 8513,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=6Cu1aF8gUxQ",
+            "title": "Franco - Ei, Você, Psiu! (1974)",
+            "description": "From Lp Franco - Continental - 1974",
+            "duration": 162,
+            "embed": true
+        }
     },
     {
         "id": "16051697_A6",
         "discogsreleaseId": 16051697,
         "discogsIndex": 5,
         "appleMusicTrackId": 8511,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=HbTf4y_iJ1Q",
+            "title": "Adriana - Contigo",
+            "description": "Adriana - Compacto Duplo (1977)",
+            "duration": 246,
+            "embed": true
+        }
     },
     {
         "id": "16051697_B1",
@@ -10649,7 +11351,13 @@
         "discogsreleaseId": 1732101,
         "discogsIndex": 2,
         "appleMusicTrackId": 21326,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=-1SyCBQFMa0",
+            "title": "Basement Freaks-Hot Beastie",
+            "description": "Basement Freaks-Hot Beastie\r\nManmade Records\r\nhttp://www.basementfreaks.net/\r\nhttp://basementfreaks.blogspot.com/\r\nhttp://soundcloud.com/basement-freaks\r\nsupport Basement Freaks !!\r\nenjoy..",
+            "duration": 257,
+            "embed": true
+        }
     },
     {
         "id": "1732101_B2",
@@ -10690,7 +11398,13 @@
         "discogsreleaseId": 1927735,
         "discogsIndex": 3,
         "appleMusicTrackId": 17908,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=T5oESQPXlpQ",
+            "title": "Slynk - You're the fool",
+            "description": "",
+            "duration": 327,
+            "embed": true
+        }
     },
     {
         "id": "2003829_A1",
@@ -10784,7 +11498,13 @@
         "discogsreleaseId": 2567721,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=77sgvYltU8Y",
+            "title": "CMC & Silenta - Pata Pata",
+            "description": "",
+            "duration": 263,
+            "embed": true
+        }
     },
     {
         "id": "2567721_A2",
@@ -10798,7 +11518,13 @@
         "discogsreleaseId": 2567721,
         "discogsIndex": 2,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=FWwUI_cSNZA",
+            "title": "Funkanomics -- Superstition",
+            "description": "",
+            "duration": 229,
+            "embed": true
+        }
     },
     {
         "id": "2567721_B2",
@@ -10867,7 +11593,13 @@
         "discogsreleaseId": 509332,
         "discogsIndex": 3,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=dsJaTHsmI5A",
+            "title": "04.Inventor of Wild Style (Battle of the Year 2000)",
+            "description": "Battle Of the Year 2000 Soundtracks",
+            "duration": 246,
+            "embed": true
+        }
     },
     {
         "id": "509332_B1",
@@ -10895,7 +11627,13 @@
         "discogsreleaseId": 509332,
         "discogsIndex": 7,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=Na_Wy3Zht9g",
+            "title": "08.Boys Keep Swinging (Battle of the Year 2000)",
+            "description": "Battle Of the Year 2000 Soundtracks",
+            "duration": 189,
+            "embed": true
+        }
     },
     {
         "id": "509332_C1",
@@ -10950,7 +11688,13 @@
         "discogsreleaseId": 509332,
         "discogsIndex": 14,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=1uB_MsUYh0s",
+            "title": "15.Da-M-Pire [Sideshow Remix ] Battle Of the Year 2000 Soundtracks",
+            "description": "Battle Of the Year 2000 Soundtracks",
+            "duration": 344,
+            "embed": true
+        }
     },
     {
         "id": "509332_D3",
@@ -10964,7 +11708,13 @@
         "discogsreleaseId": 509332,
         "discogsIndex": 16,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=zAWgNjZiqEc",
+            "title": "17.B-Boyizm [DJ Static Remix] (Battle of the Year 2000)",
+            "description": "Battle Of the Year 2000 Soundtracks",
+            "duration": 260,
+            "embed": true
+        }
     },
     {
         "id": "21482026_A1",
@@ -11171,7 +11921,13 @@
         "discogsreleaseId": 9169243,
         "discogsIndex": 8,
         "appleMusicTrackId": 13901,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=I_wWbcWfxZA",
+            "title": "MF DOOM ft. MF Grimm - Tick, Tick..",
+            "description": "In an ideal world, these guys will still be colab'in",
+            "duration": 246,
+            "embed": true
+        }
     },
     {
         "id": "9169243_B3",
@@ -11239,7 +11995,13 @@
         "discogsreleaseId": 9169243,
         "discogsIndex": 16,
         "appleMusicTrackId": 13881,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=n1srVcu25t8",
+            "title": "MF DOOM - The Mic",
+            "description": ".",
+            "duration": 182,
+            "embed": true
+        }
     },
     {
         "id": "9169243_C5",
@@ -11369,7 +12131,13 @@
         "discogsreleaseId": 8392626,
         "discogsIndex": 3,
         "appleMusicTrackId": 10459,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=AXcIY0hDAt8",
+            "title": "The Mighty Mocambos - Struggle and Triumph",
+            "description": "Frome The future is here LP (2011)",
+            "duration": 176,
+            "embed": true
+        }
     },
     {
         "id": "8392626_A5",
@@ -11842,7 +12610,13 @@
         "discogsreleaseId": 5673415,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=0ao8pzOEf24",
+            "title": "Bruce Cloud -  Soul Mambo",
+            "description": "",
+            "duration": 159,
+            "embed": true
+        }
     },
     {
         "id": "5673415_B",
@@ -11884,7 +12658,13 @@
         "discogsreleaseId": 2610363,
         "discogsIndex": 0,
         "appleMusicTrackId": 11062,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=Ip5ipjkXdyA",
+            "title": "Talen feat. Lady Saw - Batgirl - Kalbata Remix",
+            "description": "",
+            "duration": 262,
+            "embed": true
+        }
     },
     {
         "id": "2610363_A2",
@@ -11945,7 +12725,13 @@
         "discogsreleaseId": 6096279,
         "discogsIndex": 1,
         "appleMusicTrackId": 25065,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=lwFTynDaoB4",
+            "title": "Tenorio Jr - Nebulosa",
+            "description": "SUBSCRIBE TO OUR BRAZILIAN MUSIC CHANNEL - http://www.youtube.com/subscription_center?add_user=thesoundofbrazil",
+            "duration": 117,
+            "embed": true
+        }
     },
     {
         "id": "6096279_AA2",
@@ -11972,7 +12758,13 @@
         "discogsreleaseId": 5441030,
         "discogsIndex": 1,
         "appleMusicTrackId": 8437,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=ro9gCn7yBI0",
+            "title": "Juca Chaves - Take Me Back To Piaui - Mr Bongo Brazil 45 #3",
+            "description": "The third release on our Brazil 45's imprint - http://www.mrbongo.com/products/noriel-vilela-16-toneladas-b-w-juca-chaves-take-me-back-to-piaui-7\n\nA. Noriel Vilela - 16 Toneladas\nAA. Juca Chaves - Take Me Back To Piaui\n\nOriginally released in 1971 on Copa",
+            "duration": 199,
+            "embed": true
+        }
     },
     {
         "id": "5441084_A",
@@ -12226,7 +13018,13 @@
         "discogsreleaseId": 13474217,
         "discogsIndex": 9,
         "appleMusicTrackId": 20328,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=W8gU7IWJdWs",
+            "title": "Luther Davis Group - You Can Be A Star",
+            "description": "Life Time Records",
+            "duration": 279,
+            "embed": true
+        }
     },
     {
         "id": "13474217_B4",
@@ -12326,7 +13124,13 @@
         "discogsreleaseId": 13474217,
         "discogsIndex": 19,
         "appleMusicTrackId": 20334,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=vNQ_A9r_hBA",
+            "title": "Galt MacDermot - Coffee Cold",
+            "description": "Shapes Of Rhythm 1966 http://www.galtmacdermot.com/\nGalt MacDermot: https://www.facebook.com/Galt-MacDermot-177679555576107/\nOur Sharing Page.: http://www.facebook.com/DLoawCo\nTrip Hop | Hip Hop Channel: http://www.youtube.com/user/DLoaw",
+            "duration": 202,
+            "embed": true
+        }
     },
     {
         "id": "22943309_A1",
@@ -12412,21 +13216,39 @@
         "discogsreleaseId": 22943309,
         "discogsIndex": 7,
         "appleMusicTrackId": 28322,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=aPst8cuNW4U",
+            "title": "Project Gemini - The Ritual '70",
+            "description": "Project Gemini - The Children Of Scorpio\n\nVinyl / Download - https://projectgemini.bandcamp.com/album/the-children-of-scorpio\n\nGood things come to those who wait. The album 'The Children of Scorpio' by Project Gemini aka Paul Osborne is a result of his st",
+            "duration": 258,
+            "embed": true
+        }
     },
     {
         "id": "22943309_B2",
         "discogsreleaseId": 22943309,
         "discogsIndex": 8,
         "appleMusicTrackId": 28324,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=HuYjNzwMKmw",
+            "title": "Project Gemini - Scorpio's Garden",
+            "description": "Project Gemini - The Children Of Scorpio\n\nVinyl / Download - https://projectgemini.bandcamp.com/album/the-children-of-scorpio\n\nGood things come to those who wait. The album 'The Children of Scorpio' by Project Gemini aka Paul Osborne is a result of his st",
+            "duration": 154,
+            "embed": true
+        }
     },
     {
         "id": "22943309_B3",
         "discogsreleaseId": 22943309,
         "discogsIndex": 9,
         "appleMusicTrackId": 28328,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=rEOX2bRmiHY",
+            "title": "Project Gemini - The Turning",
+            "description": "Project Gemini - The Children Of Scorpio\n\nVinyl / Download - https://projectgemini.bandcamp.com/album/the-children-of-scorpio\n\nGood things come to those who wait. The album 'The Children of Scorpio' by Project Gemini aka Paul Osborne is a result of his st",
+            "duration": 133,
+            "embed": true
+        }
     },
     {
         "id": "22943309_B4",
@@ -12525,7 +13347,13 @@
         "discogsreleaseId": 6110036,
         "discogsIndex": 0,
         "appleMusicTrackId": 26798,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=zBRycXxyAGU",
+            "title": "Loleatta Holloway - Bring It On Up",
+            "description": "■ Loleatta Holloway - Bring It On Up \n\nLabel: GALAXY - GAL-780\nReleased: 1971",
+            "duration": 169,
+            "embed": true
+        }
     },
     {
         "id": "6110036_B",
@@ -12539,7 +13367,13 @@
         "discogsreleaseId": 6313108,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=OCspNcgSlIU",
+            "title": "Marco Di Marco - Par Avion",
+            "description": "",
+            "duration": 274,
+            "embed": true
+        }
     },
     {
         "id": "6313108_B",
@@ -12587,14 +13421,26 @@
         "discogsreleaseId": 16514202,
         "discogsIndex": 2,
         "appleMusicTrackId": 26518,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=dBJlr2lFtKA",
+            "title": "Be Svendsen - Drop The Gun - 0126",
+            "description": "Be Svendsen's amazing debutalbum 'Between a Smile and a Tear' is out in all digital stores! Subscribe for more music for dreams: http://bit.ly/2bIaezU\n\n→ http://radi.al/Betweenasmile\n\nConnect with Be Svendsen\nFB : https://www.facebook.com/BeSvendsen/\nSC",
+            "duration": 311,
+            "embed": true
+        }
     },
     {
         "id": "16514202_B1",
         "discogsreleaseId": 16514202,
         "discogsIndex": 3,
         "appleMusicTrackId": 26510,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=qIsO7QpC5gY",
+            "title": "Be Svendsen - Andromeda - 0126",
+            "description": "Be Svendsen's amazing debutalbum 'Between a Smile and a Tear' is out in all digital stores! Subscribe for more music for dreams: http://bit.ly/2bIaezU\n\n→ http://radi.al/Betweenasmile\n\nConnect with Be Svendsen\nFB : https://www.facebook.com/BeSvendsen/\nSC",
+            "duration": 407,
+            "embed": true
+        }
     },
     {
         "id": "16514202_B2",
@@ -12635,7 +13481,13 @@
         "discogsreleaseId": 16514202,
         "discogsIndex": 8,
         "appleMusicTrackId": 26520,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=8h0yynIGfw0",
+            "title": "October Letters feat  Kamilla Kovachs",
+            "description": "Join Be Svendsen's Community on Patreon: \nhttps://www.patreon.com/besvendsen \n\nGet the track : http://radi.al/Betweenasmile\nSubscribe : http://bit.ly/SubscribeBeSvendsen\n\n\nFollow Be Svendsen : \nhttps://www.facebook.com/BeSvendsen\nhttps://soundcloud.com/be",
+            "duration": 309,
+            "embed": true
+        }
     },
     {
         "id": "16514202_D3",
@@ -12670,7 +13522,13 @@
         "discogsreleaseId": 16514202,
         "discogsIndex": 13,
         "appleMusicTrackId": 26520,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=8h0yynIGfw0",
+            "title": "October Letters feat  Kamilla Kovachs",
+            "description": "Join Be Svendsen's Community on Patreon: \nhttps://www.patreon.com/besvendsen \n\nGet the track : http://radi.al/Betweenasmile\nSubscribe : http://bit.ly/SubscribeBeSvendsen\n\n\nFollow Be Svendsen : \nhttps://www.facebook.com/BeSvendsen\nhttps://soundcloud.com/be",
+            "duration": 309,
+            "embed": true
+        }
     },
     {
         "id": "10861344_A1",
@@ -13067,7 +13925,13 @@
         "discogsreleaseId": 18283426,
         "discogsIndex": 0,
         "appleMusicTrackId": 6022,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=PT2cELUq3uc",
+            "title": "Ultramagnetic MC's - Watch Me Now",
+            "description": "Artists : Ultramagnetic MC's (Kool Keith and Ced Gee)\nAlbum : Critical Beatdown\nYear : 1988\nLabel : Roadrunner Records",
+            "duration": 290,
+            "embed": true
+        }
     },
     {
         "id": "18283426_A2",
@@ -13140,21 +14004,39 @@
         "discogsreleaseId": 18283426,
         "discogsIndex": 7,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=ryXl11zJbyA",
+            "title": "Ultramagnetic MC's - One Minute Less",
+            "description": "Artists : Ultramagnetic MC's (Kool Keith and Ced Gee)\nAlbum : Critical Beatdown\nYear : 1988\nLabel : Roadrunner Records",
+            "duration": 119,
+            "embed": true
+        }
     },
     {
         "id": "18283426_B1",
         "discogsreleaseId": 18283426,
         "discogsIndex": 8,
         "appleMusicTrackId": 6022,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=lBg4yIzOaNk",
+            "title": "Ultramagnetic MC's - Ain't It Good to You",
+            "description": "Artists : Ultramagnetic MC's (Kool Keith and Ced Gee)\nAlbum : Critical Beatdown\nYear : 1988\nLabel : Roadrunner Records",
+            "duration": 213,
+            "embed": true
+        }
     },
     {
         "id": "18283426_B2",
         "discogsreleaseId": 18283426,
         "discogsIndex": 9,
         "appleMusicTrackId": 6022,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=sxump5Cp5Dw",
+            "title": "Ultramagnetic MC's - Funky (Remix)",
+            "description": "Artists : Ultramagnetic MC's (Kool Keith and Ced Gee)\nAlbum : Critical Beatdown\nYear : 1988\nLabel : Roadrunner Records",
+            "duration": 223,
+            "embed": true
+        }
     },
     {
         "id": "18283426_B3",
@@ -13174,7 +14056,13 @@
         "discogsreleaseId": 18283426,
         "discogsIndex": 11,
         "appleMusicTrackId": 6022,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=kg9uCWYZyjQ",
+            "title": "Ultramagnetic MC's - Break North",
+            "description": "Artists : Ultramagnetic MC's (Kool Keith and Ced Gee)\nAlbum : Critical Beatdown\nYear : 1988\nLabel : Roadrunner Records",
+            "duration": 205,
+            "embed": true
+        }
     },
     {
         "id": "18283426_B5",
@@ -13266,7 +14154,13 @@
         "discogsreleaseId": 18283426,
         "discogsIndex": 19,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=vT8gltBAQn8",
+            "title": "Ego Trippin'",
+            "description": "Provided to YouTube by Roadrunner Records\n\nEgo Trippin' · Ultramagnetic Mcs\n\nCritical Beatdown (Re-Issue)\n\n℗ 1986 Roadrunner Records, Inc./Next Plateau Entertainment\n\nProducer: Cedric Miller (a.k.a. Ced-Gee)\nMixer: Hernan Santiago\nComposer, Lyricist: C",
+            "duration": 71,
+            "embed": true
+        }
     },
     {
         "id": "18283426_D3",
@@ -13299,7 +14193,13 @@
         "discogsreleaseId": 11801497,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=JHEF-D73VCc",
+            "title": "Lords Of The Underground -  From Da Bricks",
+            "description": "Lords Of The Underground -  From Da Bricks",
+            "duration": 257,
+            "embed": true
+        }
     },
     {
         "id": "11801497_A3",
@@ -13416,14 +14316,26 @@
         "discogsreleaseId": 2053900,
         "discogsIndex": 1,
         "appleMusicTrackId": 16567,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=Yg-RIOATCbU",
+            "title": "Cypress Hill - How I Could Just Kill a Man (Music Video)",
+            "description": "Music video by Cypress Hill;Rage Against The Machine performing How I Could Just Kill A Man. (C) 1991 SONY BMG MUSIC ENTERTAINMENT",
+            "duration": 242,
+            "embed": true
+        }
     },
     {
         "id": "2053900_A3",
         "discogsreleaseId": 2053900,
         "discogsIndex": 2,
         "appleMusicTrackId": 16582,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=G1SwN70b0bw",
+            "title": "Cypress Hill - Hand On the Pump",
+            "description": "Cypress Hill's official music video for 'Hand On The Pump'. Click to listen to Cypress Hill on Spotify: http://smarturl.it/CHSpot?IQid=CHHP\n\nAs featured on Greatest Hits From The Bong. Click to buy the track or album via iTunes: http://smarturl.it/CHGHiTu",
+            "duration": 239,
+            "embed": true
+        }
     },
     {
         "id": "2053900_A4",
@@ -13495,14 +14407,26 @@
         "discogsreleaseId": 2053900,
         "discogsIndex": 8,
         "appleMusicTrackId": 16543,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=DfW69PKpsPI",
+            "title": "Cypress Hill - Real Estate",
+            "description": "Music video by Cypress Hill performing Real Estate. (C) 1992 SONY BMG MUSIC ENTERTAINMENT",
+            "duration": 228,
+            "embed": true
+        }
     },
     {
         "id": "2053900_C2",
         "discogsreleaseId": 2053900,
         "discogsIndex": 9,
         "appleMusicTrackId": 16576,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=X4p8-JhWMRw",
+            "title": "Cypress Hill - Stoned Is the Way of the Walk",
+            "description": "Music video by Cypress Hill performing Stoned Is The Way Of The Walk. (C) 1992 SONY BMG MUSIC ENTERTAINMENT",
+            "duration": 162,
+            "embed": true
+        }
     },
     {
         "id": "2053900_C3",
@@ -13535,7 +14459,13 @@
         "discogsreleaseId": 2053900,
         "discogsIndex": 12,
         "appleMusicTrackId": 16558,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=75yvtNIWdHU",
+            "title": "Cypress Hill - Latin Lingo",
+            "description": "Cypress Hill's official music video for 'Latin Lingo'. Click to listen to Cypress Hill on Spotify: http://smarturl.it/CHSpot?IQid=CHLL\n\nAs featured on Greatest Hits From The Bong. Click to buy the track or album via iTunes: http://smarturl.it/CHGHiTunes?I",
+            "duration": 246,
+            "embed": true
+        }
     },
     {
         "id": "2053900_D2",
@@ -13616,7 +14546,13 @@
         "discogsreleaseId": 107555,
         "discogsIndex": 5,
         "appleMusicTrackId": 20316,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=GYnFX75MkhA",
+            "title": "Future Rock / Don't Stop",
+            "description": "2000  The beat don't stop until the break of dawn\nVinyl Rec  https://www.discogs.com/ja/Various-Strictly-B-Boy-Breaks/release/107555",
+            "duration": 234,
+            "embed": true
+        }
     },
     {
         "id": "107555_B7",
@@ -13836,7 +14772,13 @@
         "discogsreleaseId": 3558541,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=2LqzjyJJJf0",
+            "title": "Frente Cumbiero - Unconvention",
+            "description": "",
+            "duration": 228,
+            "embed": true
+        }
     },
     {
         "id": "3558541_B",
@@ -13904,7 +14846,13 @@
         "discogsreleaseId": 14894036,
         "discogsIndex": 4,
         "appleMusicTrackId": 24007,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=z3EwDk1zY6g",
+            "title": "Caroline Rose - Feel The Way I Want [Official Video]",
+            "description": "The new album 'Superstar' is available March 6: http://newwst.com/superstarID\n\nDirected by Caroline Rose\nShot + Edited by Kayhl Cooper\nShot on iPhone 11 Pro",
+            "duration": 297,
+            "embed": true
+        }
     },
     {
         "id": "14894036_A6",
@@ -13999,7 +14947,13 @@
         "discogsreleaseId": 20752516,
         "discogsIndex": 4,
         "appleMusicTrackId": 24385,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=frWKvBlcF0E",
+            "title": "Anz - 'Last Before Lights' (Official Audio)",
+            "description": "'All Hours', out now on Ninja Tune : https://anz.lnk.to/all-hoursYo\nSubscribe: https://found.ee/anz-ys\n\nFollow Anz -\nSpotify: https://found.ee/anz-sp\nApple Music: https://found.ee/anz-am\nYouTube: https://found.ee/anz-yt\nBandcamp: https://found.ee/anz-bc\nS",
+            "duration": 367,
+            "embed": true
+        }
     },
     {
         "id": "20752516_B3",
@@ -14047,7 +15001,13 @@
         "discogsreleaseId": 16286279,
         "discogsIndex": 4,
         "appleMusicTrackId": 24331,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=T4xCW28WXBU",
+            "title": "Bonobo - El Toro",
+            "description": "Bonobo - El Toro\nAlbum: Black Sands\nBuy the album 'Black Sands' now on iTunes: http://www.itunes.com/bonobo/blacksands",
+            "duration": 225,
+            "embed": true
+        }
     },
     {
         "id": "16286279_B2",
@@ -14540,7 +15500,13 @@
         "discogsreleaseId": 20108173,
         "discogsIndex": 1,
         "appleMusicTrackId": 24303,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=QVFYOK_jS3A",
+            "title": "DJ Seinfeld - 'Walking With Ur Smile' (Official Audio)",
+            "description": "Taken from the album 'Mirrors', out now on Ninja Tune: https://djseinfeld.lnk.to/mirrorsYo\nSubscribe: https://found.ee/seinfeld-ys\n\nFollow DJ Seinfeld -\nSpotify: https://found.ee/seinfeld-sp\nApple Music: https://found.ee/seinfeld-am\nYouTube: https://found",
+            "duration": 225,
+            "embed": true
+        }
     },
     {
         "id": "20108173_B1",
@@ -14581,7 +15547,13 @@
         "discogsreleaseId": 20108173,
         "discogsIndex": 6,
         "appleMusicTrackId": 24313,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=wLni__j3omQ",
+            "title": "DJ Seinfeld - 'Tell Me One More Time' (Official Audio)",
+            "description": "Taken from the album 'Mirrors', out now on Ninja Tune: https://djseinfeld.lnk.to/mirrorsYo\nSubscribe: https://found.ee/seinfeld-ys\n\nFollow DJ Seinfeld -\nSpotify: https://found.ee/seinfeld-sp\nApple Music: https://found.ee/seinfeld-am\nYouTube: https://found",
+            "duration": 278,
+            "embed": true
+        }
     },
     {
         "id": "20108173_D1",
@@ -14602,7 +15574,13 @@
         "discogsreleaseId": 20108173,
         "discogsIndex": 9,
         "appleMusicTrackId": 24307,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=3R-lhGrM8gQ",
+            "title": "DJ Seinfeld - 'Song For The Lonely' (Official Audio)",
+            "description": "Taken from the album 'Mirrors', out now on Ninja Tune: https://djseinfeld.lnk.to/mirrorsYo\nSubscribe: https://found.ee/seinfeld-ys\n\nFollow DJ Seinfeld -\nSpotify: https://found.ee/seinfeld-sp\nApple Music: https://found.ee/seinfeld-am\nYouTube: https://found",
+            "duration": 341,
+            "embed": true
+        }
     },
     {
         "id": "21705979_A1",
@@ -14910,7 +15888,13 @@
         "discogsreleaseId": 6362896,
         "discogsIndex": 1,
         "appleMusicTrackId": 5848,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=I7e5hfEpcMg",
+            "title": "Yasiin Bey + Marvin Gaye = Inner City Travellin' Man (Yasiin Gaye 2014) HD",
+            "description": "Album download link: https://soulmatesproject.bandcamp.com/\nWebsite: www.amerigomusic.com\nAll rights go to Amerigo Gazaway.\nAmerigo Gazaway's new *Soul Mates* series continues the theme of his previous work in creating collaborations that never were. On t",
+            "duration": 370,
+            "embed": true
+        }
     },
     {
         "id": "6362896_A3",
@@ -15281,7 +16265,13 @@
         "discogsreleaseId": 14335531,
         "discogsIndex": 26,
         "appleMusicTrackId": 5743,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=ymeDzY0DwiU",
+            "title": "Wu-Tang vs The Beatles outro",
+            "description": "An epic album",
+            "duration": 145,
+            "embed": true
+        }
     },
     {
         "id": "2096573_A1",
@@ -15514,14 +16504,26 @@
         "discogsreleaseId": 3595763,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=s0QJN-WE1fI",
+            "title": "Anderson Brothers - I Can See Him Loving You - NJ Soul",
+            "description": "A smooth tune later performed by The Mayberry Movement. I covered this song myself on my 1979 Polydor album, Rendezvous With Destiny",
+            "duration": 165,
+            "embed": true
+        }
     },
     {
         "id": "3595763_B",
         "discogsreleaseId": 3595763,
         "discogsIndex": 1,
         "appleMusicTrackId": 19428,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=_1XE5htzD00",
+            "title": "Skull Snaps - It's a New Day",
+            "description": "Album: Playersoul: Rear Grooves and Funk Classics",
+            "duration": 183,
+            "embed": true
+        }
     },
     {
         "id": "3507789_A",
@@ -15575,7 +16577,13 @@
         "discogsreleaseId": 3639414,
         "discogsIndex": 1,
         "appleMusicTrackId": 8385,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=AdyNnpuI9u8",
+            "title": "Maximillian  -   The Snake ",
+            "description": "",
+            "duration": 119,
+            "embed": true
+        }
     },
     {
         "id": "16600413_A1",
@@ -15595,7 +16603,13 @@
         "discogsreleaseId": 16600413,
         "discogsIndex": 1,
         "appleMusicTrackId": 27352,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=xwhIS92E0ao",
+            "title": "Moodymann - People",
+            "description": "Track taken from Moodymann's 'Silence in the Secret Garden' (2003)",
+            "duration": 264,
+            "embed": true
+        }
     },
     {
         "id": "16600413_A3",
@@ -15668,7 +16682,13 @@
         "discogsreleaseId": 16600413,
         "discogsIndex": 8,
         "appleMusicTrackId": 27356,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=ri616TLsPCM",
+            "title": "Moodymann - On My Way Home - Peacefrog",
+            "description": "http://www.discogs.com/Moodymann-Silence-In-The-Secret-Garden/release/2665665",
+            "duration": 217,
+            "embed": true
+        }
     },
     {
         "id": "16600413_D2",
@@ -15892,14 +16912,26 @@
         "discogsreleaseId": 12172756,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=bjGx8A3tXMw",
+            "title": "Field Day for the Sundays (2006 Remastered Version)",
+            "description": "Provided to YouTube by The state51 Conspiracy\n\nField Day for the Sundays (2006 Remastered Version) · Wire\n\nPink Flag\n\n℗ 2006 The state51 Conspiracy Ltd\n\nReleased on: 1977-11-01\n\nComposer: B Gilbert\nComposer: Colin Newman\nComposer: G Lewis\nComposer: Gil",
+            "duration": 29,
+            "embed": true
+        }
     },
     {
         "id": "12172756_A3",
         "discogsreleaseId": 12172756,
         "discogsIndex": 2,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=ctpzzTR15yo",
+            "title": "Three Girl Rhumba (2006 Remastered Version)",
+            "description": "Provided to YouTube by The state51 Conspiracy\n\nThree Girl Rhumba (2006 Remastered Version) · Wire\n\nPink Flag\n\n℗ 2006 The state51 Conspiracy Ltd\n\nReleased on: 1977-11-01\n\nComposer: B Gilbert\nComposer: Colin Newman\nComposer: G Lewis\nComposer: Gilbert\nCom",
+            "duration": 84,
+            "embed": true
+        }
     },
     {
         "id": "12172756_A4",
@@ -15934,14 +16966,26 @@
         "discogsreleaseId": 12172756,
         "discogsIndex": 7,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=2JowyQt2Uqk",
+            "title": "It's So Obvious (2006 Remastered Version)",
+            "description": "Provided to YouTube by The state51 Conspiracy\n\nIt's So Obvious (2006 Remastered Version) · Wire\n\nPink Flag\n\n℗ 2006 The state51 Conspiracy Ltd\n\nReleased on: 1977-11-01\n\nComposer: B Gilbert\nComposer: Colin Newman\nComposer: G Lewis\nComposer: Gilbert-Lewis",
+            "duration": 54,
+            "embed": true
+        }
     },
     {
         "id": "12172756_A9",
         "discogsreleaseId": 12172756,
         "discogsIndex": 8,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=0Zl5nFIA1NU",
+            "title": "Surgeon's Girl (2006 Remastered Version)",
+            "description": "Provided to YouTube by The state51 Conspiracy\n\nSurgeon's Girl (2006 Remastered Version) · Wire\n\nPink Flag\n\n℗ 2006 The state51 Conspiracy Ltd\n\nReleased on: 1977-11-01\n\nComposer: B Gilbert\nComposer: Colin Newman\nComposer: G Lewis\nComposer: Gilbert\nCompos",
+            "duration": 78,
+            "embed": true
+        }
     },
     {
         "id": "12172756_A10",
@@ -15955,7 +16999,13 @@
         "discogsreleaseId": 12172756,
         "discogsIndex": 10,
         "appleMusicTrackId": 6115,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=2eAtwvBPiOA",
+            "title": "The Commercial (2006 Remastered Version)",
+            "description": "Provided to YouTube by The state51 Conspiracy\n\nThe Commercial (2006 Remastered Version) · Wire\n\nPink Flag\n\n℗ 2006 The state51 Conspiracy Ltd\n\nReleased on: 1977-11-01\n\nComposer: B Gilbert\nComposer: Colin Newman\nComposer: G Lewis\nComposer: Gilbert-Lewis-",
+            "duration": 50,
+            "embed": true
+        }
     },
     {
         "id": "12172756_B2",
@@ -16018,7 +17068,13 @@
         "discogsreleaseId": 12172756,
         "discogsIndex": 19,
         "appleMusicTrackId": 14418,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=7Arpw8kEjhU",
+            "title": "Feeling Called Love (2006 Remastered Version)",
+            "description": "Provided to YouTube by The state51 Conspiracy\n\nFeeling Called Love (2006 Remastered Version) · Wire\n\nPink Flag\n\n℗ 2006 The state51 Conspiracy Ltd\n\nReleased on: 1977-11-01\n\nComposer: B Gilbert\nComposer: Colin Newman\nComposer: G Lewis\nComposer: Gilbert\nC",
+            "duration": 89,
+            "embed": true
+        }
     },
     {
         "id": "12172756_B11",
@@ -16072,7 +17128,13 @@
         "discogsreleaseId": 16210224,
         "discogsIndex": 4,
         "appleMusicTrackId": 13159,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=vKsTWRwhqGk",
+            "title": "Hollow Ship - Magic Mountain (2020)",
+            "description": "Band: Hollow Ship\nAlbum: Future Remains\nYear: 2020\nCountry: Sweden\nLink: https://hollowship.bandcamp.com/album/future-remains-lp",
+            "duration": 213,
+            "embed": true
+        }
     },
     {
         "id": "16210224_B2",
@@ -16311,7 +17373,13 @@
         "discogsreleaseId": 3356707,
         "discogsIndex": 0,
         "appleMusicTrackId": 8451,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=B4TI0L2KLeU",
+            "title": "LaVerne Baker - Love Me Right 45 rpm!",
+            "description": "Love Me Right - LaVerne Baker (Atlantic Records) 1957, 45 rpm!  A Direct Recording!",
+            "duration": 117,
+            "embed": true
+        }
     },
     {
         "id": "3356707_B",
@@ -16339,7 +17407,13 @@
         "discogsreleaseId": 3619970,
         "discogsIndex": 0,
         "appleMusicTrackId": 14083,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=-PlvJVJCsF8",
+            "title": "Sweet Baby Of Mine - Ruth Brown [Atlantic #1091] 1956",
+            "description": "1956- / R&B #10-",
+            "duration": 149,
+            "embed": true
+        }
     },
     {
         "id": "3619970_B",
@@ -16373,28 +17447,52 @@
         "discogsreleaseId": 5012092,
         "discogsIndex": 0,
         "appleMusicTrackId": 8423,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=jpd61JcLQe0",
+            "title": "Harvey - Any Way You Wanta - TRI-PHI: 1017",
+            "description": "£100.00 Buy Me @ https://www.raresoulman.co.uk\n\nA rare STOCK copy - so there is no confusion with the White PROMO counterffeit. This copy has a light-scuff NOT affecting play.\nA Side\nTitle: Any Way You Wanta\nB Side\nTitle: She Loves Me So\nYear: 1962\nCity:",
+            "duration": 170,
+            "embed": true
+        }
     },
     {
         "id": "5012092_B",
         "discogsreleaseId": 5012092,
         "discogsIndex": 1,
         "appleMusicTrackId": 8425,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=WOB1SS3Sgkw",
+            "title": "Harvey - She Loves Me So (Tri-Phi)",
+            "description": "",
+            "duration": 186,
+            "embed": true
+        }
     },
     {
         "id": "5812905_A",
         "discogsreleaseId": 5812905,
         "discogsIndex": 0,
         "appleMusicTrackId": 8395,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=SudeKnqLYDM",
+            "title": "Carl Henry Hall - Summertime",
+            "description": "7 on Village Records ( a hard to pick up reissue of the original promo on Mercury 1965 )",
+            "duration": 153,
+            "embed": true
+        }
     },
     {
         "id": "5812905_B",
         "discogsreleaseId": 5812905,
         "discogsIndex": 1,
         "appleMusicTrackId": 8395,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=SudeKnqLYDM",
+            "title": "Carl Henry Hall - Summertime",
+            "description": "7 on Village Records ( a hard to pick up reissue of the original promo on Mercury 1965 )",
+            "duration": 153,
+            "embed": true
+        }
     },
     {
         "id": "39449_A1",
@@ -16414,7 +17512,13 @@
         "discogsreleaseId": 39449,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=XxZcyJW_bOA",
+            "title": "Caveman - Victory",
+            "description": "Caveman - Victory\n\nTrack 13 taken from 'Positive Reaction' (1991)\nhttp://www.discogs.com/Caveman-Positive-Reaction/master/96912\n\nLabel - Profile Records",
+            "duration": 327,
+            "embed": true
+        }
     },
     {
         "id": "39449_A3",
@@ -16702,7 +17806,13 @@
         "discogsreleaseId": 13906786,
         "discogsIndex": 0,
         "appleMusicTrackId": 20302,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=NQFost4iszg",
+            "title": "Os Tubarões - Tabanca",
+            "description": "New GUTS compilation Straight From The Decksout now ! \nStream : https://idol.lnk.to/Straight_From_The...\nBandcamp : https://bit.ly/2HQBDRs\nHeavenly Sweetness shop : https://bit.ly/2UhI9ot\nWatch the new Guts Video! http://bit.ly/Guts_Kenke_Corner\n\n© & ",
+            "duration": 108,
+            "embed": true
+        }
     },
     {
         "id": "13906786_A2",
@@ -16789,7 +17899,13 @@
         "discogsreleaseId": 13906786,
         "discogsIndex": 9,
         "appleMusicTrackId": 20294,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=1Xs5kO_U_Og",
+            "title": "Simon Jurad - Macadam",
+            "description": "New GUTS compilation Straight From The Decksout now ! \r\nStream :https://idol.lnk.to/Straight_From_The...\r\nBandcamp : https://bit.ly/2HQBDRs\r\nHeavenly Sweetness shop : https://bit.ly/2UhI9ot\r\nWatch the new Guts Video! http://bit.ly/Guts_Kenke_Corner\r\n\r\n",
+            "duration": 217,
+            "embed": true
+        }
     },
     {
         "id": "13906786_C2",
@@ -16809,28 +17925,52 @@
         "discogsreleaseId": 13906786,
         "discogsIndex": 11,
         "appleMusicTrackId": 20280,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=qghXv3s2_Ig",
+            "title": "Eko Roosevelt Louis - Tondoho Mba",
+            "description": "🎧 Commandez 'Straight from the Decks' → https://IDOL.lnk.to/Straight_From_The_Decks\n\n📖 Lisez notre article → http://pan-african-music.com/eko-roosevelt-louis-tondoho-mba-guts-straight-from-the-decks\n\n'Straight From the Decks' est une invitation ",
+            "duration": 284,
+            "embed": true
+        }
     },
     {
         "id": "13906786_C4",
         "discogsreleaseId": 13906786,
         "discogsIndex": 12,
         "appleMusicTrackId": 20288,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=fU38z9aYZW8",
+            "title": "Slim Young - Otan Hunu",
+            "description": "1984, Agya Paye Records.",
+            "duration": 291,
+            "embed": true
+        }
     },
     {
         "id": "13906786_D1",
         "discogsreleaseId": 13906786,
         "discogsIndex": 13,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=G_eKGTpyNzk",
+            "title": "Jacinta Sanches - Vizinha Ka Bale",
+            "description": "DopeAndBagels\nYoutube : http://www.youtube.com/user/dopeandba...\nFacebook : https://www.facebook.com/dopeandbagels",
+            "duration": 287,
+            "embed": true
+        }
     },
     {
         "id": "13906786_D2",
         "discogsreleaseId": 13906786,
         "discogsIndex": 14,
         "appleMusicTrackId": 20300,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=epz-FHY8Hxs",
+            "title": "André Marceline - Cadencedisco",
+            "description": "New GUTS compilation Straight From The Decksout now ! \r\nStream :https://idol.lnk.to/Straight_From_The...\r\nBandcamp : https://bit.ly/2HQBDRs\r\nHeavenly Sweetness shop : https://bit.ly/2UhI9ot\r\nWatch the new Guts Video! http://bit.ly/Guts_Kenke_Corner\r\n\r\n",
+            "duration": 258,
+            "embed": true
+        }
     },
     {
         "id": "13906786_D3",
@@ -17611,7 +18751,13 @@
         "discogsreleaseId": 1491873,
         "discogsIndex": 0,
         "appleMusicTrackId": 8124,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=zHbZJIV-t5A",
+            "title": "01 Diplomats Of Solid Sound - If You're Wrong... (Lack Of Afro Remix) [Record Kicks]",
+            "description": "Download:  http://ks.kud.li/rk45023\nSubscribe: http://sb.kud.li/recordkickscatalogue\nOfficial stream from Record Kicks. Distributed by Kudos Records.\nOn iTunes:  http://it.kud.li/rk45023\nOn Amazon:  http://az.kud.li/rk45023\nMore music playlists: http://pl",
+            "duration": 210,
+            "embed": true
+        }
     },
     {
         "id": "1491873_B1",
@@ -17646,7 +18792,13 @@
         "discogsreleaseId": 5503564,
         "discogsIndex": 1,
         "appleMusicTrackId": 26748,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=AZOQ8BucVck",
+            "title": "08 Calibro 35 - You, Filthy Bastards! [Record Kicks]",
+            "description": "",
+            "duration": 183,
+            "embed": true
+        }
     },
     {
         "id": "868884_A",
@@ -17673,14 +18825,26 @@
         "discogsreleaseId": 991781,
         "discogsIndex": 0,
         "appleMusicTrackId": 11090,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=_ApOwmAk7m8",
+            "title": "I'm A Man by Smoove",
+            "description": "I'm A Man by Smoove was on Vinyl 7 along with The Performer by Enri. It was released in 2007 in Italy under the Record Kicks label. Smoove also goes by Jonathan Watson (his real name) and Ultragroove. Up by request, I love this track as well.",
+            "duration": 249,
+            "embed": true
+        }
     },
     {
         "id": "991781_B",
         "discogsreleaseId": 991781,
         "discogsIndex": 1,
         "appleMusicTrackId": 11092,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=QJby9LaQeiQ",
+            "title": "ENRI / The performer / CSA N°156",
+            "description": "",
+            "duration": 207,
+            "embed": true
+        }
     },
     {
         "id": "2813712_",
@@ -17768,7 +18932,13 @@
         "discogsreleaseId": 2813712,
         "discogsIndex": 9,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=GB9kTP0o7G4",
+            "title": "The Criminal Minds System Overload Remix",
+            "description": "Save UK hip hop",
+            "duration": 261,
+            "embed": true
+        }
     },
     {
         "id": "2813712_C2",
@@ -17802,7 +18972,13 @@
         "discogsreleaseId": 1892895,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=SR1QYJmf9WE",
+            "title": "The Electric Prunes - Holy Are You",
+            "description": " ",
+            "duration": 243,
+            "embed": true
+        }
     },
     {
         "id": "1892895_A3",
@@ -17861,14 +19037,26 @@
         "discogsreleaseId": 1892895,
         "discogsIndex": 6,
         "appleMusicTrackId": 28326,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=HZtRS_oM--U",
+            "title": "The Electric Prunes - Closing Hymn",
+            "description": "From Release of an Oath (Reprise, 1968)",
+            "duration": 171,
+            "embed": true
+        }
     },
     {
         "id": "1083547_A1",
         "discogsreleaseId": 1083547,
         "discogsIndex": 0,
         "appleMusicTrackId": 8405,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=AzV22tcz1tM",
+            "title": "The Bas Lexter Ensample  - The Champions",
+            "description": "Patrickoldies",
+            "duration": 243,
+            "embed": true
+        }
     },
     {
         "id": "1083547_A2",
@@ -17888,7 +19076,13 @@
         "discogsreleaseId": 1083547,
         "discogsIndex": 2,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=rT6taHU5ux0",
+            "title": "Sono Rhizmo' - Mambocito mio",
+            "description": "Released by: Resense ,.Release date: Jan 1, 2007\nhttp://soundcloud.com/sono-rhizmo\nOur Facebook Page: https://www.facebook.com/BeatsnCulture\nBeats | Breaks | Mashups | Culture Channels :\nhttp://youtube.com/user/BeatsnCulture\nhttp://youtube.com/user/BnCult",
+            "duration": 328,
+            "embed": true
+        }
     },
     {
         "id": "1083547_B2",
@@ -17936,7 +19130,13 @@
         "discogsreleaseId": 2392926,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=dO_je80zu5I",
+            "title": "Bas Lexter Ensample - Marvins Meeting on Coke",
+            "description": "Bas Lexter Ensample/RESENSE 13 12  Тhe project leader Ricci Puncha, a vinylist and sample junkie from Hannover/Germany.",
+            "duration": 222,
+            "embed": true
+        }
     },
     {
         "id": "2392926_A2",
@@ -18045,7 +19245,13 @@
         "discogsreleaseId": 15724598,
         "discogsIndex": 2,
         "appleMusicTrackId": 13311,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=oYLHXItjzG4",
+            "title": "Potholderz (feat. Count Bass D)",
+            "description": "Provided to YouTube by BWSCD, Inc.\n\nPotholderz (feat. Count Bass D) · MF DOOM · Count Bass D\n\nMM..FOOD\n\n℗ 2004 Rhymesayers Entertainment LLC\n\nReleased on: 2004-11-16\n\nComposer: MF DOOM\n\nAuto-generated by YouTube.",
+            "duration": 201,
+            "embed": true
+        }
     },
     {
         "id": "15724598_B4",
@@ -18202,7 +19408,13 @@
         "discogsreleaseId": 3256786,
         "discogsIndex": 0,
         "appleMusicTrackId": 22769,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=sxbIK_bDjww",
+            "title": "JAY-Z - The Ruler's Back (Official Audio)",
+            "description": "Listen To JAY-Z With The Ruler's Back From The Album The Blueprint (Remastered)",
+            "duration": 229,
+            "embed": true
+        }
     },
     {
         "id": "3256786_A2",
@@ -18242,7 +19454,13 @@
         "discogsreleaseId": 3256786,
         "discogsIndex": 4,
         "appleMusicTrackId": 22789,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=q8oUyodqJKo",
+            "title": "JAY-Z - Jigga That Nigga (Official Audio)",
+            "description": "Listen To JAY-Z With Jigga That Nigga From The Album The Blueprint (Remastered)",
+            "duration": 205,
+            "embed": true
+        }
     },
     {
         "id": "3256786_B2",
@@ -18377,7 +19595,13 @@
         "discogsreleaseId": 4914644,
         "discogsIndex": 0,
         "appleMusicTrackId": 14021,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=fNFtWcBUbeQ",
+            "title": "Perez Prado   Circle",
+            "description": "bboy song by footwarrior",
+            "duration": 129,
+            "embed": true
+        }
     },
     {
         "id": "4914644_B",
@@ -18424,7 +19648,13 @@
         "discogsreleaseId": 3347968,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=GBGEeTWDEk4",
+            "title": "Benny page - crying out (serial killaz remix)",
+            "description": "",
+            "duration": 367,
+            "embed": true
+        }
     },
     {
         "id": "3347968_",
@@ -18445,7 +19675,13 @@
         "discogsreleaseId": 551012,
         "discogsIndex": 0,
         "appleMusicTrackId": 20286,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=IBvQCIhuGdY",
+            "title": "The Gigolo - Gene Anderson",
+            "description": "Born to Funk",
+            "duration": 168,
+            "embed": true
+        }
     },
     {
         "id": "551012_B",
@@ -18459,7 +19695,13 @@
         "discogsreleaseId": 18599686,
         "discogsIndex": 0,
         "appleMusicTrackId": 10179,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=8kWYu-xMl0w",
+            "title": "Felipe Gordon - How Do U Spell That Spell [Shall Not Fade]",
+            "description": "Artist: Felipe Gordon\nArtist Link: https://soundcloud.com/felipe-gordon\nAlbum: A Landscape Onomatopeya LP\nLabel: Shall Not Fade\nLabel Link: https://soundcloud.com/shallnotfade\nRelease: April 02nd, 2021\nBuy: https://felipegordon.bandcamp.com/album/a-landsc",
+            "duration": 510,
+            "embed": true
+        }
     },
     {
         "id": "18599686_A2",
@@ -19064,14 +20306,26 @@
         "discogsreleaseId": 2206060,
         "discogsIndex": 0,
         "appleMusicTrackId": 14111,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=YiCVAZOs6CY",
+            "title": "The Soul Searchers - Blow Your Whistle (1974)",
+            "description": "https://www.facebook.com/groups/danceonthegroove/\nThe Soul Searchers were a band that started in the 1970's and backed Chuck Brown when he first came up in Washington DC. They, along with Brown, are closely associated with the funk subgenre go-go\nGo-go ",
+            "duration": 186,
+            "embed": true
+        }
     },
     {
         "id": "2206060_B",
         "discogsreleaseId": 2206060,
         "discogsIndex": 1,
         "appleMusicTrackId": 14113,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=P5ceWM_DqFU",
+            "title": "The Soul Searchers - Ashley's Roachclip",
+            "description": "",
+            "duration": 345,
+            "embed": true
+        }
     },
     {
         "id": "3652757_A",
@@ -19218,7 +20472,13 @@
         "discogsreleaseId": 439187,
         "discogsIndex": 10,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=3s4xVVx0ff0",
+            "title": "Black Sugar - Viajecito",
+            "description": "",
+            "duration": 311,
+            "embed": true
+        }
     },
     {
         "id": "439187_C3",
@@ -19346,7 +20606,13 @@
         "discogsreleaseId": 7359121,
         "discogsIndex": 7,
         "appleMusicTrackId": 6145,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=LzD_q8dHYt0",
+            "title": "Lee Dorsey & Betty Harris - Love Lots Of Lovin'",
+            "description": " ",
+            "duration": 182,
+            "embed": true
+        }
     },
     {
         "id": "7359121_C1",
@@ -19366,14 +20632,26 @@
         "discogsreleaseId": 7359121,
         "discogsIndex": 9,
         "appleMusicTrackId": 6109,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=ji0MwgJaqKA",
+            "title": "lee dorsey - who's gonna help brother get further",
+            "description": "from the album: yes we can (1970)",
+            "duration": 181,
+            "embed": true
+        }
     },
     {
         "id": "7359121_C3",
         "discogsreleaseId": 7359121,
         "discogsIndex": 10,
         "appleMusicTrackId": 6100,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=hrqCVfCscpk",
+            "title": "Huey Smith & His clowns - Free Single and Disengaged",
+            "description": "Picked up this lovely 7 from the usa recently. Classic new orleans Soul.",
+            "duration": 128,
+            "embed": true
+        }
     },
     {
         "id": "7359121_C4",
@@ -19454,7 +20732,13 @@
         "discogsreleaseId": 7359121,
         "discogsIndex": 19,
         "appleMusicTrackId": 6142,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=xD55BnDS71Q",
+            "title": "Chuck Carbo and The Soul Finders Can I Be Your Squeeze?",
+            "description": "1969 A-Side. Take Care Your Home Work Friend on the B-side.  Produced by Eddie Bo.",
+            "duration": 147,
+            "embed": true
+        }
     },
     {
         "id": "7359121_F1",
@@ -19502,7 +20786,13 @@
         "discogsreleaseId": 2252260,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=SL0_sutUdcg",
+            "title": "Between - Devotion (1973)",
+            "description": "From the album And The Waters Opened",
+            "duration": 231,
+            "embed": true
+        }
     },
     {
         "id": "2252260_A3",
@@ -19529,7 +20819,13 @@
         "discogsreleaseId": 2252260,
         "discogsIndex": 4,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=iYUhaz8hXo0",
+            "title": "Kollektiv - Rambo Zambo - 1973",
+            "description": "Kollektiv - Rambo Zambo - from album released in 1973 Kollektiv",
+            "duration": 703,
+            "embed": true
+        }
     },
     {
         "id": "2252260_B2",
@@ -19588,14 +20884,26 @@
         "discogsreleaseId": 2252260,
         "discogsIndex": 9,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=Z9Jejk8UknU",
+            "title": "La Duesseldorf-Rheinita",
+            "description": "",
+            "duration": 462,
+            "embed": true
+        }
     },
     {
         "id": "2252260_D1",
         "discogsreleaseId": 2252260,
         "discogsIndex": 10,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=-H-g8-F8h8s",
+            "title": "Harmonia Veterano (HQ)",
+            "description": "Harmonia ''Veterano'' from Musik von Harmonia (1974)",
+            "duration": 241,
+            "embed": true
+        }
     },
     {
         "id": "2252260_D2",
@@ -19684,7 +20992,13 @@
         "discogsreleaseId": 14936269,
         "discogsIndex": 8,
         "appleMusicTrackId": 11310,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=oQ-tYlbDaPU",
+            "title": "The Notorious B.I.G. & James Brown - Big Poppa's Got A Brand New Bag (Official Video)",
+            "description": "The Notorious B.I.G. and the Godfather of Soul James Brown join forces on Amerigo's latest Soul Mates collaboration, The Notorious J.B.'s: The B.I.G. Payback. Stream/download the single B.I.G. Poppa's Got A Brand New Bag and subscribe on Bandcamp for ",
+            "duration": 229,
+            "embed": true
+        }
     },
     {
         "id": "2657689_A",
@@ -19889,7 +21203,13 @@
         "discogsreleaseId": 3476946,
         "discogsIndex": 1,
         "appleMusicTrackId": 8389,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=2mLP-rPTzEc",
+            "title": "Jean Manix & Ted Osie - Booma Woman",
+            "description": "Big Party Tune - Straight out of Sunny Barbados - Reggae Rub / Calypso Beat. First listing on Youtube.",
+            "duration": 229,
+            "embed": true
+        }
     },
     {
         "id": "3778356_A",
@@ -19997,7 +21317,13 @@
         "discogsreleaseId": 3754359,
         "discogsIndex": 9,
         "appleMusicTrackId": 23497,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=FVbGBBAiW8M",
+            "title": "Ondatrópica - I Ron Man",
+            "description": "Artist: Ondatrópica\nTitle: I Ron Man\nAlbum: Ondatrópica\n\nConceived by Colombian musician Mario Galeano, the force behind the band Frente Cumbiero, and English producer Will 'Quantic' Holland, Ondatrópica brings together an all-star cast representing bo",
+            "duration": 173,
+            "embed": true
+        }
     },
     {
         "id": "3754359_C3",
@@ -20101,7 +21427,13 @@
         "discogsreleaseId": 3754359,
         "discogsIndex": 23,
         "appleMusicTrackId": 23481,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=80q9cQSTTCc",
+            "title": "Ondatrópica - Cien Años",
+            "description": "Banda: Ondatrópica\nTrack: Cien años\nDisco: Suena\nAño: 2012\nPaís: Colombia\n\nTerrible sabrosón!",
+            "duration": 8,
+            "embed": true
+        }
     },
     {
         "id": "3754359_F4",
@@ -20272,7 +21604,13 @@
         "discogsreleaseId": 21040813,
         "discogsIndex": 11,
         "appleMusicTrackId": 23178,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=F8lH7YAHY30",
+            "title": "Flee the Coop",
+            "description": "Provided to YouTube by Believe SAS\n\nFlee the Coop · Reuben Vaun Smith · Reuben Vaun Smith\n\nSounds from the Workshop\n\n℗ Soundway Records Ltd\n\nReleased on: 2021-08-27\n\nAuto-generated by YouTube.",
+            "duration": 202,
+            "embed": true
+        }
     },
     {
         "id": "21040813_D1",
@@ -20318,7 +21656,13 @@
         "discogsreleaseId": 3619958,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=TFVzGS2hiMA",
+            "title": "Larry Williams - Love Charms",
+            "description": "Cat No. JBJ 1029 A",
+            "duration": 152,
+            "embed": true
+        }
     },
     {
         "id": "3619958_B",
@@ -20429,21 +21773,39 @@
         "discogsreleaseId": 5400488,
         "discogsIndex": 1,
         "appleMusicTrackId": 11320,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=E2Z40L3cWkc",
+            "title": "Warschauer Strasse (Original Version)",
+            "description": "Provided to YouTube by Zebralution GmbH\n\nWarschauer Strasse (Original Version) · Oliver Koletzki\n\nHypnotized\n\n℗ 2009 Stil vor Talent\n\nReleased on: 2009-08-03\n\nC O M P O S E R: Oliver Koletzki\nM U S I C_ P U B L I S H E R: copyright control\n\nAuto-genera",
+            "duration": 371,
+            "embed": true
+        }
     },
     {
         "id": "5400488_B2",
         "discogsreleaseId": 5400488,
         "discogsIndex": 2,
         "appleMusicTrackId": 11318,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=E2Z40L3cWkc",
+            "title": "Warschauer Strasse (Original Version)",
+            "description": "Provided to YouTube by Zebralution GmbH\n\nWarschauer Strasse (Original Version) · Oliver Koletzki\n\nHypnotized\n\n℗ 2009 Stil vor Talent\n\nReleased on: 2009-08-03\n\nC O M P O S E R: Oliver Koletzki\nM U S I C_ P U B L I S H E R: copyright control\n\nAuto-genera",
+            "duration": 371,
+            "embed": true
+        }
     },
     {
         "id": "4075815_A",
         "discogsreleaseId": 4075815,
         "discogsIndex": 0,
         "appleMusicTrackId": 8401,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=ShAXY9O9vdk",
+            "title": "The Carnations / Scorpion",
+            "description": "Great Surf/R&R Instrumental issued on Tilt Records.",
+            "duration": 134,
+            "embed": true
+        }
     },
     {
         "id": "4075815_B",
@@ -20818,7 +22180,13 @@
         "discogsreleaseId": 17251129,
         "discogsIndex": 21,
         "appleMusicTrackId": 15932,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=gSJeHDlhYls",
+            "title": "Madvillain - All Caps",
+            "description": "MF DOOM and Madlib are Madvlllain http://stonesthrow.com/madvillain • Video illustrated and animated by James Reitano. The backstory: https://sthrow.com/allcaps \n\nSo nasty that it's probably somewhat of a travesty\nHaving me, then he told the people You",
+            "duration": 135,
+            "embed": true
+        }
     },
     {
         "id": "17251129_D6",
@@ -20838,14 +22206,26 @@
         "discogsreleaseId": 17251129,
         "discogsIndex": 23,
         "appleMusicTrackId": 15936,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=s4iR668Ki3I",
+            "title": "Madvillain (MF Doom + Madlib) - Rhinestone Cowboy",
+            "description": "Madvillain (MF DOOM & Madlib)\r\nSong: Rhinestone Cowboy\r\nAlbum: Madvillainy\r\nVideo from Stones Throw 101 DVD \r\nhttp://www.stonesthrow.com/madvillain\r\nhttp://www.stonesthrow.com/store/cd-dvd/stones-throw/stones-throw-101",
+            "duration": 210,
+            "embed": true
+        }
     },
     {
         "id": "12666899_A1",
         "discogsreleaseId": 12666899,
         "discogsIndex": 0,
         "appleMusicTrackId": 25187,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=umff7Hael9k",
+            "title": "Homeboy Sandman & Edan - Grim Seasons",
+            "description": "MC: Homeboy Sandman / Beat: Edan / from the record Humble Pi, coming 10/26/18. Animated by Kagan McLeod.",
+            "duration": 230,
+            "embed": true
+        }
     },
     {
         "id": "12666899_A2",
@@ -20947,7 +22327,13 @@
         "discogsreleaseId": 14221000,
         "discogsIndex": 5,
         "appleMusicTrackId": 28726,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=gERLLTr5XlU",
+            "title": "Automatic - Signal",
+            "description": "http://stonesthrow.com/automatic • http://instagram.com/automatic_band from the album Signal coming September 27. Animation by Courtney Garvin.",
+            "duration": 183,
+            "embed": true
+        }
     },
     {
         "id": "14221000_B1",
@@ -21213,7 +22599,13 @@
         "discogsreleaseId": 4138068,
         "discogsIndex": 0,
         "appleMusicTrackId": 14061,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=-8q07dMTKcc",
+            "title": "Microdots and Moonbeams - Young Lenny (v) WeeGee",
+            "description": "Hypnotic dancefloor crasher microdots and moonbeams by WeeGee & Young Lenny -available as a 7 single and download on Sudden Hunger Records. For more info visit www.suddenhungerrecords.com\r\n\r\nWith mood map imagery drawn from the WeeGee video vaults.",
+            "duration": 300,
+            "embed": true
+        }
     },
     {
         "id": "4138068_B",
@@ -21267,7 +22659,13 @@
         "discogsreleaseId": 5381604,
         "discogsIndex": 0,
         "appleMusicTrackId": 29370,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=xkLxQARoBYs",
+            "title": "Marcia Maria - Amigo Branco",
+            "description": "MARCIA MARIA (P)1978\n\n\n\n\nDj Otamar",
+            "duration": 216,
+            "embed": true
+        }
     },
     {
         "id": "5381604_A2",
@@ -21372,7 +22770,13 @@
         "discogsreleaseId": 19523626,
         "discogsIndex": 10,
         "appleMusicTrackId": 23259,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=AgyP-x8Fsjc",
+            "title": "Purple Disco Machine & Faithless - Let The Music Play",
+            "description": "My album SOULMATIC is out now: https://pdm.lnk.to/Soulmatic\n\n\nWebsite: https://www.purplediscomachine.com",
+            "duration": 273,
+            "embed": true
+        }
     },
     {
         "id": "19523626_D3",
@@ -21471,7 +22875,13 @@
         "discogsreleaseId": 5034181,
         "discogsIndex": 6,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=skRjoPf2r0c",
+            "title": "Right On (Detroit Mix)",
+            "description": "Provided to YouTube by Universal Music Group\n\nRight On (Detroit Mix) · Marvin Gaye\n\nWhat’s Going On: The Detroit Mix\n\n℗ 2001 Motown Records, a Division of UMG Recordings, Inc.\n\nReleased on: 2021-01-22\n\nProducer: Marvin Gaye\nStudio  Personnel, Mixer: ",
+            "duration": 452,
+            "embed": true
+        }
     },
     {
         "id": "5034181_B2",
@@ -22187,14 +23597,26 @@
         "discogsreleaseId": 15355769,
         "discogsIndex": 2,
         "appleMusicTrackId": 4528,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=xjmx8EvsskI",
+            "title": "Phenomenal Handclap Band - Charm Spectrum",
+            "description": "Download / Vinyl / Stream: https://toy-tonics.lnk.to/PHB\n\nNew York’s indie disco crew is back with a new album. And it’s the right moment!\nWith new acts like Toro Y Moi, Sault, Parcels, The Internet - the funky, disco, old school vibe is big in 2020. \nAnd",
+            "duration": 267,
+            "embed": true
+        }
     },
     {
         "id": "15355769_A4",
         "discogsreleaseId": 15355769,
         "discogsIndex": 3,
         "appleMusicTrackId": 4516,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=nJNPBe3aN5U",
+            "title": "Phenomenal Handclap Band - Do What You Like",
+            "description": "Download / Stream: https://toy-tonics.lnk.to/DoWhatYouLike\n\nA pre-release song to the upcoming album of Phenomenal Handclap Band. The New York indie discoteers that fit perfectly into 2020’s new funk & dance band scenario. People who like Toro Y Moi, Saul",
+            "duration": 246,
+            "embed": true
+        }
     },
     {
         "id": "15355769_A5",
@@ -22242,7 +23664,13 @@
         "discogsreleaseId": 15355769,
         "discogsIndex": 9,
         "appleMusicTrackId": 4522,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=6RPFoSoRvPM",
+            "title": "Phenomenal Handclap Band - Let Out On The Loose",
+            "description": "Download / Vinyl / Stream: https://toy-tonics.lnk.to/PHB\n\nNew York’s indie disco crew is back with a new album. And it’s the right moment!\nWith new acts like Toro Y Moi, Sault, Parcels, The Internet - the funky, disco, old school vibe is big in 2020. ",
+            "duration": 354,
+            "embed": true
+        }
     },
     {
         "id": "3614572_A",
@@ -22262,14 +23690,26 @@
         "discogsreleaseId": 3614572,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=LyHwNG9GZro",
+            "title": "The Fred Berlipp Band - Law Breakers",
+            "description": "The Fred Berlipp Band\n\nSeite 1:\nStahl In Sound - Beating Steel (F. Berlipp - H. Hoetter - F. J. Zimmermann) \n\nSeite 2:\nCrime In Beat - Law Breakers (F. Berlipp - H. Hoetter - F. J. Zimmermann) \n\nReleased on Selected Tramp Sound Schallplatten JTR5010\n\n2012",
+            "duration": 161,
+            "embed": true
+        }
     },
     {
         "id": "3614545_A",
         "discogsreleaseId": 3614545,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=N5aGKWpdqdY",
+            "title": "Berry Lipman - Hot Track",
+            "description": "Berry Lipman\n\nSeite 1:\nHot Track (F. Berlipp) \n\nSeite 2:\nHighway Patrol (F. Berlipp) \n\nReleased on Selected Tramp Sound Schallplatten JTR5009\n\n1976 - 2012\n\nOriginally released 1976 on the Album Rex Brown Company & WERSI-Electric-String-Orchestra – Action",
+            "duration": 181,
+            "embed": true
+        }
     },
     {
         "id": "3614545_B",
@@ -22289,7 +23729,13 @@
         "discogsreleaseId": 3432186,
         "discogsIndex": 0,
         "appleMusicTrackId": 14099,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=FqHgZhzGaIA",
+            "title": "Carl (Sherlock) Holmes - Investigation",
+            "description": "USA - 1970",
+            "duration": 242,
+            "embed": true
+        }
     },
     {
         "id": "3432186_B",
@@ -22310,7 +23756,13 @@
         "discogsreleaseId": 3690484,
         "discogsIndex": 1,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=wwWLKCTneXs",
+            "title": "VERNON GARRETT - Satisfied Woman, Satisfied Man",
+            "description": "Mladenovski Slobodan",
+            "duration": 211,
+            "embed": true
+        }
     },
     {
         "id": "5346877_A1",
@@ -22324,7 +23776,13 @@
         "discogsreleaseId": 5346877,
         "discogsIndex": 1,
         "appleMusicTrackId": 5545,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=j2_qSo9FnlE",
+            "title": "Roy Porter Sound Machine '94 ‎– Slaughterhouse Instr",
+            "description": "Roy Porter Sound Machine '94 ‎– Generation\nBass – Phil Raney\nDrums, Percussion, Piano – Roy Porter\nFlute – Jack Fulks\nKeyboards – Bob Davis\nSaxophone – Chet Christopher\nTrumpet – James Smith",
+            "duration": 238,
+            "embed": true
+        }
     },
     {
         "id": "5346877_A3",
@@ -22387,7 +23845,13 @@
         "discogsreleaseId": 789459,
         "discogsIndex": 0,
         "appleMusicTrackId": 25455,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=5oCBlbpRsfs",
+            "title": "the Broken Keys - an introduction",
+            "description": "",
+            "duration": 91,
+            "embed": true
+        }
     },
     {
         "id": "789459_A2",
@@ -22415,14 +23879,26 @@
         "discogsreleaseId": 789459,
         "discogsIndex": 4,
         "appleMusicTrackId": 25449,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=BsJbVURYRco",
+            "title": "The Broken Keys - The Witch",
+            "description": "",
+            "duration": 206,
+            "embed": true
+        }
     },
     {
         "id": "789459_A6",
         "discogsreleaseId": 789459,
         "discogsIndex": 5,
         "appleMusicTrackId": 25447,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=d5hy1S-Jl-Y",
+            "title": "The Broken Keys - Black Farr",
+            "description": "",
+            "duration": 211,
+            "embed": true
+        }
     },
     {
         "id": "789459_B1",
@@ -22463,14 +23939,26 @@
         "discogsreleaseId": 789459,
         "discogsIndex": 10,
         "appleMusicTrackId": 25465,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=dXNf9nmyhbs",
+            "title": "The Broken Keys - Razorblade",
+            "description": "Download: http://v.blnk.fr/A7hvqP7h\n\nTru Thoughts is an independent record label based in Brighton, UK.Over the years we have brought you artists like Alice Russell, Bonobo, Quantic, Hot 8 Brass Band, Zed Bias, Rodney P and Nostalgia 77\n\nTru Thoughts musi",
+            "duration": 186,
+            "embed": true
+        }
     },
     {
         "id": "789459_B6",
         "discogsreleaseId": 789459,
         "discogsIndex": 11,
         "appleMusicTrackId": 25463,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=UxqdZb1uqwA",
+            "title": "The Broken Keys - Why Jupiter",
+            "description": "",
+            "duration": 325,
+            "embed": true
+        }
     },
     {
         "id": "3296727_A1",
@@ -22525,7 +24013,13 @@
         "discogsreleaseId": 768452,
         "discogsIndex": 2,
         "appleMusicTrackId": 22979,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=llnMqKVLxmY",
+            "title": "Abdominal & Dj Fase - A Tale Of Two Bitties",
+            "description": "Enjoy.",
+            "duration": 386,
+            "embed": true
+        }
     },
     {
         "id": "768452_A4",
@@ -22573,7 +24067,13 @@
         "discogsreleaseId": 768452,
         "discogsIndex": 8,
         "appleMusicTrackId": 22975,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=vH-X8FDvhgY",
+            "title": "Abdominal & DJ Fase - The Best Posse Cut You Ever Heard",
+            "description": "Abdominal & DJ Fase;\r\nThe Best Posse Cut You Ever Heard; \r\nAlbum: Flowtation Device",
+            "duration": 384,
+            "embed": true
+        }
     },
     {
         "id": "768452_C3",
@@ -22594,14 +24094,26 @@
         "discogsreleaseId": 768452,
         "discogsIndex": 11,
         "appleMusicTrackId": 22973,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=SEm4xoF0dGA",
+            "title": "Abdominal - Flowtation Device",
+            "description": "Abdominal & Dj Fase - Flowtation Device  -2004-\r\n\r\nhttp://www.myspace.com/mcabdominal\r\nhttp://www.myspace.com/discjockfase",
+            "duration": 310,
+            "embed": true
+        }
     },
     {
         "id": "768452_D3",
         "discogsreleaseId": 768452,
         "discogsIndex": 12,
         "appleMusicTrackId": 22979,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=llnMqKVLxmY",
+            "title": "Abdominal & Dj Fase - A Tale Of Two Bitties",
+            "description": "Enjoy.",
+            "duration": 386,
+            "embed": true
+        }
     },
     {
         "id": "4124120_A",
@@ -22738,7 +24250,13 @@
         "discogsreleaseId": 20340490,
         "discogsIndex": 4,
         "appleMusicTrackId": 21985,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=YuN4HMr4nJk",
+            "title": "Dj Shadow - Changeling (Transmission 1)",
+            "description": "Album: Endtroducing.....\nYear: 1994-1996",
+            "duration": 474,
+            "embed": true
+        }
     },
     {
         "id": "20340490_B1",
@@ -22851,7 +24369,13 @@
         "discogsreleaseId": 2034124,
         "discogsIndex": 0,
         "appleMusicTrackId": 26806,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=khD3scMX238",
+            "title": "Osaka Monaurail - Hung Up (vocal version)",
+            "description": "",
+            "duration": 185,
+            "embed": true
+        }
     },
     {
         "id": "2034124_B",
@@ -22871,7 +24395,13 @@
         "discogsreleaseId": 1732733,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=ir0n_h0SOYA",
+            "title": "Sweet Charles - Yes It's You",
+            "description": "1974",
+            "duration": 188,
+            "embed": true
+        }
     },
     {
         "id": "1732733_AA1",
@@ -22975,7 +24505,13 @@
         "discogsreleaseId": 1937815,
         "discogsIndex": 11,
         "appleMusicTrackId": 10297,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=SLDcIRhH1s4",
+            "title": "Auf der Flucht (Instrumental)",
+            "description": "Provided to YouTube by Believe SAS\n\nAuf der Flucht (Instrumental) · Torch\n\nBlauer Samt (Instrumentals)\n\n℗ 360° Records\n\nReleased on: 2000-09-24\n\nMusic Publisher: Copyright Control\nComposer: Frederik Hahn\n\nAuto-generated by YouTube.",
+            "duration": 369,
+            "embed": true
+        }
     },
     {
         "id": "1937815_B7",
@@ -23009,7 +24545,13 @@
         "discogsreleaseId": 1937815,
         "discogsIndex": 15,
         "appleMusicTrackId": 10303,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=nBsC83hBfDw",
+            "title": "Ich hab geschrieben (Instrumental)",
+            "description": "Provided to YouTube by Believe SAS\n\nIch hab geschrieben (Instrumental) · Torch\n\nBlauer Samt (Instrumentals)\n\n℗ 360° Records\n\nReleased on: 2000-09-24\n\nComposer: Bülent Teztiker\nMusic Publisher: Copyright Control\nComposer: Frederik Hahn\n\nAuto-generated",
+            "duration": 230,
+            "embed": true
+        }
     },
     {
         "id": "1937815_C4",
@@ -23221,7 +24763,13 @@
         "discogsreleaseId": 184062,
         "discogsIndex": 5,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=eAF0LLSdkeI",
+            "title": "Gunshot - Radio?",
+            "description": "Gunshot - Radio?\n\nTrack 6 taken from 'Patriot Games' (1993)\nhttp://www.discogs.com/Gunshot-Patriot-Games/master/64535\n\nLabel - Vinyl Solution",
+            "duration": 131,
+            "embed": true
+        }
     },
     {
         "id": "184062_7",
@@ -23274,7 +24822,13 @@
         "discogsreleaseId": 184062,
         "discogsIndex": 10,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=a7U4NW3hKtg",
+            "title": "Gunshot - Mind Of A Razor VIDEO (1994)",
+            "description": "http://90erhiphop.de/ Gunshot - Mind of a Razor (1992)",
+            "duration": 222,
+            "embed": true
+        }
     },
     {
         "id": "184062_12",
@@ -23426,7 +24980,13 @@
         "discogsreleaseId": 206065,
         "discogsIndex": 9,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=vcx4qQsxzQU",
+            "title": "Battle creek brawl - gunshot",
+            "description": "hardcore action from on of the best britcore groups everrrrrrr!!!!!!!!!!",
+            "duration": 197,
+            "embed": true
+        }
     },
     {
         "id": "206065_11",
@@ -23579,7 +25139,13 @@
         "discogsreleaseId": 15918094,
         "discogsIndex": 2,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=FX5T9GvSnbY",
+            "title": "THE MAR-KEYS - Last Night",
+            "description": " ",
+            "duration": 161,
+            "embed": true
+        }
     },
     {
         "id": "15918094_A4",
@@ -23625,14 +25191,26 @@
         "discogsreleaseId": 15918094,
         "discogsIndex": 6,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=2yGFcHc8wDQ",
+            "title": "Stevie Wonder - Ain't That Love (1962)",
+            "description": "Classic Mood Experience The best masterpieces ever recorded in the music history.\nJoin our Youtube: https://goo.gl/8AOGaN\nJoin our Facebook: http://goo.gl/5oL723\nStevland Hardaway Morris (born Stevland Hardaway Judkins, May 13, 1950), known by his stage n",
+            "duration": 162,
+            "embed": true
+        }
     },
     {
         "id": "15918094_B1",
         "discogsreleaseId": 15918094,
         "discogsIndex": 7,
         "appleMusicTrackId": 13041,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=oP-vD4ScAGA",
+            "title": "Herbie Hancock - Watermelon Man (1962)",
+            "description": "Subscribe to our channel: http://bit.ly/ClassicMoodExperience\nClassic Mood Experience The best masterpieces ever recorded in the music history.\nJoin our Facebook: http://goo.gl/5oL723\nJoin our Youtube: https://goo.gl/8AOGaN\nHerbert Jeffrey Herbie Hancoc",
+            "duration": 429,
+            "embed": true
+        }
     },
     {
         "id": "15918094_B2",
@@ -23686,7 +25264,13 @@
         "discogsreleaseId": 1743694,
         "discogsIndex": 1,
         "appleMusicTrackId": 131595,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=aPtZp1BnAD8",
+            "title": "Colman Brothers - Sem Amor (Rhythm & Brass Remix) - FREE DOWNLOAD",
+            "description": "",
+            "duration": 241,
+            "embed": true
+        }
     },
     {
         "id": "5282891_A",
@@ -23755,7 +25339,13 @@
         "discogsreleaseId": 3732349,
         "discogsIndex": 6,
         "appleMusicTrackId": 19428,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=hB83ha8lYnk",
+            "title": "Colman Brothers - Some Other Wonder (OFFICIAL)",
+            "description": "Romance is not dead! One of the favourite album tracks for many a listener, the perfect slow jazz bossa Some Other Wonder - buy now at http://www.wahwah45s.com or http://www.colmanbrothers.com.\n\nIf you enjoy please like, favourite, comment, rate etc.! xx",
+            "duration": 285,
+            "embed": true
+        }
     },
     {
         "id": "3732349_B3",
@@ -23769,7 +25359,13 @@
         "discogsreleaseId": 3732349,
         "discogsIndex": 8,
         "appleMusicTrackId": 19432,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=qDzWGkuOHDI",
+            "title": "Colman Brothers - On A Better Day",
+            "description": "Colman Brothers\n\nWAHCD014\n\nhttp://www.discogs.com/Colman-Brothers-Colman-Brothers/master/454004",
+            "duration": 321,
+            "embed": true
+        }
     },
     {
         "id": "3732349_B5",
@@ -23797,7 +25393,13 @@
         "discogsreleaseId": 3268700,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=sWj2KV2jEPc",
+            "title": "Dusty Springfield - Son of a Preacher Man (Holtoug bootleg)",
+            "description": "Woah, finally a good remix of Dusty!\n\nMore info on the track: http://www.funkmylife.com/2011/02/son-of-a-preacher-man/",
+            "duration": 289,
+            "embed": true
+        }
     },
     {
         "id": "3268700_AA",
@@ -24186,7 +25788,13 @@
         "discogsreleaseId": 1520662,
         "discogsIndex": 9,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=0vqgdSsfqPs",
+            "title": "R.E.M. - Imitation Of Life (Official Music Video)",
+            "description": "Imitation Of Life from R.E.M.'s 2001 album, Reveal\n\nBuy the album: https://rem.lnk.to/RevealYD\nTo learn more, visit http://www.remhq.com\n\n———————\nSubscribe for more R.E.M.: http://bit.ly/subscribe-to-remhq\n \nFollow On:\nYouTube: http://fo",
+            "duration": 238,
+            "embed": true
+        }
     },
     {
         "id": "1520662_B3",
@@ -24239,7 +25847,13 @@
         "discogsreleaseId": 2713886,
         "discogsIndex": 0,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=FCvDNSPf5uw",
+            "title": "Renegades Of Jazz - Get A Wiggle On",
+            "description": "",
+            "duration": 311,
+            "embed": true
+        }
     },
     {
         "id": "2713886_A2",
@@ -24387,7 +26001,13 @@
         "discogsreleaseId": 14214900,
         "discogsIndex": 8,
         "appleMusicTrackId": 26118,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=2WzGPaJgeE4",
+            "title": "The Raincoats - You're a Million",
+            "description": "The Raincoats (1979)\nLyrics:\n\nStop here\n\nThis is for you as my lover was for nobody\nAs the rain that didn't wet you\nAnd the sun that didn't warm you\n\nStop here\n\nThis is for you, you don't need to pay\nBecause it didn't cost me anything\nStop here and go awa",
+            "duration": 239,
+            "embed": true
+        }
     },
     {
         "id": "14214900_B4",
@@ -24401,7 +26021,13 @@
         "discogsreleaseId": 14214900,
         "discogsIndex": 10,
         "appleMusicTrackId": 26102,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=61Ocno-uI3s",
+            "title": "No Looking, the Raincoats",
+            "description": "No Looking, by the Raincoats",
+            "duration": 182,
+            "embed": true
+        }
     },
     {
         "id": "2877842_A1",
@@ -24447,7 +26073,13 @@
         "discogsreleaseId": 2877842,
         "discogsIndex": 3,
         "appleMusicTrackId": null,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=A63mGzWqh3A",
+            "title": "Pablo Sanchez & Watch TV - Sunstar (ZEB Remix)",
+            "description": "From: VA - Nickodemus presents Turntables On The Hudson Vol. 8: Reflecting Cielo (2011)\n\nIf you like it, like it!\nhttp://www.facebook.com/pages/Soulful-Music-Box/314840908574760",
+            "duration": 268,
+            "embed": true
+        }
     },
     {
         "id": "7765560_A1",
@@ -24694,7 +26326,13 @@
         "discogsreleaseId": 15448171,
         "discogsIndex": 0,
         "appleMusicTrackId": 10333,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=gGNKXsw_0Iw",
+            "title": "The Architect - Une Plage Sur La Lune (Official Video)",
+            "description": "The Architect Une Plage Sur La Lune clip officiel extrait de son nouvel album disponible ici en vinyle et CD 👉 https://fr.shopxray.com/thearchitect\n● SUBSCRIBE FOR MORE 👉 http://bit.ly/TheArchitectYouTube\n\nStream Une Plage Sur La Lune  👉 ht",
+            "duration": 265,
+            "embed": true
+        }
     },
     {
         "id": "15448171_A2",
@@ -24845,7 +26483,13 @@
         "discogsreleaseId": 5877431,
         "discogsIndex": 4,
         "appleMusicTrackId": 24737,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=t2IjxP-62LU",
+            "title": "Jungle - Drops",
+            "description": "",
+            "duration": 172,
+            "embed": true
+        }
     },
     {
         "id": "5877431_A6",
@@ -24866,7 +26510,13 @@
         "discogsreleaseId": 5877431,
         "discogsIndex": 7,
         "appleMusicTrackId": 24729,
-        "video": null
+        "video": {
+            "uri": "https://www.youtube.com/watch?v=RGpnf1HcaLw",
+            "title": "Jungle - Julia",
+            "description": "",
+            "duration": 196,
+            "embed": true
+        }
     },
     {
         "id": "5877431_B3",

@@ -36,7 +36,7 @@ export class RetrieveMergedTracksService {
     const string = trackName;
     const result = stringSimilarity.findBestMatch(string, videoNames);
     const bestMatch =
-      result.bestMatch.rating > 0.6 ? videos[result.bestMatchIndex] : null;
+      result.bestMatch.rating > 0.49 ? videos[result.bestMatchIndex] : null;
     Logger.log(`video found match: ${bestMatch !== null}`);
 
     return bestMatch;

@@ -2,7 +2,7 @@ import { Controller, Get, Logger, Param, Put } from '@nestjs/common';
 
 import { AppService } from './app.service';
 import { Observable } from 'rxjs';
-import { MergedTrack, Release } from '@playlistr/shared/types';
+import { AppleMusicTrack, MergedTrack, Release } from '@playlistr/shared/types';
 
 @Controller()
 export class AppController {
@@ -32,12 +32,12 @@ export class AppController {
   }
 
   @Get('convert-apple-music')
-  convertAppleMusic(): Promise<any[]> {
+  convertAppleMusic(): Promise<AppleMusicTrack[]> {
     return this.appService.convertAppleMusic();
   }
 
   @Get('apple-music')
-  appleMusic() {
+  appleMusic(): Promise<Observable<AppleMusicTrack[]>> {
     return this.appService.getAppleMusicJson();
   }
 }

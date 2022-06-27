@@ -16,14 +16,22 @@
     "baseUrl": ".",
     "paths": {
       "@playlistr/fe/api": ["libs/fe/api/src/index.ts"],
+      "@playlistr/fe/apple-music/api": ["libs/fe/apple-music/api/src/index.ts"],
+      "@playlistr/fe/apple-music/data-access": [
+        "libs/fe/apple-music/data-access/src/index.ts"
+      ],
       "@playlistr/fe/apple-music/features/tracks": [
         "libs/fe/apple-music/features/tracks/src/index.ts"
       ],
+      "@playlistr/fe/collection/api": ["libs/fe/collection/api/src/index.ts"],
       "@playlistr/fe/collection/data-access": [
         "libs/fe/collection/data-access/src/index.ts"
       ],
       "@playlistr/fe/collection/features/discogs-releases": [
         "libs/fe/collection/features/discogs-releases/src/index.ts"
+      ],
+      "@playlistr/fe/tracks/data-access": [
+        "libs/fe/tracks/data-access/src/index.ts"
       ],
       "@playlistr/fe/tracks/features/merged-tracks": [
         "libs/fe/tracks/features/merged-tracks/src/index.ts"

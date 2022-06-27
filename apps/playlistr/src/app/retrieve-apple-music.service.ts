@@ -1,7 +1,7 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { DataAccessService } from './data.access.service';
 import { firstValueFrom, Observable, of, Subject } from 'rxjs';
-import { Release } from '@playlistr/shared/types';
+import { AppleMusicTrack } from '@playlistr/shared/types';
 
 const fs = require('fs'),
   itunes = require('itunes-data');
@@ -10,12 +10,12 @@ const fs = require('fs'),
 export class RetrieveAppleMusicService {
   constructor(private dataAccessService: DataAccessService) {}
 
-  async convertPlaylist(): Promise<any[]> {
+  async convertPlaylist(): Promise<AppleMusicTrack[]> {
     const parser = itunes.parser();
     const stream = fs.createReadStream(
       this.dataAccessService.getAppleMusicXMLLocation()
     );
-    const tracks = [];
+    const tracks: AppleMusicTrack[] = [];
     parser.on('track', function (track) {
       tracks.push(track);
     });
@@ -29,7 +29,7 @@ export class RetrieveAppleMusicService {
     return tracks;
   }
 
-  private getCollectionData(): Release[] | null {
+  private getCollectionData(): AppleMusicTrack[] | null {
     const collectionJsonRaw = this.dataAccessService.getAppleMusicJson();
     const collectionJson =
       collectionJsonRaw && collectionJsonRaw.length
@@ -38,7 +38,7 @@ export class RetrieveAppleMusicService {
     return collectionJson;
   }
 
-  async getAppleMusicJson(): Promise<Observable<any[]>> {
+  async getAppleMusicJson(): Promise<Observable<AppleMusicTrack[]>> {
     const appleMusicJson = this.getCollectionData();
 
     if (appleMusicJson && appleMusicJson.length) {

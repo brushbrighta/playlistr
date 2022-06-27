@@ -3,9 +3,13 @@
   "version": 2,
   "projects": {
     "fe-api": "libs/fe/api",
+    "fe-apple-music-api": "libs/fe/apple-music/api",
+    "fe-apple-music-data-access": "libs/fe/apple-music/data-access",
     "fe-apple-music-features-tracks": "libs/fe/apple-music/features/tracks",
+    "fe-collection-api": "libs/fe/collection/api",
     "fe-collection-data-access": "libs/fe/collection/data-access",
     "fe-collection-features-discogs-releases": "libs/fe/collection/features/discogs-releases",
+    "fe-tracks-data-access": "libs/fe/tracks/data-access",
     "fe-tracks-features-merged-tracks": "libs/fe/tracks/features/merged-tracks",
     "fe-typed-ui": "libs/fe/typed-ui",
     "playlistr": "apps/playlistr",

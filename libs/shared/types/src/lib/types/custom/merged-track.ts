@@ -1,4 +1,4 @@
-import { Video } from '../response/video';
+import { Video } from '../discogs/response';
 
 export interface MergedTrack {
   id: string; // discogsreleaseId + '_' + discogs_position

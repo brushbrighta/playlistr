@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { Observable } from 'rxjs';
 
-import { MergedTrack, Release } from '@playlistr/shared/types';
+import { AppleMusicTrack, MergedTrack, Release } from '@playlistr/shared/types';
 import { RetrieveAlbumImageService } from './retrieve-album-image.service';
 import { RetrieveDiscogsCollectionService } from './retrieve-discogs-collection.service';
 import { RetrieveTrackBpmService } from './retrieve-track-bpm.service';
@@ -34,11 +34,11 @@ export class AppService {
     return this.retrieveTrackBpmService.retrieveBpm(trackId);
   }
 
-  convertAppleMusic() {
+  convertAppleMusic(): Promise<AppleMusicTrack[]> {
     return this.retrieveAppleMusicService.convertPlaylist();
   }
 
-  getAppleMusicJson() {
+  getAppleMusicJson(): Promise<Observable<AppleMusicTrack[]>> {
     return this.retrieveAppleMusicService.getAppleMusicJson();
   }
 }

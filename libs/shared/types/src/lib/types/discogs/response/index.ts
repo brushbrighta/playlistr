@@ -1,16 +1,20 @@
-import { SearchLabel } from "./searchLabel";
-import { SearchArtist } from "./searchArtist";
-import { SearchMaster } from "./searchMaster";
-import { SearchRelease } from "./searchRelease";
-import { Pagination } from "./pagination";
-import { ArtistRelease } from "./artistRelease";
-import { ArtistMaster } from "./artistMaster";
-import { LabelRelease } from "./labelRelease";
-import { MasterVersions } from "./masterVersions";
-import { Artist } from "./artist";
-import { Master } from "./master";
-import { Release } from "./release";
-import { Label } from "./label";
+import { SearchLabel } from './searchLabel';
+import { SearchArtist } from './searchArtist';
+import { SearchMaster } from './searchMaster';
+import { SearchRelease } from './searchRelease';
+import { Pagination } from './pagination';
+import { ArtistRelease } from './artistRelease';
+import { ArtistMaster } from './artistMaster';
+import { LabelRelease } from './labelRelease';
+import { MasterVersions } from './masterVersions';
+import { Artist } from './artist';
+import { Master } from './master';
+import { Release } from './release';
+import { Label } from './label';
+
+export { Release, ReleaseTrack } from './release';
+export { Video } from './video';
+export { Artist, ArtistAlias } from './artist';
 
 export interface GetArtistResponse extends Artist {}
 export interface GetMasterResponse extends Master {}
