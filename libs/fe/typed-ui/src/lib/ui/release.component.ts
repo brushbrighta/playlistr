@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 import { Release } from '@playlistr/shared/types';
 @Component({
   selector: 'plstr-release',
@@ -8,14 +8,14 @@ import { Release } from '@playlistr/shared/types';
         <img
           style="width: 100px; height: auto"
           [src]="'http://localhost:3333/' + release.id + '.png'"
-          (error)="fetchImage(release.id)"
+          (error)="onFetchImage(release.id)"
         />
       </div>
 
       <div>
         <h3>{{ release.title }}</h3>
 
-        <!--        <button (click)="fetchImage(release.id)">Fetch image</button>-->
+        <button (click)="onFetchImage(release.id)">Fetch image</button>
         <ul *ngFor="let track of release.tracklist">
           <li>
             <small>{{ track.title }}</small>
@@ -25,14 +25,15 @@ import { Release } from '@playlistr/shared/types';
           <plstr-release-video [video]="video"></plstr-release-video>
         </ul>
       </div>
-      <hr style="clear: both" />
+      <hr style="clear: both"/>
     </div>
   `,
 })
 export class ReleaseComponent {
   @Input() release: Release | null = null;
+  @Output() fetchImage: EventEmitter<number> = new EventEmitter<number>();
 
-  fetchImage(releaseId: number) {
-    console.log('releaseId', releaseId);
+  onFetchImage(releaseId: number) {
+    this.fetchImage.emit(releaseId);
   }
 }

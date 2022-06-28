@@ -10,7 +10,7 @@ import {
   timer,
 } from 'rxjs';
 
-import { Release } from '@playlistr/shared/types';
+import {CollectionMeta, Release} from '@playlistr/shared/types';
 import { DataAccessService } from './data.access.service';
 
 @Injectable()
@@ -34,9 +34,9 @@ export class RetrieveDiscogsCollectionService {
   getCollection(): Observable<Release[]> {
     const collectionJson = this.getCollectionData();
 
-    if (collectionJson && collectionJson.length) {
-      return of(collectionJson);
-    }
+    // if (collectionJson && collectionJson.length) {
+    //   return of(collectionJson);
+    // }
 
     const url =
       'https://api.discogs.com/users/' +
@@ -47,36 +47,53 @@ export class RetrieveDiscogsCollectionService {
     const metaJson =
       metaJsonRaw && metaJsonRaw.length ? JSON.parse(metaJsonRaw) : '';
 
-    const meta$ =
-      metaJson && metaJson.length
-        ? of(metaJson)
-        : this.httpService.get(url).pipe(
+    const meta$: Observable<CollectionMeta[]> = this.httpService.get(url).pipe(
             map((response) =>
-              response.data.releases.map((s) => ({
-                url: s.basic_information.resource_url,
-              }))
+              response.data.releases.map((s, index) => {
+                return {
+                  id: s.id,
+                  url: s.basic_information.resource_url,
+                };
+              })
             ),
-            tap(this.dataAccessService.writeMetaJson)
+            map((currentlyRetrieved) => {
+              this.dataAccessService.writeMetaJson(
+                this.dataAccessService.mergeMetaJsons(currentlyRetrieved, metaJson)
+              );
+              const updatedMetaJson = this.dataAccessService.getMetaJson();
+              return updatedMetaJson && updatedMetaJson.length ?  JSON.parse(updatedMetaJson) : []
+            }),
           );
     return meta$.pipe(
-      switchMap((urls: { url: string }[]) => {
-        // const jsonRaw = this.getMetaJson();
+      switchMap((meta: CollectionMeta[]) => {
 
-        const requests = urls.map((url, index) => {
+        const filteredMeta: CollectionMeta[] = meta.filter(entry => collectionJson.findIndex(existing => existing.id === entry.id) === -1);
+
+        if (filteredMeta.length === 0) {
+          return of(collectionJson);
+        }
+
+        Logger.log('Add missing items to releases', filteredMeta.length);
+        const requests = filteredMeta.map((meta: CollectionMeta, index) => {
           return timer(Math.floor(index / 10) * 60000).pipe(
-            tap((_) => Logger.log('fetching ', url)),
+            tap((_) => Logger.log('fetching ', meta.url)),
             switchMap((_) =>
               this.httpService
-                .get(url.url)
+                .get(meta.url)
                 .pipe(map((response) => response.data))
             )
           );
         });
         return combineLatest(requests).pipe(
-          tap((res) => this.dataAccessService.writeCollectionReleasesJson(res))
+          tap((res) => this.dataAccessService.writeCollectionReleasesJson(
+            this.dataAccessService.mergeCollectionJsons(res, collectionJson)
+          ))
         );
       })
     );
+
+
+
     // from http://nuxostyle.free.fr/rdm/
     //
     // Logger.log('get collection: at ' + url);

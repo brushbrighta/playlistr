@@ -1,24 +1,15 @@
 import {
   Component,
-  Directive,
-  Input,
   OnInit,
-  TemplateRef,
-  ViewContainerRef,
 } from '@angular/core';
-import { Release } from '@playlistr/shared/types';
 import { DiscogsReleaseFacade } from '@playlistr/fe/collection/data-access';
-import { combineLatest, from, map, switchMap, tap, timer } from 'rxjs';
 
-interface LetContext<T> {
-  ngLet: T;
-}
 
 @Component({
   selector: 'pl-releases',
   template: `
     <div *ngFor="let release of releases$ | async">
-      <plstr-release [release]="release"></plstr-release>
+      <plstr-release [release]="release" (fetchImage)="fetchImage($event)"></plstr-release>
     </div>
   `,
 })
@@ -28,9 +19,9 @@ export class ReleasesListComponent implements OnInit {
 
   constructor(private discogsReleaseFacade: DiscogsReleaseFacade) {}
 
-  // fetchImage(id: number) {
-  //   this.discogsReleaseFacade.fetchImage(id);
-  // }
+  fetchImage(id: number) {
+    this.discogsReleaseFacade.fetchImage(id);
+  }
   ngOnInit() {
     // to iterate softly
     //

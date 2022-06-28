@@ -7,6 +7,7 @@ import { YtPlayerComponent } from './yt-player.component';
 import { FeAppleMusicApiModule } from '@playlistr/fe/apple-music/api';
 import { FeCollectionApiModule } from '@playlistr/fe/collection/api';
 import { FeTracksDataAccessModule } from '@playlistr/fe/tracks/data-access';
+import {MergedTracksService} from "./merged.tracks.service";
 
 @NgModule({
   imports: [
@@ -19,5 +20,6 @@ import { FeTracksDataAccessModule } from '@playlistr/fe/tracks/data-access';
   ],
   declarations: [MergedTracksComponent, YtPlayerComponent],
   exports: [MergedTracksComponent],
+  providers: [MergedTracksService]
 })
 export class FeTracksFeaturesMergedTracksModule {}

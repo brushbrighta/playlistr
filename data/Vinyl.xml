@@ -4,7 +4,7 @@
 <dict>
 	<key>Major Version</key><integer>1</integer>
 	<key>Minor Version</key><integer>1</integer>
-	<key>Date</key><date>2022-06-26T10:33:47Z</date>
+	<key>Date</key><date>2022-06-27T07:56:30Z</date>
 	<key>Application Version</key><string>1.1.5.74</string>
 	<key>Features</key><integer>5</integer>
 	<key>Show Content Ratings</key><true/>
@@ -7912,8 +7912,8 @@
 			<key>Play Count</key><integer>32</integer>
 			<key>Play Date</key><integer>3738684184</integer>
 			<key>Play Date UTC</key><date>2022-06-21T17:23:04Z</date>
-			<key>Skip Count</key><integer>1</integer>
-			<key>Skip Date</key><date>2021-05-06T19:11:27Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2022-06-26T12:58:51Z</date>
 			<key>Release Date</key><date>2021-03-26T12:00:00Z</date>
 			<key>Loved</key><true/>
 			<key>Artwork Count</key><integer>1</integer>
@@ -34105,6 +34105,39 @@
 			<key>Track Type</key><string>Remote</string>
 			<key>Apple Music</key><true/>
 		</dict>
+		<key>14003</key>
+		<dict>
+			<key>Track ID</key><integer>14003</integer>
+			<key>Name</key><string>Oriental Workload</string>
+			<key>Artist</key><string>James Asher</string>
+			<key>Album Artist</key><string>James Asher</string>
+			<key>Album</key><string>Abstracts</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Apple Music AAC-Audiodatei</string>
+			<key>Size</key><integer>5203322</integer>
+			<key>Total Time</key><integer>136067</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2008</integer>
+			<key>Date Modified</key><date>2021-05-12T19:49:59Z</date>
+			<key>Date Added</key><date>2021-05-12T19:49:59Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3703701125</integer>
+			<key>Play Date UTC</key><date>2021-05-12T19:52:05Z</date>
+			<key>Release Date</key><date>2008-05-30T12:00:00Z</date>
+			<key>Loved</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Abstracts</string>
+			<key>Sort Artist</key><string>James Asher</string>
+			<key>Sort Name</key><string>Oriental Workload</string>
+			<key>Persistent ID</key><string>EFDE5A9DB2DE64C9</string>
+			<key>Track Type</key><string>Remote</string>
+			<key>Apple Music</key><true/>
+		</dict>
 		<key>14005</key>
 		<dict>
 			<key>Track ID</key><integer>14005</integer>
@@ -34141,6 +34174,36 @@
 			<key>Track Type</key><string>Remote</string>
 			<key>Apple Music</key><true/>
 		</dict>
+		<key>14007</key>
+		<dict>
+			<key>Track ID</key><integer>14007</integer>
+			<key>Name</key><string>Giving Up</string>
+			<key>Artist</key><string>Zulema</string>
+			<key>Album Artist</key><string>Zulema</string>
+			<key>Composer</key><string>Danny Wolfe</string>
+			<key>Album</key><string>Ms. Z</string>
+			<key>Genre</key><string>R&#38;B/Soul</string>
+			<key>Kind</key><string>Apple Music AAC-Audiodatei</string>
+			<key>Size</key><integer>15688267</integer>
+			<key>Total Time</key><integer>430421</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>1973</integer>
+			<key>Date Modified</key><date>2021-05-12T19:53:28Z</date>
+			<key>Date Added</key><date>2021-05-12T19:53:28Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>1973-10-30T12:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Ms. Z</string>
+			<key>Sort Artist</key><string>Zulema</string>
+			<key>Sort Name</key><string>Giving Up</string>
+			<key>Persistent ID</key><string>AE96413072699B0C</string>
+			<key>Track Type</key><string>Remote</string>
+			<key>Apple Music</key><true/>
+		</dict>
 		<key>14009</key>
 		<dict>
 			<key>Track ID</key><integer>14009</integer>
@@ -34174,6 +34237,40 @@
 			<key>Sort Artist</key><string>Harry Beckett</string>
 			<key>Sort Name</key><string>Ring Within Rings (feat. Nigel Morris, Daryl Runswick, Ray Russell, Brian Miller &#38; Martin David)</string>
 			<key>Persistent ID</key><string>337D86DA88CED838</string>
+			<key>Track Type</key><string>Remote</string>
+			<key>Apple Music</key><true/>
+		</dict>
+		<key>14011</key>
+		<dict>
+			<key>Track ID</key><integer>14011</integer>
+			<key>Name</key><string>Romantic Attitude</string>
+			<key>Artist</key><string>John Fitch &#38; Associates</string>
+			<key>Album Artist</key><string>Various Artists</string>
+			<key>Album</key><string>5000 Seconds Over Toyland - Rubble Collection 15 - Remastered</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Apple Music AAC-Audiodatei</string>
+			<key>Size</key><integer>6869720</integer>
+			<key>Total Time</key><integer>193698</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>16</integer>
+			<key>Year</key><integer>2013</integer>
+			<key>Date Modified</key><date>2021-05-12T19:57:23Z</date>
+			<key>Date Added</key><date>2021-05-12T19:57:23Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3703701633</integer>
+			<key>Play Date UTC</key><date>2021-05-12T20:00:33Z</date>
+			<key>Release Date</key><date>2013-10-15T12:00:00Z</date>
+			<key>Loved</key><true/>
+			<key>Compilation</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>5000 Seconds Over Toyland - Rubble Collection 15 - Remastered</string>
+			<key>Sort Artist</key><string>John Fitch &#38; Associates</string>
+			<key>Sort Name</key><string>Romantic Attitude</string>
+			<key>Persistent ID</key><string>8FD2CA9E9AE053B6</string>
 			<key>Track Type</key><string>Remote</string>
 			<key>Apple Music</key><true/>
 		</dict>
@@ -73434,10 +73531,19 @@
 					<key>Track ID</key><integer>14013</integer>
 				</dict>
 				<dict>
+					<key>Track ID</key><integer>14011</integer>
+				</dict>
+				<dict>
 					<key>Track ID</key><integer>14009</integer>
 				</dict>
 				<dict>
+					<key>Track ID</key><integer>14007</integer>
+				</dict>
+				<dict>
 					<key>Track ID</key><integer>14005</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>14003</integer>
 				</dict>
 				<dict>
 					<key>Track ID</key><integer>14001</integer>

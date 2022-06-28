@@ -85,7 +85,7 @@ export interface ReleaseTrack {
   duration: string;
   position: string;
   type_: string;
-  artists?: EntityArtist[];
+  artists: EntityArtist[];
   title: string;
   extraartists?: EntityArtist[];
 }

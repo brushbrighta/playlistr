@@ -3,7 +3,7 @@ import { createEffect, Actions, ofType, OnInitEffects } from '@ngrx/effects';
 import { fetch } from '@nrwl/angular';
 import * as DiscogsReleaseActions from './discogs-release.actions';
 import { CollectionApiService } from '@playlistr/fe/api';
-import { map } from 'rxjs';
+import {debounceTime, map} from 'rxjs';
 import { Action } from '@ngrx/store';
 
 @Injectable()
@@ -47,6 +47,13 @@ export class DiscogsReleaseEffects implements OnInitEffects {
       })
     )
   );
+
+  reloadAfterSuccess$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(DiscogsReleaseActions.fetchImageSuccess),
+      debounceTime(500),
+      map(_ => DiscogsReleaseActions.init()))
+  )
 
   ngrxOnInitEffects(): Action {
     return DiscogsReleaseActions.init();

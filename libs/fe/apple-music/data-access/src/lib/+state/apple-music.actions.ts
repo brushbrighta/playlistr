@@ -12,3 +12,19 @@ export const loadAppleMusicTracksFailure = createAction(
   '[AppleMusicTrack/API] Load AppleMusicTrack Failure',
   props<{ error: any }>()
 );
+
+
+export const setMoodFilter = createAction(
+  '[AppleMusicTrack/API] Set Mood Filter',
+  props<{ filters: string[] }>()
+);
+
+export const setSetFilter = createAction(
+  '[AppleMusicTrack/API] Set Set Filter',
+  props<{ filters: string[] }>()
+);
+
+export const setGenreFilter = createAction(
+  '[AppleMusicTrack/API] Set Genre Filter',
+  props<{ filters: string[] }>()
+);

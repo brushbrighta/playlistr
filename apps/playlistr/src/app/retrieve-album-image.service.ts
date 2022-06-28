@@ -5,7 +5,6 @@ import axios from 'axios';
 import * as fs from 'fs';
 import { DataAccessService } from './data.access.service';
 import * as puppeteer from 'puppeteer';
-// const puppeteer = require('puppeteer');
 
 async function downloadImage(url, filepath) {
   const response = await axios({

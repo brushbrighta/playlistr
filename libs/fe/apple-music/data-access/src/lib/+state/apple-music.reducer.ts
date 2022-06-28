@@ -5,6 +5,9 @@ import { appleMusicTrackAdapter, State } from './apple-music.models';
 
 export const initialState: State = appleMusicTrackAdapter.getInitialState({
   loaded: false,
+  setFilters: [],
+  moodFilters: [],
+  genreFilters: [],
 });
 
 const appleMusicReducer = createReducer(
@@ -25,6 +28,18 @@ const appleMusicReducer = createReducer(
   on(AppleMusicActions.loadAppleMusicTracksFailure, (state, { error }) => ({
     ...state,
     error,
+  })),
+  on(AppleMusicActions.setMoodFilter, (state, { filters }) => ({
+    ...state,
+    moodFilters: filters,
+  })),
+  on(AppleMusicActions.setSetFilter, (state, { filters }) => ({
+    ...state,
+    setFilters: filters,
+  })),
+  on(AppleMusicActions.setGenreFilter, (state, { filters }) => ({
+    ...state,
+    genreFilters: filters,
   }))
 );
 

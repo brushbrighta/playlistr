@@ -1,8 +1,8 @@
 import {
-  Component,
+  Component, EventEmitter,
   Input,
   OnChanges,
-  OnInit,
+  OnInit, Output,
   SimpleChanges,
   ViewChild,
 } from '@angular/core';
@@ -12,33 +12,48 @@ let apiLoaded = false;
 
 @Component({
   selector: 'pl-yt-player',
-  template: `<div *ngIf="videoId">
-    <youtube-player
-      #ytPLayer
-      [videoId]="videoId"
-      (ready)="play()"
-      (stateChange)="stateChange($event)"
-    ></youtube-player>
+  template: `<div *ngFor="let vid of [videoId]">
+    <div *ngIf="vid">
+      <youtube-player
+        #ytPLayer
+        [videoId]="vid"
+        [width]="1000"
+        [height]="600"
+        (ready)="play($event)"
+        (stateChange)="stateChange($event)"
+      ></youtube-player>
+    </div>
   </div>`,
 })
 export class YtPlayerComponent implements OnInit {
   // @ViewChild('ytPLayer', { static: true }) pLayer?: YouTubePlayer;
   @ViewChild(YouTubePlayer, { static: false }) pLayer?: YouTubePlayer;
   @Input() videoId: string | null = null;
+  @Input() fullScreen = true;
+  @Output() stopped: EventEmitter<void> = new EventEmitter<void>();
 
   constructor() {}
 
-  play() {
+  play(event?:  YT.PlayerEvent) {
+    if (typeof event !== 'undefined' && event.target.getPlayerState() === -1) {
+      console.log('play not worked');
+      this.onStopped();
+    }
     this.pLayer?.playVideo();
   }
 
+  onStopped() {
+    this.stopped.emit();
+  }
+
   stateChange(event: YT.OnStateChangeEvent) {
-    console.log('YT event', event);
+    console.log('YT event', event, this.videoId);
     if (event.data === 5) {
       this.play();
     }
     if (event.data === 0) {
-      // the video is end, do something here.
+      this.onStopped();
+
     }
   }
 

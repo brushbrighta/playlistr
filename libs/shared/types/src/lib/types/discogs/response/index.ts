@@ -15,6 +15,7 @@ import { Label } from './label';
 export { Release, ReleaseTrack } from './release';
 export { Video } from './video';
 export { Artist, ArtistAlias } from './artist';
+export { CollectionMeta } from './collection-meta';
 
 export interface GetArtistResponse extends Artist {}
 export interface GetMasterResponse extends Master {}

@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { Injectable, Logger } from '@nestjs/common';
+import {CollectionMeta, Release} from "@playlistr/shared/types";
 
 @Injectable()
 export class DataAccessService {
@@ -16,7 +17,10 @@ export class DataAccessService {
   private writeJson(data, fileName) {
     writeFileSync(
       join(process.cwd(), 'data', fileName),
-      JSON.stringify(data, null, 4)
+      JSON.stringify(data, null, 4),
+      {
+        flag: 'w',
+      }
     );
   }
 
@@ -27,12 +31,40 @@ export class DataAccessService {
   public writeMetaJson(data) {
     this.writeJson(data, this.CollectionMetaJsonName);
   }
+  public mergeMetaJsons(currentlyRetrieved: CollectionMeta[], metaJson: CollectionMeta[]): CollectionMeta[] {
+    if(!metaJson || !metaJson.length ) {
+      Logger.log('Blanc file. Number of items added', currentlyRetrieved.length);
+      return currentlyRetrieved;
+    }
+    const filteredRetrieved = currentlyRetrieved.filter(entry => metaJson.findIndex(existing => existing.id === entry.id) === -1);
+    if (filteredRetrieved.length) {
+      Logger.log('Number of items added', filteredRetrieved.length);
+      filteredRetrieved.forEach(item => Logger.log(item));
+    } else {
+      Logger.log('No new Items added');
+    }
+    return [...metaJson, ...filteredRetrieved];
+  }
   // releases
   public getCollectionReleasesJson() {
     return this.getJson(this.CollectionReleasesJsonName);
   }
   public writeCollectionReleasesJson(data) {
     this.writeJson(data, this.CollectionReleasesJsonName);
+  }
+  public mergeCollectionJsons(currentlyRetrieved: Release[], releaseJson: Release[]): Release[] {
+    if(!releaseJson || !releaseJson.length ) {
+      Logger.log('mergeCollectionJsons: Blanc file. Number of items added', currentlyRetrieved.length);
+      return currentlyRetrieved;
+    }
+    const filteredRetrieved = currentlyRetrieved.filter(entry => releaseJson.findIndex(existing => existing.id === entry.id) === -1);
+    if (filteredRetrieved.length) {
+      Logger.log('mergeCollectionJsons: Number of items added', filteredRetrieved.length);
+      filteredRetrieved.forEach(item => Logger.log(item));
+    } else {
+      Logger.log('mergeCollectionJsons: No new Items added');
+    }
+    return [...releaseJson, ...filteredRetrieved];
   }
   // tracks
   public getCollectionTracksJson() {
@@ -54,4 +86,6 @@ export class DataAccessService {
   public writetAppleMusicJson(data) {
     return this.writeJson(data, this.AppleMusicJsonName);
   }
+
+
 }
