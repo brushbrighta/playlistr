@@ -14,7 +14,7 @@ import {CollectionMeta, Release} from '@playlistr/shared/types';
 import { DataAccessService } from './data.access.service';
 
 @Injectable()
-export class RetrieveDiscogsCollectionService {
+export class DiscogsCollectionService {
   userName = 'nikolaj_bremen';
   constructor(
     private httpService: HttpService,
@@ -31,12 +31,22 @@ export class RetrieveDiscogsCollectionService {
     return collectionJson;
   }
 
+  updateRelease(releaesId: number): Observable<Release> {
+    const collectionJson: Release[] = this.getCollectionData() || [];
+    const release = collectionJson.find(r => r.id === releaesId);
+
+    const request =  this.httpService
+      .get(release.resource_url)
+      .pipe(map((response) => response.data));
+
+    return request.pipe(tap((release => {
+      this.dataAccessService.writeCollectionReleasesJson(this.dataAccessService.updateInCollection(collectionJson, release));
+    })));
+
+  }
+
   getCollection(): Observable<Release[]> {
     const collectionJson = this.getCollectionData();
-
-    // if (collectionJson && collectionJson.length) {
-    //   return of(collectionJson);
-    // }
 
     const url =
       'https://api.discogs.com/users/' +

@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 
 import { AppleMusicTrack, MergedTrack, Release } from '@playlistr/shared/types';
 import { RetrieveAlbumImageService } from './retrieve-album-image.service';
-import { RetrieveDiscogsCollectionService } from './retrieve-discogs-collection.service';
+import { DiscogsCollectionService } from './discogs-collection.service';
 import { RetrieveTrackBpmService } from './retrieve-track-bpm.service';
 import { RetrieveMergedTracksService } from './retrieve-merged-tracks.service';
 import { RetrieveAppleMusicService } from './retrieve-apple-music.service';
@@ -12,7 +12,7 @@ import { RetrieveAppleMusicService } from './retrieve-apple-music.service';
 export class AppService {
   constructor(
     private retrieveAlbumImageService: RetrieveAlbumImageService,
-    private discogsCollectionService: RetrieveDiscogsCollectionService,
+    private discogsCollectionService: DiscogsCollectionService,
     private retrieveTrackBpmService: RetrieveTrackBpmService,
     private retrieveMergedTracksService: RetrieveMergedTracksService,
     private retrieveAppleMusicService: RetrieveAppleMusicService
@@ -20,6 +20,10 @@ export class AppService {
 
   getCollection(): Observable<Release[]> {
     return this.discogsCollectionService.getCollection();
+  }
+
+  updateRelease(id: number) {
+    return this.discogsCollectionService.updateRelease(id);
   }
 
   getTracks(): Promise<Observable<MergedTrack[]>> {

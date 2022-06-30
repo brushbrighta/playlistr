@@ -18,9 +18,15 @@ export class AppController {
     return this.appService.getTracks();
   }
 
+  // zu get-image-for-release
   @Get('add-image-to-release/:id')
   addImage(@Param('id') id: string): Promise<null> {
     return this.appService.addImage(id);
+  }
+
+  @Get('update-release/:id')
+  updateRelease(@Param('id') id: string): Observable<Release> {
+    return this.appService.updateRelease(parseInt(id, 10));
   }
 
   @Get('retrieve-bpm/:track_id')

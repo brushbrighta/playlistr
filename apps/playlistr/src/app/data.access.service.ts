@@ -66,6 +66,15 @@ export class DataAccessService {
     }
     return [...releaseJson, ...filteredRetrieved];
   }
+
+  public updateInCollection(releaseJson: Release[], newRelease): Release[] {
+    const index = releaseJson.findIndex(r => r.id === newRelease.id);
+    if (index > -1) {
+      releaseJson[index] = newRelease;
+    }
+    return releaseJson;
+  }
+
   // tracks
   public getCollectionTracksJson() {
     return this.getJson(this.CollectionTracksJsonName);

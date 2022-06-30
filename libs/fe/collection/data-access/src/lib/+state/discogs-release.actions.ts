@@ -21,6 +21,21 @@ export const fetchImageFailure = createAction(
   '[DiscogsRelease/API] Fetch image Failure'
 );
 
+
+
+export const refreshRelease = createAction(
+  '[DiscogsRelease/API] Fetch image',
+  props<{ releaseId: number }>()
+);
+
+export const refreshReleaseSuccess = createAction(
+  '[DiscogsRelease/API] Fetch image Success'
+);
+
+export const refreshReleaseFailure = createAction(
+  '[DiscogsRelease/API] Fetch image Failure'
+);
+
 export const loadDiscogsReleaseFailure = createAction(
   '[DiscogsRelease/API] Load DiscogsRelease Failure',
   props<{ error: any }>()

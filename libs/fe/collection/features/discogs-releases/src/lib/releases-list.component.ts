@@ -8,6 +8,7 @@ import { DiscogsReleaseFacade } from '@playlistr/fe/collection/data-access';
 @Component({
   selector: 'pl-releases',
   template: `
+    <h2>Releases</h2>
     <div *ngFor="let release of releases$ | async">
       <plstr-release [release]="release" (fetchImage)="fetchImage($event)"></plstr-release>
     </div>

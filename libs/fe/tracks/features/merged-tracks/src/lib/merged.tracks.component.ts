@@ -12,6 +12,9 @@ import {combineLatest} from "rxjs";
     <button (click)="toggleVideo()">
       {{ (onlyVideo$ | async) ? 'Mit und ohne Video' : 'Nur mit Video'}}
     </button>
+    <button (click)="toggleAppleMusic()">
+      {{ (appleMissing$ | async) ? 'Alle' : 'Apple fehlt'}}
+    </button>
     <button *ngIf="!!videoId" (click)="closeVideo()">Close Video</button>
     <div style="">
       <div style="display: inline-block; vertical-align: top; width: 20%">
@@ -32,6 +35,19 @@ import {combineLatest} from "rxjs";
     <div style="position: fixed; bottom: 0; width: 100%; ">
       <pl-yt-player [videoId]="videoId" (stopped)="playNext()"></pl-yt-player>
     </div>
+<!--    <h4>No Apple music ?</h4>-->
+<!--    <div style="column-count: 6">-->
+<!--        <div *ngFor="let track of (noAppletracks$ | async); let i = index" style="clear: both; display: inline-block; white-space: nowrap; padding: 4px;">-->
+<!--            <img-->
+<!--              style="width:20px; margin: 4px; height: auto; float: left"-->
+<!--              [src]="'http://localhost:3333/' + track.track.discogsreleaseId + '.png'"-->
+<!--            />-->
+<!--            <h6 *ngIf="track && track.discogsRelease &&  track.discogsRelease.artists.length ">-->
+<!--              {{ track.discogsRelease.artists && track.discogsRelease.artists.length ? track.discogsRelease.artists[0].name : '' }}-->
+<!--              - {{ track.discogsTrack?.title }}-->
+<!--            </h6>-->
+<!--      </div>-->
+<!--    </div>-->
     <div *ngFor="let track of (tracks$ | async); let i = index" style="clear: both">
       <div style="float: left; margin: 0 20px 20px 0">
         <img
@@ -59,17 +75,32 @@ import {combineLatest} from "rxjs";
 })
 export class MergedTracksComponent implements OnInit {
   onlyVideo$ = new BehaviorSubject(false);
+  appleMissing$ = new BehaviorSubject(false);
   tracks$: Observable<CombinedTrack[]> = combineLatest(
     [
       this.mergedTracksService.combineDataWithFilters(),
-      this.onlyVideo$
+      this.onlyVideo$,
+      this.appleMissing$
     ]
-  ).pipe(map(([tracks, onlyVideo]) => {
-    if(!onlyVideo) {
+  ).pipe(map(([tracks, onlyVideo, appleMissing]) => {
+    if(!onlyVideo && !appleMissing) {
       return tracks;
     }
-    return tracks.filter(t => !!t.track.video)
+    return tracks.filter(t => {
+      if (onlyVideo && !t.track.video) {
+        return false;
+      } else if(appleMissing && !!t.track.appleMusicTrackId) {
+        return false;
+      }
+      return true;
+    })
   }));
+
+  noAppletracks$: Observable<CombinedTrack[]> = this.mergedTracksService.combineDataWithFilters()
+  .pipe(map((tracks) => {
+    return tracks.filter(t => !t.appleMusicTrack)
+  }));
+
   videoId: string | null = null;
   videoTrackIndex: (number | null) = null;
   allMoods$: Observable<string[]> = this.appleMusicApiService.allMoods$;
@@ -127,6 +158,10 @@ export class MergedTracksComponent implements OnInit {
 
   toggleVideo() {
     this.onlyVideo$.next(!this.onlyVideo$.value);
+  }
+
+  toggleAppleMusic() {
+    this.appleMissing$.next(!this.appleMissing$.value);
   }
 
   resetFilter() {

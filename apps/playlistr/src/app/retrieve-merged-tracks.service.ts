@@ -9,7 +9,7 @@ import {
   Video,
 } from '@playlistr/shared/types';
 import { DataAccessService } from './data.access.service';
-import { RetrieveDiscogsCollectionService } from './retrieve-discogs-collection.service';
+import { DiscogsCollectionService } from './discogs-collection.service';
 import { RetrieveAppleMusicService } from './retrieve-apple-music.service';
 const stringSimilarity = require('string-similarity');
 
@@ -19,7 +19,7 @@ export class RetrieveMergedTracksService {
   constructor(
     private httpService: HttpService,
     private dataAccessService: DataAccessService,
-    private retrieveDiscogsCollectionService: RetrieveDiscogsCollectionService,
+    private retrieveDiscogsCollectionService: DiscogsCollectionService,
     private retrieveAppleMusicService: RetrieveAppleMusicService
   ) {}
 
@@ -47,19 +47,15 @@ export class RetrieveMergedTracksService {
     trackName: string,
     tracksApple: any[]
   ): any | null {
-    Logger.log('searching apple-music track for ', artistName, ' ', trackName);
+
     if (!tracksApple) {
       return null;
     }
-    const appleMusicNames = tracksApple.map((v) => v.Artist + ' ' + v.Name);
-    const string = artistName + ' ' + trackName;
+    const appleMusicNames = tracksApple.map((v) => (v.Artist + ' ' + v.Name).replace(/[^a-zA-Z]/g,'_'));
+    const string = (artistName + ' ' + trackName).replace(/[^a-zA-Z]/g,'_');
     const result = stringSimilarity.findBestMatch(string, appleMusicNames);
     const bestMatch =
-      result.bestMatch.rating > 0.4 ? tracksApple[result.bestMatchIndex] : null;
-    Logger.log(
-      `apple found match: ${bestMatch !== null}`,
-      tracksApple[result.bestMatchIndex].name
-    );
+      result.bestMatch.rating > 0.49 ? tracksApple[result.bestMatchIndex] : null;
 
     return bestMatch ? bestMatch['Track ID'] : null;
   }
@@ -74,12 +70,12 @@ export class RetrieveMergedTracksService {
         discogsreleaseId: release.id,
         discogsIndex: index,
         appleMusicTrackId: this.findAppleMusic(
-          release.artists[0].name,
+          track.artists && track.artists.length ? track.artists[0].name : release.artists[0].name,
           track.title,
           tracksApple
         ),
         video: this.findVideo(
-          release.artists[0].name,
+          release.artists_sort,
           track.title,
           release.videos
         ),
@@ -115,7 +111,10 @@ export class RetrieveMergedTracksService {
       this.retrieveDiscogsCollectionService.getCollection(),
       am
     ).pipe(
-      tap((result) => this.dataAccessService.writeCollectionTracksJson(result))
+      tap((result) => {
+        Logger.log('Parseed items');
+        this.dataAccessService.writeCollectionTracksJson(result)
+      })
     );
   }
 }

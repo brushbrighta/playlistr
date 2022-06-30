@@ -15,6 +15,10 @@ export class CollectionApiService {
     return this.httpService.get<Release[]>(`${this.apiUrl}/collection`);
   }
 
+  refreshRelease(releaseId: number): Observable<Release> {
+    return this.httpService.get<Release>(`${this.apiUrl}/update-release/${releaseId}`);
+  }
+
   fetchImageForRelease(releaseId: number) {
     return this.httpService.get<Release[]>(
       `${this.apiUrl}/add-image-to-release/${releaseId}`

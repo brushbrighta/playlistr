@@ -13,17 +13,18 @@ import { Release } from '@playlistr/shared/types';
       </div>
 
       <div>
-        <h3>{{ release.title }}</h3>
-
+        <h3>{{ release.artists[0].name }} - {{ release.title }}</h3>
+        <span>{{ release.id}}</span> &ndash;
+        <span>{{ release.date_changed | date }}</span> &ndash;
         <button (click)="onFetchImage(release.id)">Fetch image</button>
-        <ul *ngFor="let track of release.tracklist">
-          <li>
-            <small>{{ track.title }}</small>
-          </li>
-        </ul>
-        <ul *ngFor="let video of release.videos">
-          <plstr-release-video [video]="video"></plstr-release-video>
-        </ul>
+<!--        <ul *ngFor="let track of release.tracklist">-->
+<!--          <li>-->
+<!--            <small>{{ track.title }}</small>-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--        <ul *ngFor="let video of release.videos">-->
+<!--          <plstr-release-video [video]="video"></plstr-release-video>-->
+<!--        </ul>-->
       </div>
       <hr style="clear: both"/>
     </div>
