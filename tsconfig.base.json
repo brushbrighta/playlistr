@@ -30,6 +30,7 @@
       "@playlistr/fe/collection/features/discogs-releases": [
         "libs/fe/collection/features/discogs-releases/src/index.ts"
       ],
+      "@playlistr/fe/environment": ["libs/fe/environment/src/index.ts"],
       "@playlistr/fe/tracks/data-access": [
         "libs/fe/tracks/data-access/src/index.ts"
       ],

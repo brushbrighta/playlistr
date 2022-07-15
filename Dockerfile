@@ -23,7 +23,7 @@ WORKDIR /usr/src/app
 
 COPY --from=build /usr/src/app/dist/apps/playlistr-be .
 COPY --from=build /usr/src/app/node_modules node_modules/
-COPY --from=build /usr/src/app/data data/
+#COPY --from=build /usr/src/app/data data/
 
 CMD ["node", "main"]
 
@@ -33,4 +33,4 @@ ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
 
 COPY --from=build /usr/src/app/dist/apps/playlistr-fe /usr/share/nginx/html
-
+COPY --from=build /usr/src/app/nginx.conf /etc/nginx/conf.d/default.conf

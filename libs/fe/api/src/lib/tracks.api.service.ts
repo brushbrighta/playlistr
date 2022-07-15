@@ -7,7 +7,7 @@ import { MergedTrack } from '@playlistr/shared/types';
   providedIn: 'root',
 })
 export class TracksApiService {
-  private apiUrl = 'http://localhost:3333/api';
+  private apiUrl = '/api';
 
   constructor(private httpService: HttpClient) {}
 

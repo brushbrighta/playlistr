@@ -26,11 +26,20 @@ This project was generated using [Nx](https://nx.dev).
 <code>...etc</code>
 
 ### Run container
-<code>docker run --rm -p 3333:3333 backend</code>
+<code>docker run --rm -it -p 3333:3333 backend</code>
 
-<code>docker run --rm -p 8080:80 frontend</code>
+<code>docker run --rm -it -p 8080:80 frontend</code>
 
 <code>...etc</code>
 
 ### List running containers
+#### List all
 <code>docker ps -a</code>
+#### Only active
+<code>docker ps</code>
+
+### Kill all running containers
+<code>docker rm -f $(docker ps -q)</code>
+
+### In einen Container hängen
+<code>docker-compose exec fe bash</code>

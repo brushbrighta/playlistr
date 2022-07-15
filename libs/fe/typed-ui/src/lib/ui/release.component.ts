@@ -7,7 +7,7 @@ import { Release } from '@playlistr/shared/types';
       <div style="float: left; margin: 0 20px 20px 0">
         <img
           style="width: 100px; height: auto"
-          [src]="'http://localhost:3333/' + release.id + '.png'"
+          [src]="'/images/' + release.id + '.png'"
           (error)="onFetchImage(release.id)"
         />
       </div>

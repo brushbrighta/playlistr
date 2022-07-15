@@ -37,7 +37,7 @@ import {combineLatest} from "rxjs";
 <!--        <div *ngFor="let track of (noAppletracks$ | async); let i = index" style="clear: both; display: inline-block; white-space: nowrap; padding: 4px;">-->
 <!--            <img-->
 <!--              style="width:20px; margin: 4px; height: auto; float: left"-->
-<!--              [src]="'http://localhost:3333/' + track.track.discogsreleaseId + '.png'"-->
+<!--              [src]="'/' + track.track.discogsreleaseId + '.png'"-->
 <!--            />-->
 <!--            <h6 *ngIf="track && track.discogsRelease &&  track.discogsRelease.artists.length ">-->
 <!--              {{ track.discogsRelease.artists && track.discogsRelease.artists.length ? track.discogsRelease.artists[0].name : '' }}-->
@@ -49,7 +49,7 @@ import {combineLatest} from "rxjs";
       <div style="float: left; margin: 0 20px 20px 0">
         <img
           style="width:60px; height: auto"
-          [src]="'http://localhost:3333/' + track.track.discogsreleaseId + '.png'"
+          [src]="'/images/' + track.track.discogsreleaseId + '.png'"
         />
       </div>
       <h3 *ngIf="track && track.discogsRelease &&  track.discogsRelease.artists.length ">
