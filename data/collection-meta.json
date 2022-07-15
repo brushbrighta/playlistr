@@ -1534,5 +1534,13 @@
     {
         "id": 21993580,
         "url": "https://api.discogs.com/releases/21993580"
+    },
+    {
+        "id": 2456905,
+        "url": "https://api.discogs.com/releases/2456905"
+    },
+    {
+        "id": 9768643,
+        "url": "https://api.discogs.com/releases/9768643"
     }
 ]

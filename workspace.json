@@ -12,8 +12,8 @@
     "fe-tracks-data-access": "libs/fe/tracks/data-access",
     "fe-tracks-features-merged-tracks": "libs/fe/tracks/features/merged-tracks",
     "fe-typed-ui": "libs/fe/typed-ui",
-    "playlistr": "apps/playlistr",
-    "plstr-fe": "apps/plstr-fe",
+    "playlistr-be": "apps/playlistr-be",
+    "playlistr-fe": "apps/playlistr-fe",
     "shared-types": "libs/shared/types"
   }
 }
