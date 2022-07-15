@@ -5,7 +5,9 @@
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/fe/apple-music/features/tracks"],
+      "outputs": [
+        "coverage/libs/fe/apple-music/features/tracks"
+      ],
       "options": {
         "jestConfig": "libs/fe/apple-music/features/tracks/jest.config.ts",
         "passWithNoTests": true

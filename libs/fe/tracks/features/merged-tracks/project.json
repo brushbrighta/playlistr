@@ -5,7 +5,9 @@
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/fe/tracks/features/merged-tracks"],
+      "outputs": [
+        "coverage/libs/fe/tracks/features/merged-tracks"
+      ],
       "options": {
         "jestConfig": "libs/fe/tracks/features/merged-tracks/jest.config.ts",
         "passWithNoTests": true

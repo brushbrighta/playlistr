@@ -5,7 +5,9 @@
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/fe/collection/data-access"],
+      "outputs": [
+        "coverage/libs/fe/collection/data-access"
+      ],
       "options": {
         "jestConfig": "libs/fe/collection/data-access/jest.config.ts",
         "passWithNoTests": true

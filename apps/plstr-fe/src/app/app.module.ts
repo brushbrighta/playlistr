@@ -11,6 +11,7 @@ import { environment } from '../environments/environment';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { FeCollectionFeaturesDiscogsReleasesModule } from '@playlistr/fe/collection/features/discogs-releases';
 import { FeTracksFeaturesMergedTracksModule } from '@playlistr/fe/tracks/features/merged-tracks';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [AppComponent],
@@ -33,6 +34,7 @@ import { FeTracksFeaturesMergedTracksModule } from '@playlistr/fe/tracks/feature
     StoreRouterConnectingModule.forRoot(),
     FeTracksFeaturesMergedTracksModule,
     FeCollectionFeaturesDiscogsReleasesModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
 

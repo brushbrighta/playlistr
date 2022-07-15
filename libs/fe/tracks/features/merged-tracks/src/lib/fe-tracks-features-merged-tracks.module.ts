@@ -8,6 +8,9 @@ import { FeAppleMusicApiModule } from '@playlistr/fe/apple-music/api';
 import { FeCollectionApiModule } from '@playlistr/fe/collection/api';
 import { FeTracksDataAccessModule } from '@playlistr/fe/tracks/data-access';
 import {MergedTracksService} from "./merged.tracks.service";
+import {TracksFilterComponent} from "./tracks-filter.component";
+import {MatSelectModule} from "@angular/material/select";
+import {MatFormFieldModule} from "@angular/material/form-field";
 
 @NgModule({
   imports: [
@@ -17,8 +20,10 @@ import {MergedTracksService} from "./merged.tracks.service";
     FeTracksDataAccessModule,
     FeTypedUiModule,
     YouTubePlayerModule,
+    MatFormFieldModule,
+    MatSelectModule,
   ],
-  declarations: [MergedTracksComponent, YtPlayerComponent],
+  declarations: [MergedTracksComponent, YtPlayerComponent, TracksFilterComponent],
   exports: [MergedTracksComponent],
   providers: [MergedTracksService]
 })

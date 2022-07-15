@@ -5,7 +5,9 @@
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/fe/collection/features/discogs-releases"],
+      "outputs": [
+        "coverage/libs/fe/collection/features/discogs-releases"
+      ],
       "options": {
         "jestConfig": "libs/fe/collection/features/discogs-releases/jest.config.ts",
         "passWithNoTests": true

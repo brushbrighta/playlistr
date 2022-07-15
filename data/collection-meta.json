@@ -1510,5 +1510,29 @@
     {
         "id": 5877431,
         "url": "https://api.discogs.com/releases/5877431"
+    },
+    {
+        "id": 20503003,
+        "url": "https://api.discogs.com/releases/20503003"
+    },
+    {
+        "id": 19562395,
+        "url": "https://api.discogs.com/releases/19562395"
+    },
+    {
+        "id": 12477732,
+        "url": "https://api.discogs.com/releases/12477732"
+    },
+    {
+        "id": 13673553,
+        "url": "https://api.discogs.com/releases/13673553"
+    },
+    {
+        "id": 14355507,
+        "url": "https://api.discogs.com/releases/14355507"
+    },
+    {
+        "id": 21993580,
+        "url": "https://api.discogs.com/releases/21993580"
     }
 ]

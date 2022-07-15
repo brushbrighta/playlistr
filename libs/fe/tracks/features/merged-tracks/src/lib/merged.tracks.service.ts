@@ -57,13 +57,13 @@ export class MergedTracksService {
       ]
     ).pipe(
       debounceTime(200),
-      map(([tracks, setFiler, moodFiler, genreFilter]) => {
+      map(([tracks, setFilter, moodFilter, genreFilter]) => {
       return tracks.filter((track => {
         const am = track.appleMusicTrack;
-        const commentFilters = [...setFiler, ...moodFiler];
-        const filteredByComment = commentFilters.length ? am && am.Comments && commentFilters.every(w => am.Comments.includes(w)) : true;
-        const filteredByGenre = genreFilter.length ? am && am.Genre && genreFilter.every(w => am.Genre.includes(w)) : true;
-        return filteredByComment && filteredByGenre;
+        const filteredBySet = setFilter.length ? am && am.Comments && setFilter.some(w => am.Comments.includes(w)) : true;
+        const filteredByMood = moodFilter.length ? am && am.Comments && moodFilter.some(w => am.Comments.includes(w)) : true;
+        const filteredByGenre = genreFilter.length ? am && am.Genre && genreFilter.some(w => am.Genre.includes(w)) : true;
+        return filteredBySet && filteredByMood && filteredByGenre;
       }))
 
     }))

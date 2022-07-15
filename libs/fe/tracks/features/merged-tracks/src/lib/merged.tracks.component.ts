@@ -8,6 +8,17 @@ import {combineLatest} from "rxjs";
   selector: 'pl-merged-tracks',
   template: `
     <h1>Found {{ (tracks$ | async)?.length }} tracks in collection</h1>
+    <pl-tracks-filter
+      [genreFilter]="getGenreFilter$ | async"
+      [moodFilter]="getMoodFilter$ | async"
+      [setFilter]="getSetFilter$ | async"
+      [allGenres]="allGenres$ | async"
+      [allMoods]="allMoods$ | async"
+      [allSets]="allSets$ | async"
+      (setGenreFilter)="setGenreFilter($event)"
+      (setMoodFilter)="setMoodFilter($event)"
+      (setSetFilter)="setSetFilter($event)"
+    ></pl-tracks-filter>
     <button (click)="resetFilter()">Reset</button>
     <button (click)="toggleVideo()">
       {{ (onlyVideo$ | async) ? 'Mit und ohne Video' : 'Nur mit Video'}}
@@ -16,21 +27,7 @@ import {combineLatest} from "rxjs";
       {{ (appleMissing$ | async) ? 'Alle' : 'Apple fehlt'}}
     </button>
     <button *ngIf="!!videoId" (click)="closeVideo()">Close Video</button>
-    <div style="">
-      <div style="display: inline-block; vertical-align: top; width: 20%">
-        <div *ngFor="let m of (allMoods$ | async)" (click)="setMoodFilter(m)" >
-          {{ m }}
-        </div>
-      </div><div style="display: inline-block; vertical-align: top; width: 19%">
-      <div *ngFor="let s of (allSets$ | async)" (click)="setSetFilter(s)">
-        {{ s }}
-      </div>
-    </div><div style="display: inline-block; vertical-align: top; width: 59%; column-count: 3">
-      <div *ngFor="let s of (allGenres$ | async)" (click)="setGenreFilter(s)">
-        {{ s }}
-      </div>
-    </div>
-    </div>
+
 
     <div style="position: fixed; bottom: 0; width: 100%; ">
       <pl-yt-player [videoId]="videoId" (stopped)="playNext()"></pl-yt-player>
@@ -76,6 +73,11 @@ import {combineLatest} from "rxjs";
 export class MergedTracksComponent implements OnInit {
   onlyVideo$ = new BehaviorSubject(false);
   appleMissing$ = new BehaviorSubject(false);
+
+  getSetFilter$ = this.appleMusicApiService.getSetFilter$;
+  getMoodFilter$ = this.appleMusicApiService.getMoodFilter$;
+  getGenreFilter$ = this.appleMusicApiService.getGenreFilter;
+
   tracks$: Observable<CombinedTrack[]> = combineLatest(
     [
       this.mergedTracksService.combineDataWithFilters(),
@@ -146,14 +148,14 @@ export class MergedTracksComponent implements OnInit {
     })
   }
 
-  setMoodFilter(f: string) {
-    this.appleMusicApiService.setMoodFilter([f]);
+  setMoodFilter(f: string[]) {
+    this.appleMusicApiService.setMoodFilter(f);
   }
-  setSetFilter(f: string) {
-    this.appleMusicApiService.setSetsFilter([f]);
+  setSetFilter(f: string[]) {
+    this.appleMusicApiService.setSetsFilter(f);
   }
-  setGenreFilter(f: string) {
-    this.appleMusicApiService.setGenreFilter([f]);
+  setGenreFilter(f: string[]) {
+    this.appleMusicApiService.setGenreFilter(f);
   }
 
   toggleVideo() {

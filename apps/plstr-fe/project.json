@@ -5,7 +5,9 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/plstr-fe",
         "index": "apps/plstr-fe/src/index.html",
@@ -13,8 +15,14 @@
         "polyfills": "apps/plstr-fe/src/polyfills.ts",
         "tsConfig": "apps/plstr-fe/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": ["apps/plstr-fe/src/favicon.ico", "apps/plstr-fe/src/assets"],
-        "styles": ["apps/plstr-fe/src/styles.scss"],
+        "assets": [
+          "apps/plstr-fe/src/favicon.ico",
+          "apps/plstr-fe/src/assets"
+        ],
+        "styles": [
+          "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+          "apps/plstr-fe/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
@@ -71,12 +79,17 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["apps/plstr-fe/**/*.ts", "apps/plstr-fe/**/*.html"]
+        "lintFilePatterns": [
+          "apps/plstr-fe/**/*.ts",
+          "apps/plstr-fe/**/*.html"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/plstr-fe"],
+      "outputs": [
+        "coverage/apps/plstr-fe"
+      ],
       "options": {
         "jestConfig": "apps/plstr-fe/jest.config.ts",
         "passWithNoTests": true

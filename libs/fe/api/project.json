@@ -5,7 +5,9 @@
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/fe/api"],
+      "outputs": [
+        "coverage/libs/fe/api"
+      ],
       "options": {
         "jestConfig": "libs/fe/api/jest.config.ts",
         "passWithNoTests": true
@@ -14,7 +16,10 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["libs/fe/api/**/*.ts", "libs/fe/api/**/*.html"]
+        "lintFilePatterns": [
+          "libs/fe/api/**/*.ts",
+          "libs/fe/api/**/*.html"
+        ]
       }
     }
   },

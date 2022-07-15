@@ -38,11 +38,11 @@ export class AppService {
     return this.retrieveTrackBpmService.retrieveBpm(trackId);
   }
 
-  convertAppleMusic(): Promise<AppleMusicTrack[]> {
+  convertAppleMusic(): Observable<AppleMusicTrack[]> {
     return this.retrieveAppleMusicService.convertPlaylist();
   }
 
-  getAppleMusicJson(): Promise<Observable<AppleMusicTrack[]>> {
+  getAppleMusicJson(): Observable<AppleMusicTrack[]> {
     return this.retrieveAppleMusicService.getAppleMusicJson();
   }
 }

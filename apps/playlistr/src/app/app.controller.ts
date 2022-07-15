@@ -37,13 +37,14 @@ export class AppController {
     });
   }
 
-  @Get('convert-apple-music')
-  convertAppleMusic(): Promise<AppleMusicTrack[]> {
+  // must be post
+  @Get('refresh-apple-music')
+  convertAppleMusic(): Observable<AppleMusicTrack[]> {
     return this.appService.convertAppleMusic();
   }
 
   @Get('apple-music')
-  appleMusic(): Promise<Observable<AppleMusicTrack[]>> {
+  appleMusic(): Observable<AppleMusicTrack[]> {
     return this.appService.getAppleMusicJson();
   }
 }
