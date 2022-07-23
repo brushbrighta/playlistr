@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { Release } from '@playlistr/shared/types';
-import { DataAccessService } from './data.access.service';
+import { DataAccessService } from './data-access/data.access.service';
 import * as puppeteer from 'puppeteer';
 import { Observable, of } from 'rxjs';
 

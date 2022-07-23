@@ -2,20 +2,20 @@ import { Injectable } from '@nestjs/common';
 import { Observable } from 'rxjs';
 
 import { AppleMusicTrack, MergedTrack, Release } from '@playlistr/shared/types';
-import { RetrieveAlbumImageService } from './retrieve-album-image.service';
-import { DiscogsCollectionService } from './discogs-collection.service';
+import { DiscogsCollectionService } from './discogs/discogs-collection.service';
 import { RetrieveTrackBpmService } from './retrieve-track-bpm.service';
-import { RetrieveMergedTracksService } from './retrieve-merged-tracks.service';
-import { RetrieveAppleMusicService } from './retrieve-apple-music.service';
+import {AlbumImageService} from "./album-image/album-image.service";
+import {MergedTracksService} from "./merged-tracks.service";
+import {AppleMusicService} from "./apple-music/apple-music.service";
 
 @Injectable()
 export class AppService {
   constructor(
-    private retrieveAlbumImageService: RetrieveAlbumImageService,
+    private retrieveAlbumImageService: AlbumImageService,
     private discogsCollectionService: DiscogsCollectionService,
     private retrieveTrackBpmService: RetrieveTrackBpmService,
-    private retrieveMergedTracksService: RetrieveMergedTracksService,
-    private retrieveAppleMusicService: RetrieveAppleMusicService
+    private retrieveMergedTracksService: MergedTracksService,
+    private retrieveAppleMusicService: AppleMusicService
   ) {}
 
   getCollection(): Observable<Release[]> {

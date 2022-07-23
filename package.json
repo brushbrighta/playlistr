@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start-be": "nx run playlistr-be:serve",
-    "start-fe": "nx run playlistr-fe:serve",
+    "start-fe": "nx run playlistr-fe:serve --proxy-config proxy-playlistr-local.conf.js ",
     "build-be": "nx build playlistr-be",
     "build-fe": "nx build playlistr-fe",
     "build-all": "nx build playlistr-fe && nx build playlistr-be",
