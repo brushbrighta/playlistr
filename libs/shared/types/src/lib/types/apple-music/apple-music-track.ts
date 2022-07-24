@@ -32,4 +32,5 @@ export interface AppleMusicTrack {
   'Persistent ID': string; //"AEFD9A9E37909B9E",
   'Track Type': string; // "Remote", todo: maybe enum
   'Apple Music'?: string; // "" => means true, otherwise it´s undefined
+  'Location'?: string
 }

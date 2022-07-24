@@ -11,7 +11,13 @@ export class DataAccessService {
   private AppleMusicJsonName = 'apple-music.json';
 
   private getJson(fileName) {
-    return readFileSync(join(process.cwd(), 'data', fileName), 'utf8');
+    try {
+      return (
+        readFileSync(join(process.cwd(), 'data', fileName), 'utf8') || null
+      );
+    } catch (err) {
+      return null;
+    }
   }
 
   private writeJson(data, fileName) {

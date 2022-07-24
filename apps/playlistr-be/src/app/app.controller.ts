@@ -1,4 +1,4 @@
-import { Controller, Get, Logger, Param, Put } from '@nestjs/common';
+import {Controller, Get, Logger, Param, Post, Put} from '@nestjs/common';
 
 import { AppService } from './app.service';
 import { Observable } from 'rxjs';
@@ -38,7 +38,7 @@ export class AppController {
   }
 
   // must be post
-  @Get('refresh-apple-music')
+  @Post('refresh-apple-music')
   convertAppleMusic(): Observable<AppleMusicTrack[]> {
     return this.appService.convertAppleMusic();
   }

@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/fe/apple-music/shell/src",
+  "prefix": "playlistr",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/fe/apple-music/shell"],
+      "options": {
+        "jestConfig": "libs/fe/apple-music/shell/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/fe/apple-music/shell/**/*.ts",
+          "libs/fe/apple-music/shell/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

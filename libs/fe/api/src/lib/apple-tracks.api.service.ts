@@ -16,4 +16,10 @@ export class AppleMusicTracksApiService {
       `${this.apiUrl}/apple-music`
     );
   }
+
+  refreshAppleMusicTracks(): Observable<null> {
+    return this.httpService.post<null>(
+      `${this.apiUrl}/refresh-apple-music`, null
+    );
+  }
 }

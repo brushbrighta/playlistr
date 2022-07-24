@@ -4,6 +4,7 @@ import {
   MergedTrackAdapter,
   State,
 } from './merged-track.models';
+import { MergedTrack } from '@playlistr/shared/types';
 
 export const getMergedTrackState = createFeatureSelector<State>(
   MERGED_TRACK_FEATURE_KEY
@@ -24,6 +25,20 @@ export const getAllMergedTracks = createSelector(
 export const getAllMergedTracksEntities = createSelector(
   getMergedTrackState,
   (state: State) => selectEntities(state)
+);
+
+export const mergedTracksByAppleId = createSelector(
+  getAllMergedTracks,
+  (tracks: MergedTrack[]) =>
+    tracks.reduce((prev, curr) => {
+      if (!curr.appleMusicTrackId) {
+        return prev;
+      }
+      return {
+        ...prev,
+        [curr.appleMusicTrackId]: curr,
+      };
+    }, {})
 );
 
 export const getSelectedId = createSelector(

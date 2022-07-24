@@ -5,6 +5,7 @@ import * as MergedTrackActions from './merged-track.actions';
 import * as MergedTrackSelectors from './merged-track.selectors';
 import { Observable } from 'rxjs';
 import { MergedTrack } from '@playlistr/shared/types';
+import { mergedTracksByAppleId } from './merged-track.selectors';
 
 @Injectable()
 export class MergedTrackFacade {
@@ -16,6 +17,10 @@ export class MergedTrackFacade {
   );
   selectedMergedTrack$: Observable<MergedTrack | undefined> = this.store.pipe(
     select(MergedTrackSelectors.getSelected)
+  );
+
+  mergedTracksByAppleId$ = this.store.pipe(
+    select(MergedTrackSelectors.mergedTracksByAppleId)
   );
 
   constructor(private readonly store: Store) {}

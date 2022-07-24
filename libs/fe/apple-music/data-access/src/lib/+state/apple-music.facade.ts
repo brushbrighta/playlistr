@@ -48,6 +48,10 @@ export class AppleMusicFacade {
     this.store.dispatch(AppleMusicActions.init());
   }
 
+  refresh() {
+    this.store.dispatch(AppleMusicActions.refresh());
+  }
+
   setMoodFilter(filters: string[]) {
     this.store.dispatch(AppleMusicActions.setMoodFilter({filters}));
   }

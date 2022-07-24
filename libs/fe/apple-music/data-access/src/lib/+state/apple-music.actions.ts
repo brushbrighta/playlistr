@@ -13,6 +13,17 @@ export const loadAppleMusicTracksFailure = createAction(
   props<{ error: any }>()
 );
 
+export const refresh = createAction('[AppleMusicTrack Page] refresh');
+
+export const refreshSuccess = createAction(
+  '[AppleMusicTrack/API] refresh Success'
+);
+
+export const refreshFailure = createAction(
+  '[AppleMusicTrack/API] refresh Failure',
+  props<{ error: any }>()
+);
+
 
 export const setMoodFilter = createAction(
   '[AppleMusicTrack/API] Set Mood Filter',

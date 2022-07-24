@@ -29,6 +29,30 @@ export class AppleMusicEffects implements OnInitEffects {
     )
   );
 
+  refresh$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(AppleMusicActions.refresh),
+      fetch({
+        run: (action) => {
+          return this.appleMusicTracksApiService.refreshAppleMusicTracks().pipe(
+            map((_) =>
+              AppleMusicActions.refreshSuccess()
+            )
+          );
+        },
+        onError: (action, error) => {
+          return AppleMusicActions.refreshFailure({ error });
+        },
+      })
+    )
+  );
+
+  afterRefresh$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(AppleMusicActions.refreshSuccess),
+    map(_ => AppleMusicActions.init()))
+  )
+
   ngrxOnInitEffects(): Action {
     return AppleMusicActions.init();
   }

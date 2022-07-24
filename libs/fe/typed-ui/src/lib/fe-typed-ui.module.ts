@@ -7,6 +7,6 @@ import { ReleaseComponent } from './ui/release.component';
 @NgModule({
   imports: [CommonModule],
   declarations: [ReleaseVideoComponent, ReleaseComponent, SafePipe],
-  exports: [ReleaseVideoComponent, ReleaseComponent],
+  exports: [ReleaseVideoComponent, ReleaseComponent, SafePipe],
 })
 export class FeTypedUiModule {}
