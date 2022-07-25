@@ -15,32 +15,43 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@playlistr/fe-discogs-collection-api": [
+        "libs/fe/discogs-collection/api/src/index.ts"
+      ],
+      "@playlistr/fe-discogs-collection-data-access": [
+        "libs/fe/discogs-collection/data-access/src/index.ts"
+      ],
+      "@playlistr/fe-discogs-collection-features-releases": [
+        "libs/fe/discogs-collection/features/releases/src/index.ts"
+      ],
+      "@playlistr/fe-extended-track-api": [
+        "libs/fe/extended-track/api/src/index.ts"
+      ],
+      "@playlistr/fe-extended-track-data-access": [
+        "libs/fe/extended-track/data-access/src/index.ts"
+      ],
+      "@playlistr/fe-extended-track-features-merged-tracks": [
+        "libs/fe/extended-track/features/merged-tracks/src/index.ts"
+      ],
+      "@playlistr/fe-tracklist": ["libs/fe/tracklist/src/index.ts"],
       "@playlistr/fe/api": ["libs/fe/api/src/index.ts"],
       "@playlistr/fe/apple-music/api": ["libs/fe/apple-music/api/src/index.ts"],
       "@playlistr/fe/apple-music/data-access": [
         "libs/fe/apple-music/data-access/src/index.ts"
       ],
-      "@playlistr/fe/apple-music/features/tracks": [
-        "libs/fe/apple-music/features/tracks/src/index.ts"
-      ],
       "@playlistr/fe/apple-music/shell": [
         "libs/fe/apple-music/shell/src/index.ts"
       ],
-      "@playlistr/fe/collection/api": ["libs/fe/collection/api/src/index.ts"],
-      "@playlistr/fe/collection/data-access": [
-        "libs/fe/collection/data-access/src/index.ts"
-      ],
-      "@playlistr/fe/collection/features/discogs-releases": [
-        "libs/fe/collection/features/discogs-releases/src/index.ts"
-      ],
       "@playlistr/fe/data-conductor": ["libs/fe/data-conductor/src/index.ts"],
       "@playlistr/fe/environment": ["libs/fe/environment/src/index.ts"],
-      "@playlistr/fe/tracks/api": ["libs/fe/tracks/api/src/index.ts"],
-      "@playlistr/fe/tracks/data-access": [
-        "libs/fe/tracks/data-access/src/index.ts"
+      "@playlistr/fe/track-filter/api": [
+        "libs/fe/track-filter/api/src/index.ts"
       ],
-      "@playlistr/fe/tracks/features/merged-tracks": [
-        "libs/fe/tracks/features/merged-tracks/src/index.ts"
+      "@playlistr/fe/track-filter/data-access": [
+        "libs/fe/track-filter/data-access/src/index.ts"
+      ],
+      "@playlistr/fe/track-filter/features/tracklist-filter": [
+        "libs/fe/track-filter/features/tracklist-filter/src/index.ts"
       ],
       "@playlistr/fe/typed-ui": ["libs/fe/typed-ui/src/index.ts"],
       "@playlistr/shared/types": ["libs/shared/types/src/index.ts"]

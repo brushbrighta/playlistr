@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/fe/track-filter/api/src",
+  "prefix": "playlistr",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/fe/track-filter/api"],
+      "options": {
+        "jestConfig": "libs/fe/track-filter/api/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/fe/track-filter/api/**/*.ts",
+          "libs/fe/track-filter/api/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

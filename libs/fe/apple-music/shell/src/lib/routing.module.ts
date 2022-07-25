@@ -10,15 +10,14 @@ export const routes: Routes = [
       {
         path: '',
         redirectTo: 'all-tracks',
-        pathMatch: 'full'
+        pathMatch: 'full',
       },
       {
         path: 'all-tracks',
         loadChildren: () =>
-          import('@playlistr/fe/apple-music/features/tracks').then(
-            (m) => m.FeAppleMusicFeaturesTracksModule
+          import('@playlistr/fe-tracklist').then(
+            (m) => m.FeConductedTracklistModule
           ),
-
       },
     ],
   },

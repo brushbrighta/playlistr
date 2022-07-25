@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
 import { AppleMusicApiService } from '@playlistr/fe/apple-music/api';
-import { DiscogsReleasesApiService } from '@playlistr/fe/collection/api';
+import { DiscogsReleasesApiService } from '@playlistr/fe-discogs-collection-api';
 import { combineLatest, debounceTime, map, Observable } from 'rxjs';
-import { MergedTracksApiService } from '@playlistr/fe/tracks/api';
+import { MergedTracksApiService } from '@playlistr/fe-extended-track-api';
 import { AppleMusicTrack, Release, Video } from '@playlistr/shared/types';
 
-export interface CombinedTrack {
+export interface ConductedTrack {
   id: number;
   title: string;
   artist: string;
@@ -17,7 +17,7 @@ export interface CombinedTrack {
 
 @Injectable()
 export class ConductedDataService {
-  private getConductedTracks$: Observable<CombinedTrack[]> = this.combineData();
+  public conductedTracks$: Observable<ConductedTrack[]> = this.combineData();
 
   constructor(
     private appleMusicApiService: AppleMusicApiService,
@@ -25,7 +25,8 @@ export class ConductedDataService {
     private tracksApiService: MergedTracksApiService
   ) {}
 
-  combineData(): Observable<CombinedTrack[]> {
+  combineData(): Observable<ConductedTrack[]> {
+    // @ts-ignore
     return combineLatest([
       this.tracksApiService.mergedTracksByAppleId$,
       this.appleMusicApiService.allAppleMusicTracks$,
@@ -33,6 +34,7 @@ export class ConductedDataService {
     ]).pipe(
       debounceTime(200),
       map(([mergedTracksDic, appleMusicTracks, discogsDic]) => {
+        // @ts-ignore
         return appleMusicTracks.map((appleTrack) => {
           const discogsReleaseId =
             mergedTracksDic[appleTrack['Track ID']].discogsreleaseId;
@@ -57,9 +59,9 @@ export class ConductedDataService {
     );
   }
 
-  combineDataWithFilters(): Observable<CombinedTrack[]> {
+  combineDataWithFilters(): Observable<ConductedTrack[]> {
     return combineLatest([
-      this.getConductedTracks$,
+      this.conductedTracks$,
       this.appleMusicApiService.getSetFilter$,
       this.appleMusicApiService.getMoodFilter$,
       this.appleMusicApiService.getGenreFilter,

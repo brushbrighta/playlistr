@@ -8,10 +8,10 @@ import { EffectsModule } from '@ngrx/effects';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
-// import { FeCollectionFeaturesDiscogsReleasesModule } from '@playlistr/fe/collection/features/discogs-releases';
-// import { FeTracksFeaturesMergedTracksModule } from '@playlistr/fe/tracks/features/merged-tracks';
+// import { FeDiscogsCollectionFeaturesReleasesModule } from '@playlistr/fe/collection/features/discogs-releases';
+// import { FeExtendedTrackFeaturesMergedTracksModule } from '@playlistr/fe/tracks/features/merged-tracks';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {AppRoutingModule} from "./app.routing.module";
+import { AppRoutingModule } from './app.routing.module';
 
 @NgModule({
   declarations: [AppComponent],
