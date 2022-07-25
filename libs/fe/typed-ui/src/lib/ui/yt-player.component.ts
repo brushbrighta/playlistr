@@ -1,9 +1,9 @@
 import {
-  Component, EventEmitter,
+  Component,
+  EventEmitter,
   Input,
-  OnChanges,
-  OnInit, Output,
-  SimpleChanges,
+  OnInit,
+  Output,
   ViewChild,
 } from '@angular/core';
 import { YouTubePlayer } from '@angular/youtube-player';
@@ -13,11 +13,11 @@ let apiLoaded = false;
 @Component({
   selector: 'pl-yt-player',
   template: `<div *ngFor="let vid of [videoId]">
-    <div *ngIf="vid">
+    <div *ngIf="vid" #parent style="width: 100%">
       <youtube-player
         #ytPLayer
         [videoId]="vid"
-        [width]="1000"
+        [width]="parent.getBoundingClientRect().width"
         [height]="600"
         (ready)="play($event)"
         (stateChange)="stateChange($event)"
@@ -34,7 +34,7 @@ export class YtPlayerComponent implements OnInit {
 
   constructor() {}
 
-  play(event?:  YT.PlayerEvent) {
+  play(event?: YT.PlayerEvent) {
     if (typeof event !== 'undefined' && event.target.getPlayerState() === -1) {
       console.log('play not worked');
       this.onStopped();
@@ -53,7 +53,6 @@ export class YtPlayerComponent implements OnInit {
     }
     if (event.data === 0) {
       this.onStopped();
-
     }
   }
 

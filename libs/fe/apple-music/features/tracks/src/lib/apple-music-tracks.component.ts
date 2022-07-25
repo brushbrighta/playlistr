@@ -2,6 +2,7 @@ import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
   Component,
+  OnInit,
   ViewChild,
 } from '@angular/core';
 import { AppleMusicFacade } from '@playlistr/fe/apple-music/data-access';
@@ -10,7 +11,7 @@ import {
   Dictionary,
   MergedTrack,
 } from '@playlistr/shared/types';
-import { Observable } from 'rxjs';
+import { map, Observable, tap } from 'rxjs';
 import { Track } from 'ngx-audio-player/lib/model/track.model';
 import { AudioPlayerComponent } from 'ngx-audio-player';
 import { MergedTracksApiService } from '@playlistr/fe/tracks/api';
@@ -24,7 +25,7 @@ import { DiscogsReleasesApiService } from '@playlistr/fe/collection/api';
     >
       <h2>
         Hello tracks ({{ (tracks$ | async).length }})
-        <button (click)="refresh()">Refresh</button>
+        <button mat-button (click)="refresh()">Refresh by Apple-XML</button>
       </h2>
       <cdk-virtual-scroll-viewport style="height: 100%" [itemSize]="132">
         <apple-music-single-track
@@ -34,6 +35,7 @@ import { DiscogsReleasesApiService } from '@playlistr/fe/collection/api';
           [tracksByApple]="tracksByApple$ | async"
           (addToPlaylist)="onAddToPlaylist($event)"
           (fetchImage)="fetchImage($event)"
+          (playVideo)="playVideo($event)"
         >
         </apple-music-single-track>
       </cdk-virtual-scroll-viewport>
@@ -45,15 +47,18 @@ import { DiscogsReleasesApiService } from '@playlistr/fe/collection/api';
         [playlist]="playlist"
         [displayArtist]="true"
       ></ngx-audio-player>
+      <hr />
+      <pl-yt-player [videoId]="videoId"></pl-yt-player>
     </div>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AppleMusicTracksComponent {
+export class AppleMusicTracksComponent implements OnInit {
   @ViewChild(AudioPlayerComponent, { static: true }) player:
     | AudioPlayerComponent
     | undefined;
 
+  videoId: string | null = null;
   playlist: Track[] = [];
 
   tracks$: Observable<AppleMusicTrack[]> =
@@ -67,6 +72,20 @@ export class AppleMusicTracksComponent {
     private mergedTracksApiService: MergedTracksApiService,
     private discogsReleasesApiService: DiscogsReleasesApiService
   ) {}
+
+  ngOnInit() {
+    this.tracksByApple$
+      .pipe(
+        map((dict: Dictionary<MergedTrack>) =>
+          Object.keys(dict)
+            .map((key): number => parseInt(key, 10))
+            .map((key) => dict[key])
+        )
+      )
+      .subscribe((list) =>
+        console.log('count with video', list.filter((l) => !!l.video).length)
+      );
+  }
 
   onAddToPlaylist(newFile: Track) {
     if (this.player) {
@@ -87,10 +106,17 @@ export class AppleMusicTracksComponent {
   }
 
   fetchImage(discogsReleaseId: number) {
-    this.discogsReleasesApiService.fetchImage(discogsReleaseId);
+    if (discogsReleaseId) {
+      this.discogsReleasesApiService.fetchImage(discogsReleaseId);
+    }
   }
 
   refresh() {
     this.appleMusicFacade.refresh();
+  }
+
+  playVideo(videoUrl: string) {
+    console.log('playVideo', videoUrl);
+    this.videoId = videoUrl;
   }
 }

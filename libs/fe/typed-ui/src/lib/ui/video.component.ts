@@ -3,14 +3,10 @@ import { Video } from '@playlistr/shared/types';
 @Component({
   selector: 'plstr-release-video',
   template: `
-    <div
-      *ngIf="video"
-      style="border-radius: 4px; padding: 5px; font-size: smaller; background: #f0f0f0"
-    >
-      <div (click)="onPlayVideo()" style="cursor: pointer">
-        {{ video.title }}
-      </div>
-    </div>
+    <button mat-icon-button (click)="onPlayVideo()" [disabled]="!video">
+      <!--      <mat-icon>music_video</mat-icon>-->
+      <img style="width: 28px; height: 28px;" src="assets/youtube.svg" />
+    </button>
   `,
 })
 export class ReleaseVideoComponent {

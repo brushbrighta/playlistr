@@ -33,6 +33,7 @@
       "@playlistr/fe/collection/features/discogs-releases": [
         "libs/fe/collection/features/discogs-releases/src/index.ts"
       ],
+      "@playlistr/fe/data-conductor": ["libs/fe/data-conductor/src/index.ts"],
       "@playlistr/fe/environment": ["libs/fe/environment/src/index.ts"],
       "@playlistr/fe/tracks/api": ["libs/fe/tracks/api/src/index.ts"],
       "@playlistr/fe/tracks/data-access": [

@@ -3,28 +3,26 @@ import { CommonModule } from '@angular/common';
 import { FeTypedUiModule } from '@playlistr/fe/typed-ui';
 import { MergedTracksComponent } from './merged.tracks.component';
 import { YouTubePlayerModule } from '@angular/youtube-player';
-import { YtPlayerComponent } from './yt-player.component';
 import { FeAppleMusicApiModule } from '@playlistr/fe/apple-music/api';
-import { FeCollectionApiModule } from '@playlistr/fe/collection/api';
+import { FeDiscogsCollectionApiModule } from '@playlistr/fe/collection/api';
 import { FeTracksDataAccessModule } from '@playlistr/fe/tracks/data-access';
-import {MergedTracksService} from "./merged.tracks.service";
-import {TracksFilterComponent} from "./tracks-filter.component";
-import {MatSelectModule} from "@angular/material/select";
-import {MatFormFieldModule} from "@angular/material/form-field";
+import { MergedTracksService } from './merged.tracks.service';
+import { TracksFilterComponent } from './tracks-filter.component';
+import { MatSelectModule } from '@angular/material/select';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   imports: [
     CommonModule,
     FeAppleMusicApiModule,
-    FeCollectionApiModule,
+    FeDiscogsCollectionApiModule,
     FeTracksDataAccessModule,
     FeTypedUiModule,
-    YouTubePlayerModule,
     MatFormFieldModule,
     MatSelectModule,
   ],
-  declarations: [MergedTracksComponent, YtPlayerComponent, TracksFilterComponent],
+  declarations: [MergedTracksComponent, TracksFilterComponent],
   exports: [MergedTracksComponent],
-  providers: [MergedTracksService]
+  providers: [MergedTracksService],
 })
 export class FeTracksFeaturesMergedTracksModule {}

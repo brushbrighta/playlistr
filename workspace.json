@@ -10,6 +10,7 @@
     "fe-collection-api": "libs/fe/collection/api",
     "fe-collection-data-access": "libs/fe/collection/data-access",
     "fe-collection-features-discogs-releases": "libs/fe/collection/features/discogs-releases",
+    "fe-data-conductor": "libs/fe/data-conductor",
     "fe-environment": "libs/fe/environment",
     "fe-tracks-api": "libs/fe/tracks/api",
     "fe-tracks-data-access": "libs/fe/tracks/data-access",

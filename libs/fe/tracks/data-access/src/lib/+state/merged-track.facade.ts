@@ -4,7 +4,7 @@ import { select, Store } from '@ngrx/store';
 import * as MergedTrackActions from './merged-track.actions';
 import * as MergedTrackSelectors from './merged-track.selectors';
 import { Observable } from 'rxjs';
-import { MergedTrack } from '@playlistr/shared/types';
+import { Dictionary, MergedTrack } from '@playlistr/shared/types';
 import { mergedTracksByAppleId } from './merged-track.selectors';
 
 @Injectable()
@@ -19,7 +19,7 @@ export class MergedTrackFacade {
     select(MergedTrackSelectors.getSelected)
   );
 
-  mergedTracksByAppleId$ = this.store.pipe(
+  mergedTracksByAppleId$: Observable<Dictionary<MergedTrack>> = this.store.pipe(
     select(MergedTrackSelectors.mergedTracksByAppleId)
   );
 

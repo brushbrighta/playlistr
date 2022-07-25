@@ -7,4 +7,4 @@ import { DiscogsReleasesApiService } from './discogsReleasesApiService';
   imports: [CommonModule, DiscogsReleaseDataAccessModule],
   providers: [DiscogsReleasesApiService],
 })
-export class FeCollectionApiModule {}
+export class FeDiscogsCollectionApiModule {}

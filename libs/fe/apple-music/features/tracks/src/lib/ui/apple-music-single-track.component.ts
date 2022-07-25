@@ -17,19 +17,25 @@ import { Track } from 'ngx-audio-player/lib/model/track.model';
   template: `
     <mat-card style="position: relative">
       <div
-        *ngIf="tracksByApple[track['Track ID']]"
+        *ngIf="
+          tracksByApple[track['Track ID']] &&
+          tracksByApple[track['Track ID']].discogsreleaseId
+        "
         [style.backgroundImage]="
           'url(images/' +
           tracksByApple[track['Track ID']].discogsreleaseId +
           '.png)'
         "
-        style="opacity: .5; filter: blur(.5rem); position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-repeat: no-repeat;
+        style="opacity: .4; filter: blur(.5rem); position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-repeat: no-repeat;
         background-position: center center;
   background-size: cover;"
       ></div>
       <mat-card-header style="position: relative">
         <img
-          *ngIf="tracksByApple[track['Track ID']]"
+          *ngIf="
+            tracksByApple[track['Track ID']] &&
+            tracksByApple[track['Track ID']].discogsreleaseId
+          "
           mat-card-avatar
           [src]="
             'images/' +
@@ -40,30 +46,65 @@ import { Track } from 'ngx-audio-player/lib/model/track.model';
             fetchImage.emit(tracksByApple[track['Track ID']].discogsreleaseId)
           "
         />
-        <mat-icon *ngIf="!tracksByApple[track['Track ID']]" mat-card-avatar
+        <mat-icon
+          *ngIf="
+            !tracksByApple[track['Track ID']] ||
+            !tracksByApple[track['Track ID']].discogsreleaseId
+          "
+          mat-card-avatar
           >music_note</mat-icon
         >
         <mat-card-title>{{ track.Name }}</mat-card-title>
-        <mat-card-subtitle>{{ track.Artist }}</mat-card-subtitle>
+        <mat-card-subtitle
+          >{{ track.Artist }} | {{ track.Album }}</mat-card-subtitle
+        >
       </mat-card-header>
 
-      <mat-card-actions style="position: relative">
-        <ng-container *ngIf="hasFile(track)">
-          <button mat-icon-button (click)="onAddToPlaylist(track)">
-            <mat-icon>playlist_add</mat-icon>
-          </button>
-        </ng-container>
+      <mat-card-content style="position: relative">
         <ng-container
           *ngIf="
             tracksByApple[track['Track ID']] &&
             !!tracksByApple[track['Track ID']].video
           "
         >
-          <button mat-icon-button>
-            <mat-icon>video</mat-icon>
+        </ng-container>
+      </mat-card-content>
+
+      <mat-toolbar-row style="position: relative">
+        <ng-container>
+          <button
+            mat-icon-button
+            (click)="onAddToPlaylist(track)"
+            [disabled]="!hasFile(track)"
+          >
+            <mat-icon>playlist_add</mat-icon>
           </button>
         </ng-container>
-      </mat-card-actions>
+        <ng-container *ngIf="true === true">
+          <a
+            mat-icon-button
+            target="_blank"
+            [disabled]="
+              !tracksByApple[track['Track ID']] ||
+              !tracksByApple[track['Track ID']].discogsreleaseId
+            "
+            href="http://discogs.com/release/{{
+              tracksByApple[track['Track ID']].discogsreleaseId
+            }}"
+          >
+            <img
+              style="width: 24px; height: 24px; position: relative; top: -1px;"
+              src="assets/discogs.svg"
+            /> </a
+          >&nbsp;
+        </ng-container>
+        <ng-container>
+          <plstr-release-video
+            [video]="tracksByApple[track['Track ID']].video"
+            (plaVideo)="playVideo.emit($event)"
+          ></plstr-release-video>
+        </ng-container>
+      </mat-toolbar-row>
     </mat-card>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -85,6 +126,7 @@ export class AppleMusicSingleTrackComponent {
   @Input() tracksByApple: Dictionary<MergedTrack> = {};
   @Output() addToPlaylist: EventEmitter<Track> = new EventEmitter<Track>();
   @Output() fetchImage: EventEmitter<number> = new EventEmitter<number>();
+  @Output() playVideo: EventEmitter<string> = new EventEmitter<string>();
 
   onAddToPlaylist(track: AppleMusicTrack) {
     const p = this.replacePath(track.Location);

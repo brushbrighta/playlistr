@@ -11,7 +11,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { FeTracksApiModule } from '@playlistr/fe/tracks/api';
-import { FeCollectionApiModule } from '@playlistr/fe/collection/api';
+import { FeDiscogsCollectionApiModule } from '@playlistr/fe/collection/api';
+import { YouTubePlayerModule } from '@angular/youtube-player';
+import { MatToolbarModule } from '@angular/material/toolbar';
 export const routes: Routes = [
   {
     path: '',
@@ -27,8 +29,9 @@ export const routes: Routes = [
     RouterModule.forChild(routes),
     FeAppleMusicDataAccessModule,
     FeTracksApiModule,
-    FeCollectionApiModule,
+    FeDiscogsCollectionApiModule,
     MatButtonModule,
+    MatToolbarModule,
     MatIconModule,
     MatCardModule,
     FeTypedUiModule,
