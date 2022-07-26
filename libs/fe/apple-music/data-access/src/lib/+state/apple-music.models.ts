@@ -7,9 +7,6 @@ export interface State extends EntityState<AppleMusicTrack> {
   selectedId?: string | number; // which AppleMusicTrack record has been selected
   loaded: boolean; // has the AppleMusicTrack list been loaded
   error?: string | null; // last known error (if any),
-  setFilters: string[];
-  moodFilters: string[];
-  genreFilters: string[];
 }
 
 export interface AppleMusicPartialState {

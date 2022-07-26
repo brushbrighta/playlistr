@@ -29,7 +29,7 @@ export const getAllDiscogsRelease = createSelector(
 
 export const getDiscogsReleaseEntities = createSelector(
   getDiscogsReleaseState,
-  (state: State) => selectEntities(state)
+  (state: State) => selectEntities(state) || {}
 );
 
 export const getSelectedId = createSelector(

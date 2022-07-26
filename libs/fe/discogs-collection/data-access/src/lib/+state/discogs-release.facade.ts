@@ -3,6 +3,9 @@ import { select, Store } from '@ngrx/store';
 
 import * as DiscogsReleaseActions from './discogs-release.actions';
 import * as DiscogsReleaseSelectors from './discogs-release.selectors';
+import { Observable } from 'rxjs';
+import { Dictionary } from '@ngrx/entity';
+import { Release } from '@playlistr/shared/types';
 
 @Injectable()
 export class DiscogsReleaseFacade {
@@ -16,9 +19,9 @@ export class DiscogsReleaseFacade {
   allDiscogsRelease$ = this.store.pipe(
     select(DiscogsReleaseSelectors.getAllDiscogsRelease)
   );
-  allDiscogsReleaseDictionary$ = this.store.pipe(
-    select(DiscogsReleaseSelectors.getDiscogsReleaseEntities)
-  );
+  allDiscogsReleaseDictionary$: Observable<Dictionary<Release>> =
+    this.store.pipe(select(DiscogsReleaseSelectors.getDiscogsReleaseEntities));
+
   selectedDiscogsRelease$ = this.store.pipe(
     select(DiscogsReleaseSelectors.getSelected)
   );

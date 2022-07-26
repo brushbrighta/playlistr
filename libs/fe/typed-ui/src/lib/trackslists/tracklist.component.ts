@@ -15,11 +15,14 @@ import { ConductedTrack } from '@playlistr/fe/data-conductor';
       *ngIf="tracks"
       style="position: fixed; bottom: 0; top: 0; left: 0; right: 50%; background: #fff; padding: 1px;"
     >
-      <h2>
-        Hello tracks ({{ tracks.length }})
-        <button mat-button (click)="refresh()">Refresh by Apple-XML</button>
-      </h2>
-      <cdk-virtual-scroll-viewport style="height: 100%" [itemSize]="132">
+      <div style="margin-bottom: 3px;">
+        <ng-content></ng-content>
+      </div>
+      <cdk-virtual-scroll-viewport
+        class="styled-scrollbars"
+        style="height: 100%"
+        [itemSize]="132"
+      >
         <plstr-single-track-ui
           style="margin-bottom: 10px; display: block"
           *cdkVirtualFor="let track of tracks"
@@ -69,10 +72,6 @@ export class TracklistComponent {
     if (discogsReleaseId) {
       console.log('image error, implement later');
     }
-  }
-
-  refresh() {
-    console.log('refresh apple music collection, implement later');
   }
 
   playVideo(videoUrl: string) {

@@ -13,7 +13,6 @@
     "fe-environment": "libs/fe/environment",
     "fe-extended-track-api": "libs/fe/extended-track/api",
     "fe-extended-track-data-access": "libs/fe/extended-track/data-access",
-    "fe-extended-track-features-merged-tracks": "libs/fe/extended-track/features/merged-tracks",
     "fe-track-filter-api": "libs/fe/track-filter/api",
     "fe-track-filter-data-access": "libs/fe/track-filter/data-access",
     "fe-track-filter-features-tracklist-filter": "libs/fe/track-filter/features/tracklist-filter",

@@ -5,8 +5,8 @@ import * as AppleMusicActions from './apple-music.actions';
 import * as AppleMusicSelectors from './apple-music.selectors';
 import { Observable } from 'rxjs';
 import { AppleMusicTrack } from '@playlistr/shared/types';
-import {Dictionary} from "@ngrx/entity";
-import {getAllGenres} from "./apple-music.selectors";
+import { Dictionary } from '@ngrx/entity';
+import { getAllGenres } from './apple-music.selectors';
 
 @Injectable()
 export class AppleMusicFacade {
@@ -16,18 +16,8 @@ export class AppleMusicFacade {
   allAppleMusicTracks$: Observable<AppleMusicTrack[]> = this.store.pipe(
     select(AppleMusicSelectors.getAllAppleTracks)
   );
-  allAppleMusicTracksDictionary$: Observable<Dictionary<AppleMusicTrack>> = this.store.pipe(
-    select(AppleMusicSelectors.getAllAppleTracksEntities)
-  );
-  getMoodFilter$: Observable<string[]> = this.store.pipe(
-    select(AppleMusicSelectors.getMoodFilter)
-  );
-  getSetFilter$: Observable<string[]> = this.store.pipe(
-    select(AppleMusicSelectors.getSetFilter)
-  );
-  getGenreFilter$: Observable<string[]> = this.store.pipe(
-    select(AppleMusicSelectors.getGenreFilter)
-  );
+  allAppleMusicTracksDictionary$: Observable<Dictionary<AppleMusicTrack>> =
+    this.store.pipe(select(AppleMusicSelectors.getAllAppleTracksEntities));
 
   allMoods$: Observable<string[]> = this.store.pipe(
     select(AppleMusicSelectors.getAllMoods)
@@ -50,17 +40,5 @@ export class AppleMusicFacade {
 
   refresh() {
     this.store.dispatch(AppleMusicActions.refresh());
-  }
-
-  setMoodFilter(filters: string[]) {
-    this.store.dispatch(AppleMusicActions.setMoodFilter({filters}));
-  }
-
-  setSetFilter(filters: string[]) {
-    this.store.dispatch(AppleMusicActions.setSetFilter({filters}));
-  }
-
-  setGenreFilter(filters: string[]) {
-    this.store.dispatch(AppleMusicActions.setGenreFilter({filters}));
   }
 }

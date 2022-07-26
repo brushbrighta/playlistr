@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MergedTracksApiService } from './mergedTracksApiService';
 import { FeExtendedTrackDataAccessModule } from '@playlistr/fe-extended-track-data-access';
+import { MergedTracksApi } from './merged-tracks.api';
 
 @NgModule({
   imports: [CommonModule, FeExtendedTrackDataAccessModule],
-  providers: [MergedTracksApiService],
+  providers: [MergedTracksApi],
 })
 export class FeExtendedTrackApiModule {}

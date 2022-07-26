@@ -4,6 +4,7 @@ import { FeAppleMusicApiModule } from '@playlistr/fe/apple-music/api';
 import { FeDiscogsCollectionApiModule } from '@playlistr/fe-discogs-collection-api';
 import { FeExtendedTrackApiModule } from '@playlistr/fe-extended-track-api';
 import { ConductedDataService } from './conducted-data.service';
+import { FeTrackFilterApiModule } from '@playlistr/fe/track-filter/api';
 
 @NgModule({
   imports: [
@@ -11,6 +12,7 @@ import { ConductedDataService } from './conducted-data.service';
     FeAppleMusicApiModule,
     FeDiscogsCollectionApiModule,
     FeExtendedTrackApiModule,
+    FeTrackFilterApiModule,
   ],
   providers: [ConductedDataService],
 })
