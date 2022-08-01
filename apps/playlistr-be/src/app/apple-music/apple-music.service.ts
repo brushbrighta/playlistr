@@ -41,7 +41,6 @@ export class AppleMusicService {
 
     return new Observable((subscriber) => {
       const complete$ = fromEvent(parser, finishEventName).pipe(take(1));
-
       complete$.subscribe((e) => subscriber.complete());
 
       fromEvent(parser, dataEventName)

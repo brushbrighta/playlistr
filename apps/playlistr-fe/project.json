@@ -20,7 +20,7 @@
         ],
         "styles": [
           "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
-          "apps/playlistr-fe/src/styles.scss"
+          "shared-assets/styles.scss"
         ],
         "scripts": []
       },
@@ -46,6 +46,24 @@
           ],
           "outputHashing": "all"
         },
+        "no-be": {
+          "sourceMap": true,
+          "vendorChunk": false,
+          "buildOptimizer": true,
+          "optimization": false,
+          "namedChunks": true,
+          "assets":  [{
+            "glob": "**/*",
+            "input": "./data",
+            "output": "."
+          }],
+          "fileReplacements": [
+            {
+              "replace": "apps/playlistr-fe/src/environments/environment.ts",
+              "with": "apps/playlistr-fe/src/environments/environment-static.ts"
+            }
+          ]
+        },
         "development": {
           "buildOptimizer": false,
           "optimization": false,
@@ -65,6 +83,9 @@
         },
         "development": {
           "browserTarget": "playlistr-fe:build:development"
+        },
+        "no-be": {
+          "browserTarget": "playlistr-fe:build:no-be"
         }
       },
       "defaultConfiguration": "development"

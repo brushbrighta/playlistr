@@ -16,4 +16,8 @@ export class DiscogsReleasesApi {
   fetchImage(releaseId: number) {
     this.discogsReleaseFacade.fetchImage(releaseId);
   }
+
+  refreshRelease(releaseId: number) {
+    this.discogsReleaseFacade.refreshRelease(releaseId);
+  }
 }

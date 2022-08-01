@@ -6,8 +6,10 @@
     "start-local-mp3": "cd /Users/nsokolowski/Documents/musik/_apple-music/Music && http-server",
     "start-be": "nx run playlistr-be:serve",
     "start-fe": "nx run playlistr-fe:serve --proxy-config proxy-playlistr-local.conf.js ",
+    "start-fe:no-be": "nx run playlistr-fe:serve --proxy-config proxy-playlistr-local.conf.js --configuration=no-be",
     "build-be": "nx build playlistr-be",
     "build-fe": "nx build playlistr-fe",
+    "build-fe:no-be": "nx build playlistr-fe --configuration=no-be",
     "build-all": "nx build playlistr-fe && nx build playlistr-be",
     "test": "nx test",
     "postinstall": "ngcc --properties es2020 browser module main"

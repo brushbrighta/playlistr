@@ -1,6 +1,14 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { HttpService } from '@nestjs/axios';
-import { combineLatest, filter, map, Observable, of, tap } from 'rxjs';
+import {
+  combineLatest,
+  filter,
+  map,
+  Observable,
+  of,
+  switchMap,
+  tap,
+} from 'rxjs';
 
 import {
   AppleMusicTrack,
@@ -40,8 +48,8 @@ export class MergedTracksService {
     if (!videos) {
       return null;
     }
-    const videoNames = videos.map((v) => v.title.toUpperCase());
-    const string = trackName.toUpperCase();
+    const videoNames = videos.map((v) => this.normalizeName(v.title));
+    const string = this.normalizeName(trackName);
     const result = stringSimilarity.findBestMatch(string, videoNames);
 
     const score = result.bestMatch.rating;
@@ -50,7 +58,7 @@ export class MergedTracksService {
     const otherResult = otherTrackNames.length
       ? stringSimilarity.findBestMatch(
           bestMatchingVideoTitle,
-          otherTrackNames.map((s) => s.toUpperCase())
+          otherTrackNames.map((s) => this.normalizeName(s))
         )
       : { bestMatch: { rating: 0 } };
     //
@@ -68,7 +76,6 @@ export class MergedTracksService {
       score > otherResult.bestMatch.rating
         ? videos[result.bestMatchIndex]
         : null;
-    Logger.log(`video found match: ${bestMatch !== null}`);
 
     return bestMatch;
   }
@@ -103,18 +110,26 @@ export class MergedTracksService {
   private findDiscogsReleaseByApple(
     track: AppleMusicTrack,
     allDiscogs: Release[],
-    flattenedDiscogsTracks: FlatDiscogsTracklistItem[]
+    flattenedDiscogsTracks: FlatDiscogsTracklistItem[],
+    flattenedAppleTracks: string[]
   ) {
     // early return
-    const matchingTracks = flattenedDiscogsTracks.filter(
+    const oneExactlyMatchingTracksInDiscogs = flattenedDiscogsTracks.filter(
       (_track) =>
         this.normalizeName(_track.title) === this.normalizeName(track.Name)
     );
 
-    if (matchingTracks.length === 1) {
+    const isOnlyWithThisNameInApple =
+      flattenedAppleTracks.filter((t) => t === track.Name).length === 1;
+
+    if (
+      oneExactlyMatchingTracksInDiscogs.length === 1 &&
+      isOnlyWithThisNameInApple
+    ) {
       // could include artist to handle small amounts of matching items
       return allDiscogs.find(
-        (release) => release.id === matchingTracks[0].discogsId
+        (release) =>
+          release.id === oneExactlyMatchingTracksInDiscogs[0].discogsId
       );
     }
     // early return end
@@ -187,24 +202,28 @@ export class MergedTracksService {
     track: AppleMusicTrack,
     allDiscogs: Release[],
     otherTracksOnRelease: AppleMusicTrack[],
-    flattenedDiscogsTracks: FlatDiscogsTracklistItem[]
+    flattenedDiscogsTracks: FlatDiscogsTracklistItem[],
+    flattenedAppleTracks: string[]
   ): MergedTrack {
     const discogs = this.findDiscogsReleaseByApple(
       track,
       allDiscogs,
-      flattenedDiscogsTracks
+      flattenedDiscogsTracks,
+      flattenedAppleTracks
     );
     return {
-      id: track['Track ID'] + '',
+      id: track['Track ID'],
       appleMusicTrackId: track['Track ID'],
       discogsreleaseId: discogs ? discogs.id : null,
       discogsIndex: null,
-      video: this.findVideo(
-        '',
-        track.Name,
-        discogs ? discogs.videos : null,
-        otherTracksOnRelease.map((t) => t.Name)
-      ),
+      video: discogs
+        ? this.findVideo(
+            '',
+            track.Name,
+            discogs ? discogs.videos : null,
+            otherTracksOnRelease.map((t) => t.Name)
+          )
+        : null,
     };
 
     // return release.tracklist.map((track: ReleaseTrack, index): MergedTrack => {
@@ -267,12 +286,16 @@ export class MergedTracksService {
       map(([releases, tracksApple]) => {
         const flattenedDiscogsTracklist =
           this.flattenedDiscogsTracklist(releases);
+
+        const flattenedAppleTracklist = tracksApple.map((t) => t.Name);
+
         return tracksApple.map((appleTrack) =>
           this.extractTrackFromReleaseByApple(
             appleTrack,
             releases,
             this.otherFromSameRelease(appleTrack, tracksApple),
-            flattenedDiscogsTracklist
+            flattenedDiscogsTracklist,
+            flattenedAppleTracklist
           )
         );
         // return releases.reduce((prev, curr, currentIndex) => {
@@ -282,6 +305,91 @@ export class MergedTracksService {
     );
   }
 
+  private sanitizeAlbum(
+    result: MergedTrack[],
+    appleMusicTracks: AppleMusicTrack[]
+  ): MergedTrack[] {
+    // group by video ... find bestMatch in eachGroup
+    return result;
+  }
+
+  private sanitizeVideo(
+    result: MergedTrack[],
+    appleMusicTracks: AppleMusicTrack[]
+  ): MergedTrack[] {
+    let beforevideos = 0;
+
+    const mapByVideo = result.reduce((prev, curr) => {
+      // early return
+      if (!curr.video) {
+        return prev;
+      }
+      beforevideos++;
+      // not exist
+      if (!prev[curr.video.uri]) {
+        return {
+          ...prev,
+          [curr.video.uri]: [curr],
+        };
+      }
+      // exists
+      else if (!!prev[curr.video.uri]) {
+        return {
+          ...prev,
+          [curr.video.uri]: [...prev[curr.video.uri], curr],
+        };
+      }
+    }, {});
+
+    console.log('beforevideos count', beforevideos);
+    let removeVideoFromHere = [];
+
+    console.log('unique videos', Object.keys(mapByVideo).length);
+
+    Object.keys(mapByVideo).forEach((key) => {
+      if (mapByVideo[key].length > 1) {
+        const titles = mapByVideo[key].map((data) => {
+          const appleTrack = appleMusicTracks.find(
+            (t) => t['Track ID'] === data.appleMusicTrackId
+          );
+          if (!appleTrack) {
+            console.log('==========');
+            console.log(mapByVideo[key]);
+          }
+          const res = appleTrack.Artist + ' ' + appleTrack.Name;
+          return res;
+        });
+
+        const res = stringSimilarity.findBestMatch(
+          mapByVideo[key][0].video.title,
+          titles
+        );
+        const index = res.bestMatchIndex;
+        const allOther = mapByVideo[key]
+          .filter((_, _index) => _index !== index)
+          .map((data) => data.id);
+
+        removeVideoFromHere = [...removeVideoFromHere, ...allOther];
+      }
+    });
+
+    console.log('removeVideoFromHere', removeVideoFromHere.length);
+
+    let realRemove = 0;
+    const _cleanedUpResult = result.map((res: MergedTrack) => {
+      const shouldRemove =
+        removeVideoFromHere.indexOf(res.appleMusicTrackId) > -1;
+      realRemove += shouldRemove ? 1 : 0;
+      const video = shouldRemove ? null : res.video;
+      return {
+        ...res,
+        video,
+      };
+    });
+    console.log('realRemove', realRemove);
+    return _cleanedUpResult;
+  }
+
   async getTracks(): Promise<Observable<MergedTrack[]>> {
     const tracksJsonRaw = this.dataAccessService.getCollectionTracksJson();
     const tracksJson =
@@ -289,11 +397,21 @@ export class MergedTracksService {
     if (tracksJson && tracksJson.length) {
       return of(tracksJson);
     }
-    const am = await this.retrieveAppleMusicService.getAppleMusicJson();
+    // const am = await this.retrieveAppleMusicService.getAppleMusicJson();
     return this.makeTrackList(
       this.retrieveDiscogsCollectionService.getCollection(),
-      am
+      this.retrieveAppleMusicService.getAppleMusicJson()
     ).pipe(
+      switchMap((result) => {
+        return combineLatest([
+          of(result),
+          this.retrieveAppleMusicService.getAppleMusicJson(),
+        ]).pipe(
+          map(([_result, appleTracks]) => {
+            return this.sanitizeVideo(_result, appleTracks);
+          })
+        );
+      }),
       tap((result) => {
         Logger.log('Parseed items');
         this.dataAccessService.writeCollectionTracksJson(result);

@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import { FeTracklistModule } from '@playlistr/fe/typed-ui';
 import { FeTrackFilterFeaturesTracklistFilterModule } from '@playlistr/fe/track-filter/features/tracklist-filter';
 import { FeAppleMusicApiModule } from '@playlistr/fe/apple-music/api';
+import { FeDiscogsCollectionApiModule } from '@playlistr/fe-discogs-collection-api';
 export const routes: Routes = [
   {
     path: '',
@@ -20,6 +21,7 @@ export const routes: Routes = [
     FeTracklistModule,
     FeDataConductorModule,
     FeTrackFilterFeaturesTracklistFilterModule,
+    FeDiscogsCollectionApiModule,
     FeAppleMusicApiModule,
   ],
   declarations: [ConductedTracklistComponent],

@@ -1,7 +1,7 @@
 import { Video } from '../discogs/response';
 
 export interface MergedTrack {
-  id: string;
+  id: number;
   discogsIndex: number;
   appleMusicTrackId: number;
   discogsreleaseId: number;

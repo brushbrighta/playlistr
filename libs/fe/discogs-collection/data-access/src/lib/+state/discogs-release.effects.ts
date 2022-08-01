@@ -48,9 +48,33 @@ export class DiscogsReleaseEffects implements OnInitEffects {
     )
   );
 
+  refreshRelease$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(DiscogsReleaseActions.refreshRelease),
+      fetch({
+        run: ({ releaseId }) => {
+          return this.collectionApiService
+            .refreshRelease(releaseId)
+            .pipe(
+              map((discogsRelease) =>
+                DiscogsReleaseActions.refreshReleaseSuccess()
+              )
+            );
+        },
+        onError: (action, error) => {
+          console.error('Error', error);
+          return DiscogsReleaseActions.refreshReleaseFailure();
+        },
+      })
+    )
+  );
+
   reloadAfterSuccess$ = createEffect(() =>
     this.actions$.pipe(
-      ofType(DiscogsReleaseActions.fetchImageSuccess),
+      ofType(
+        DiscogsReleaseActions.fetchImageSuccess,
+        DiscogsReleaseActions.refreshReleaseSuccess
+      ),
       debounceTime(500),
       map((_) => DiscogsReleaseActions.init())
     )

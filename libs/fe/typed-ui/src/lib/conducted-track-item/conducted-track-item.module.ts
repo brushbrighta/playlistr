@@ -7,6 +7,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
+import { TagsUiModule } from '../tags/tags-ui.module';
+import { MatChipsModule } from '@angular/material/chips';
 @NgModule({
   imports: [
     CommonModule,
@@ -16,6 +18,8 @@ import { MatCardModule } from '@angular/material/card';
     MatIconModule,
     MatToolbarModule,
     MatCardModule,
+    TagsUiModule,
+    MatChipsModule,
   ],
   declarations: [ConductedTrackItem],
   exports: [ConductedTrackItem],

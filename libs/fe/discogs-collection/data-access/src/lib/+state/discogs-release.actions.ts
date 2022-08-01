@@ -22,16 +22,16 @@ export const fetchImageFailure = createAction(
 );
 
 export const refreshRelease = createAction(
-  '[DiscogsRelease/API] Fetch image',
+  '[DiscogsRelease/API] Refresh image',
   props<{ releaseId: number }>()
 );
 
 export const refreshReleaseSuccess = createAction(
-  '[DiscogsRelease/API] Fetch image Success'
+  '[DiscogsRelease/API] Refresh Success'
 );
 
 export const refreshReleaseFailure = createAction(
-  '[DiscogsRelease/API] Fetch image Failure'
+  '[DiscogsRelease/API] RefreshFailure'
 );
 
 export const loadDiscogsReleaseFailure = createAction(

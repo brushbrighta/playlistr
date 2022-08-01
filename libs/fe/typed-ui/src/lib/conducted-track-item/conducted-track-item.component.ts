@@ -17,9 +17,14 @@ import { ConductedTrack } from '@playlistr/fe/data-conductor';
         [style.backgroundImage]="
           'url(images/' + track.discogsRelease.id + '.png)'
         "
-        style="opacity: .4; filter: blur(.5rem); position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-repeat: no-repeat;
+        style="opacity: .4; position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-repeat: no-repeat;
         background-position: center center;
   background-size: cover;"
+      >
+        <!-- filter: blur(.2rem); -->
+      </div>
+      <div
+        style="background: linear-gradient(80deg, rgba(66,66,66,1) 50%, rgba(66,66,66, 0) );  position: absolute; top: 0; bottom: 0; right: 0; left: 0; "
       ></div>
       <mat-card-header style="position: relative">
         <img
@@ -29,19 +34,34 @@ import { ConductedTrack } from '@playlistr/fe/data-conductor';
           (error)="fetchImage.emit(track.discogsRelease.id)"
         />
         <mat-icon *ngIf="!track.discogsRelease" mat-card-avatar
-          >music_note</mat-icon
-        >
+          >music_note
+        </mat-icon>
         <mat-card-title>{{ track.title }}</mat-card-title>
         <mat-card-subtitle
           >{{ track.artist }} | {{ track.album }}</mat-card-subtitle
         >
       </mat-card-header>
 
-      <mat-card-content style="position: relative">
-        <!--        <pre>{{ track.appleMusicTrack | json }}</pre>-->
+      <mat-card-content style="position: relative" *ngIf="!minimal">
+        <plstr-tags
+          type="GENRE"
+          [tagString]="track.appleMusicTrack.Genre"
+        ></plstr-tags>
+        <plstr-tags
+          type="ENERGY"
+          [tagString]="track.appleMusicTrack.Comments"
+        ></plstr-tags>
+        <plstr-tags
+          type="MOOD"
+          [tagString]="track.appleMusicTrack.Comments"
+        ></plstr-tags>
+        <plstr-tags
+          type="FAV"
+          [tagString]="track.appleMusicTrack.Loved"
+        ></plstr-tags>
       </mat-card-content>
 
-      <mat-toolbar-row style="position: relative">
+      <mat-toolbar-row style="position: relative" *ngIf="!minimal">
         <button
           mat-icon-button
           (click)="onAddToPlaylist(track)"
@@ -62,6 +82,7 @@ import { ConductedTrack } from '@playlistr/fe/data-conductor';
         <a
           mat-icon-button
           target="_blank"
+          (click)="onRefreshRelease(track.discogsRelease.id)"
           [disabled]="!track.discogsRelease"
           href="{{ track.discogsRelease?.uri }}"
         >
@@ -72,7 +93,7 @@ import { ConductedTrack } from '@playlistr/fe/data-conductor';
         </a>
         <plstr-release-video
           [video]="track.video"
-          (plaVideo)="playVideo.emit($event)"
+          (plaVideo)="playVideo.emit($event); currentlyPlaying.emit(track)"
         ></plstr-release-video>
       </mat-toolbar-row>
     </mat-card>
@@ -92,10 +113,14 @@ import { ConductedTrack } from '@playlistr/fe/data-conductor';
   ],
 })
 export class ConductedTrackItem {
+  @Input() minimal = false;
   @Input() track: ConductedTrack | undefined;
   @Output() addToPlaylist: EventEmitter<Track> = new EventEmitter<Track>();
   @Output() fetchImage: EventEmitter<number> = new EventEmitter<number>();
   @Output() playVideo: EventEmitter<string> = new EventEmitter<string>();
+  @Output() currentlyPlaying: EventEmitter<ConductedTrack> =
+    new EventEmitter<ConductedTrack>();
+  @Output() refreshRelease: EventEmitter<number> = new EventEmitter<number>();
 
   onAddToPlaylist(track: ConductedTrack) {
     const p = this.replacePath(track.appleMusicTrack.Location);
@@ -106,6 +131,10 @@ export class ConductedTrackItem {
         link: p,
       });
     }
+  }
+
+  onRefreshRelease(id: number) {
+    this.refreshRelease.emit(id);
   }
 
   private replacePath(location: string | undefined): string | null {

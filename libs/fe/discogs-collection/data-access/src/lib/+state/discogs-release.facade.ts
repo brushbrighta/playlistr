@@ -39,4 +39,8 @@ export class DiscogsReleaseFacade {
   fetchImage(releaseId: number) {
     this.store.dispatch(DiscogsReleaseActions.fetchImage({ releaseId }));
   }
+
+  refreshRelease(releaseId: number) {
+    this.store.dispatch(DiscogsReleaseActions.refreshRelease({ releaseId }));
+  }
 }

@@ -20,6 +20,7 @@
     "fe-typed-ui": "libs/fe/typed-ui",
     "playlistr-be": "apps/playlistr-be",
     "playlistr-fe": "apps/playlistr-fe",
+    "playlistr-fe-static": "apps/playlistr-fe-static",
     "shared-types": "libs/shared/types"
   }
 }

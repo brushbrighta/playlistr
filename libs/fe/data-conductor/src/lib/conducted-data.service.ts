@@ -51,32 +51,37 @@ export class ConductedDataService {
           AppleMusicTrack[],
           Dictionary<Release>
         ]) => {
-          return appleMusicTracks.map((appleTrack) => {
-            const discogsReleaseId =
-              mergedTracksDic[appleTrack['Track ID']].discogsreleaseId;
-            const video = mergedTracksDic[appleTrack['Track ID']].video;
-            const discogsRelease: Release | null =
-              discogsReleaseId && discogsDic[discogsReleaseId]
-                ? discogsDic[discogsReleaseId]
-                : null;
-            if (appleTrack['Track ID'] === 23939) {
-              console.log(
-                'discogsRelease',
-                discogsReleaseId,
-                discogsDic[discogsReleaseId],
-                mergedTracksDic[appleTrack['Track ID']]
-              );
-            }
-            return {
-              id: appleTrack['Track ID'],
-              title: appleTrack['Name'],
-              artist: appleTrack['Artist'],
-              album: appleTrack['Album'],
-              appleMusicTrack: appleTrack,
-              discogsRelease,
-              video: video || null,
-            };
-          });
+          return appleMusicTracks
+            .map((appleTrack) => {
+              const discogsReleaseId =
+                mergedTracksDic[appleTrack['Track ID']].discogsreleaseId;
+              const video = mergedTracksDic[appleTrack['Track ID']].video;
+              const discogsRelease: Release | null =
+                discogsReleaseId && discogsDic[discogsReleaseId]
+                  ? discogsDic[discogsReleaseId]
+                  : null;
+
+              return {
+                id: appleTrack['Track ID'],
+                title: appleTrack['Name'],
+                artist: appleTrack['Artist'],
+                album: appleTrack['Album'],
+                appleMusicTrack: appleTrack,
+                discogsRelease,
+                video: video || null,
+              };
+            })
+            .sort((a, b) => {
+              const aValue =
+                a.discogsRelease && a.discogsRelease.community.rating.count > 10
+                  ? a.discogsRelease.community.rating.average
+                  : 0;
+              const bValue =
+                b.discogsRelease && b.discogsRelease.community.rating.count > 10
+                  ? b.discogsRelease.community.rating.average
+                  : 0;
+              return bValue - aValue;
+            });
         }
       )
     );

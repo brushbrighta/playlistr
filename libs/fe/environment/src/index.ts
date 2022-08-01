@@ -1,1 +1,4 @@
-export * from './lib/fe-environment.module';
+export {
+  ANGULAR_ENVIRONMENT_SERVICE,
+  IEnvironmentService,
+} from './lib/environment.abstraction';
