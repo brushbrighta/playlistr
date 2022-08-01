@@ -22,7 +22,6 @@ export class DiscogsReleaseEffects implements OnInitEffects {
           );
         },
         onError: (action, error) => {
-          console.error('Error', error);
           return DiscogsReleaseActions.loadDiscogsReleaseFailure({ error });
         },
       })
@@ -41,7 +40,6 @@ export class DiscogsReleaseEffects implements OnInitEffects {
             );
         },
         onError: (action, error) => {
-          console.error('Error', error);
           return DiscogsReleaseActions.fetchImageFailure();
         },
       })
@@ -62,7 +60,6 @@ export class DiscogsReleaseEffects implements OnInitEffects {
             );
         },
         onError: (action, error) => {
-          console.error('Error', error);
           return DiscogsReleaseActions.refreshReleaseFailure();
         },
       })

@@ -1,4 +1,5 @@
 import {
+  AfterViewInit,
   Component,
   EventEmitter,
   Input,
@@ -12,34 +13,72 @@ let apiLoaded = false;
 
 @Component({
   selector: 'pl-yt-player',
-  template: `<div *ngFor="let vid of [videoId]">
-    <div *ngIf="vid" #parent style="width: 100%">
+  template: `
+    <!--    <div *ngFor="let vid of [videoId]">-->
+    <div #parent style="width: 100%">
       <youtube-player
         #ytPLayer
-        [videoId]="vid"
+        [videoId]="videoId"
         [width]="parent.getBoundingClientRect().width"
-        [height]="600"
+        [height]="(parent.getBoundingClientRect().width * 3) / 4"
         (ready)="play($event)"
         (stateChange)="stateChange($event)"
       ></youtube-player>
     </div>
-  </div>`,
+    <!--  </div>-->
+  `,
 })
-export class YtPlayerComponent implements OnInit {
+export class YtPlayerComponent implements OnInit, AfterViewInit {
   // @ViewChild('ytPLayer', { static: true }) pLayer?: YouTubePlayer;
-  @ViewChild(YouTubePlayer, { static: false }) pLayer?: YouTubePlayer;
+  @ViewChild(YouTubePlayer, { static: false }) tubePlayer?: YouTubePlayer;
   @Input() videoId: string | null = null;
   @Input() fullScreen = true;
   @Output() stopped: EventEmitter<void> = new EventEmitter<void>();
 
   constructor() {}
 
-  play(event?: YT.PlayerEvent) {
-    if (typeof event !== 'undefined' && event.target.getPlayerState() === -1) {
-      console.log('play not worked');
-      this.onStopped();
+  ngAfterViewInit() {
+    try {
+      // @ts-ignore
+      this.tubePlayer.playerVars = {
+        enablejsapi: 1,
+        autoplay: 1,
+        modestbranding: 1,
+      };
+    } catch (e) {
+      alert(e);
     }
-    setTimeout(() => this.pLayer?.playVideo());
+    // alert(this.tubePlayer);
+  }
+
+  play(event?: YT.PlayerEvent) {
+    console.log('trying', this.videoId);
+    setTimeout(() => {
+      if (
+        typeof event !== 'undefined' &&
+        event.target.getPlayerState() === -1
+      ) {
+        console.log('play not worked');
+        this.onStopped();
+      }
+      // @ts-ignore
+      this.tubePlayer.playVideo();
+    });
+    // double check after 2 sec if somethings playing
+    setTimeout(() => {
+      // @ts-ignore
+      console.log(
+        'this.tubePlayer?.getPlayerState()',
+        this.tubePlayer?.getPlayerState()
+      );
+      // @ts-ignore
+      if (
+        this.tubePlayer?.getPlayerState() === 0 ||
+        this.tubePlayer?.getPlayerState() === 5
+      ) {
+        this.onStopped();
+      }
+    }, 2000);
   }
 
   onStopped() {
