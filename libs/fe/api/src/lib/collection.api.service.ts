@@ -1,6 +1,6 @@
 import { Inject, Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Observable, of } from 'rxjs';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { Observable, of, throwError } from 'rxjs';
 import { AppleMusicTrack, Release } from '@playlistr/shared/types';
 import {
   ANGULAR_ENVIRONMENT_SERVICE,
@@ -28,12 +28,18 @@ export class CollectionApiService {
   }
 
   refreshRelease(releaseId: number): Observable<Release> {
+    if (this.isStaticApp) {
+      return throwError(() => new Error('static mode'));
+    }
     return this.httpService.get<Release>(
       `${this.apiUrl}/update-release/${releaseId}`
     );
   }
 
   fetchImageForRelease(releaseId: number) {
+    if (this.isStaticApp) {
+      return throwError(() => new Error('static mode'));
+    }
     return this.httpService.get<Release[]>(
       `${this.apiUrl}/add-image-to-release/${releaseId}`
     );
