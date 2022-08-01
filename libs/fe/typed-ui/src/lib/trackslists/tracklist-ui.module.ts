@@ -6,6 +6,8 @@ import { ConductedTrackItemModule } from '../conducted-track-item/conducted-trac
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { NgxAudioPlayerModule } from 'ngx-audio-player';
 import { YoutubeUiModule } from '../youtube/youtube.module';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 @NgModule({
   imports: [
     CommonModule,
@@ -14,6 +16,8 @@ import { YoutubeUiModule } from '../youtube/youtube.module';
     YoutubeUiModule,
     ScrollingModule,
     NgxAudioPlayerModule,
+    MatIconModule,
+    MatButtonModule,
   ],
   declarations: [TracklistComponent],
   exports: [TracklistComponent],

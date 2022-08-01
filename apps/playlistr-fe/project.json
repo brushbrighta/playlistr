@@ -67,6 +67,27 @@
             }
           ]
         },
+        "no-be-prod": {
+          "sourceMap": true,
+          "vendorChunk": false,
+          "buildOptimizer": true,
+          "optimization": false,
+          "namedChunks": true,
+          "assets":  [
+            "apps/playlistr-fe/src/favicon.ico",
+            "apps/playlistr-fe/src/assets",
+            {
+              "glob": "**/*",
+              "input": "./data",
+              "output": "."
+            }],
+          "fileReplacements": [
+            {
+              "replace": "apps/playlistr-fe/src/environments/environment.ts",
+              "with": "apps/playlistr-fe/src/environments/environment.prod-static.ts"
+            }
+          ]
+        },
         "development": {
           "buildOptimizer": false,
           "optimization": false,
@@ -89,6 +110,9 @@
         },
         "no-be": {
           "browserTarget": "playlistr-fe:build:no-be"
+        },
+        "no-be-prod": {
+          "browserTarget": "playlistr-fe:build:no-be-prod"
         }
       },
       "defaultConfiguration": "development"

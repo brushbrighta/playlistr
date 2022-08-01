@@ -39,7 +39,7 @@ export class YtPlayerComponent implements OnInit {
       console.log('play not worked');
       this.onStopped();
     }
-    this.pLayer?.playVideo();
+    setTimeout(() => this.pLayer?.playVideo());
   }
 
   onStopped() {

@@ -54,7 +54,11 @@ import { ConductedTrack } from '@playlistr/fe/data-conductor';
         *ngIf="currentlyPlaying"
         [track]="currentlyPlaying"
         [minimal]="true"
-      >
+        ><div style="position: absolute; right: 20px; top: 26px">
+          <button mat-icon-button (click)="playNextVideo()">
+            <mat-icon>skip_next</mat-icon>
+          </button>
+        </div>
       </plstr-single-track-ui>
     </div>
   `,

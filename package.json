@@ -9,7 +9,7 @@
     "start-fe:no-be": "nx run playlistr-fe:serve --proxy-config proxy-playlistr-local.conf.js --configuration=no-be",
     "build-be": "nx build playlistr-be",
     "build-fe": "nx build playlistr-fe",
-    "build-fe:no-be": "nx build playlistr-fe --configuration=no-be",
+    "build-fe:no-be": "nx build playlistr-fe --configuration=no-be-prod",
     "build-all": "nx build playlistr-fe && nx build playlistr-be",
     "test": "nx test",
     "postinstall": "ngcc --properties es2020 browser module main"

@@ -42,6 +42,8 @@ import { ConductedTrack } from '@playlistr/fe/data-conductor';
         >
       </mat-card-header>
 
+      <ng-content></ng-content>
+
       <mat-card-content style="position: relative" *ngIf="!minimal">
         <plstr-tags
           type="GENRE"
