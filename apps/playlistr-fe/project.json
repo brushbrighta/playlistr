@@ -52,7 +52,10 @@
           "buildOptimizer": true,
           "optimization": false,
           "namedChunks": true,
-          "assets":  [{
+          "assets":  [
+            "apps/playlistr-fe/src/favicon.ico",
+            "apps/playlistr-fe/src/assets",
+            {
             "glob": "**/*",
             "input": "./data",
             "output": "."

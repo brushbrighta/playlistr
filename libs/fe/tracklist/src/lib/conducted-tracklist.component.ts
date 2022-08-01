@@ -1,4 +1,9 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  Inject,
+  OnInit,
+} from '@angular/core';
 import { Observable } from 'rxjs';
 import {
   ConductedDataService,
@@ -6,6 +11,10 @@ import {
 } from '@playlistr/fe/data-conductor';
 import { AppleMusicApi } from '@playlistr/fe/apple-music/api';
 import { DiscogsReleasesApi } from '@playlistr/fe-discogs-collection-api';
+import {
+  ANGULAR_ENVIRONMENT_SERVICE,
+  IEnvironmentService,
+} from '@playlistr/fe/environment';
 
 @Component({
   selector: 'plstr-conducted-tracks',
@@ -18,6 +27,7 @@ import { DiscogsReleasesApi } from '@playlistr/fe-discogs-collection-api';
     <!--    <br /><br /><br /><br />-->
     <plstr-tracklist-ui
       [tracks]="tracks$ | async"
+      [minimalUi]="minmalUi"
       (refreshRelease)="discogsReleasesApi.refreshRelease($event)"
       (fetchImage)="discogsReleasesApi.fetchImage($event)"
     >
@@ -33,10 +43,14 @@ export class ConductedTracklistComponent implements OnInit {
   tracks$: Observable<ConductedTrack[]> =
     this.conductedDataService.conductedTracksFiltered$;
 
+  minmalUi = this.environmentService.isStaticApp;
+
   constructor(
     private conductedDataService: ConductedDataService,
     public appleMusicApi: AppleMusicApi,
-    public discogsReleasesApi: DiscogsReleasesApi
+    public discogsReleasesApi: DiscogsReleasesApi,
+    @Inject(ANGULAR_ENVIRONMENT_SERVICE)
+    private environmentService: IEnvironmentService
   ) {}
 
   ngOnInit() {

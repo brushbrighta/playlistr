@@ -42,6 +42,7 @@ import { ConductedTrack } from '@playlistr/fe/data-conductor';
       style="position: fixed; bottom: 0; top: 0; right: 0; left: 50%;  padding: 1px;"
     >
       <ngx-audio-player
+        *ngIf="!minimalUi"
         [playlist]="playlist"
         [displayArtist]="true"
       ></ngx-audio-player>
@@ -68,6 +69,7 @@ export class TracklistComponent {
   playlist: Track[] = [];
   currentlyPlaying: ConductedTrack | null = null;
 
+  @Input() minimalUi = false;
   @Input() tracks: ConductedTrack[] = [];
   @Output() refreshRelease: EventEmitter<number> = new EventEmitter<number>();
   @Output() fetchImage: EventEmitter<number> = new EventEmitter<number>();
