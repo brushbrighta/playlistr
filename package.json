@@ -39,6 +39,7 @@
     "@ngrx/store": "~14.0.2",
     "@nitedani/rxjs-stream": "^0.0.9",
     "@nrwl/angular": "^14.3.6",
+    "angular-split": "^13.2.0",
     "http-server": "^14.1.1",
     "itunes-data": "^0.1.4",
     "ngx-audio-player": "^11.0.4",

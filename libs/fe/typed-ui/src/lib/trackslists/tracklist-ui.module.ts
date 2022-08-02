@@ -8,6 +8,7 @@ import { NgxAudioPlayerModule } from 'ngx-audio-player';
 import { YoutubeUiModule } from '../youtube/youtube.module';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { AngularSplitModule } from 'angular-split';
 @NgModule({
   imports: [
     CommonModule,
@@ -18,6 +19,7 @@ import { MatButtonModule } from '@angular/material/button';
     NgxAudioPlayerModule,
     MatIconModule,
     MatButtonModule,
+    AngularSplitModule,
   ],
   declarations: [TracklistComponent],
   exports: [TracklistComponent],

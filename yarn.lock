@@ -3268,6 +3268,13 @@ ajv@^6.10.0, ajv@^6.12.2, ajv@^6.12.4, ajv@^6.12.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+angular-split@^13.2.0:
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/angular-split/-/angular-split-13.2.0.tgz#7f1fdd639f0aa5e7e8c8ac87ae84348c54eb92f0"
+  integrity sha512-WXVzgBnt6hPipE+z0D8zaCn08kwD0515zpv3siIjlJGgSFDpsIiklyWpTslk89lcUb14ik/dgqsm3F8GEnt8Xw==
+  dependencies:
+    tslib "^2.0.0"
+
 ansi-colors@4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-4.1.1.tgz#cbb9ae256bf750af1eab344f229aa27fe94ba348"
