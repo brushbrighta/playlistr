@@ -74,6 +74,8 @@ export class TagsComponent implements OnChanges {
         .split(this.type === 'GENRE' ? '|' : ' ')
         .map((v: string) => v.trim())
         .filter((v: string) => v.startsWith(this.filterDiscr[this.type]));
+    } else if (this.type !== 'FAV') {
+      this.tags = [];
     }
   }
 }

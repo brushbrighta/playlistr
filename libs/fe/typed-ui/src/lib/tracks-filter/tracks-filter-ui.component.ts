@@ -23,6 +23,12 @@ import { MatSlideToggleChange } from '@angular/material/slide-toggle';
             >Video only</mat-slide-toggle
           >
           &nbsp;
+          <mat-slide-toggle
+            [checked]="onlyFavorites"
+            (change)="onlyFavoritesFilter($event)"
+            >Loved only</mat-slide-toggle
+          >
+          &nbsp;
         </div>
         <mat-form-field>
           <mat-label>Genre</mat-label>
@@ -69,6 +75,7 @@ export class TracksFilterUiComponent implements OnInit {
   @Input() moodFilter: string[] = [];
   @Input() setFilter: string[] = [];
   @Input() onlyVideo: boolean = false;
+  @Input() onlyFavorites: boolean = false;
   @Input() searchTerm: string = '';
 
   @Input() allGenres: string[] = [];
@@ -86,6 +93,9 @@ export class TracksFilterUiComponent implements OnInit {
   @Output() setVideoFilter: EventEmitter<boolean> = new EventEmitter<boolean>();
 
   @Output() setSearchTerm: EventEmitter<string> = new EventEmitter<string>();
+
+  @Output() setOnlyFavoritesFilter: EventEmitter<boolean> =
+    new EventEmitter<boolean>();
 
   ngOnInit() {}
 
@@ -109,5 +119,9 @@ export class TracksFilterUiComponent implements OnInit {
 
   videoFilterChange(val: MatSlideToggleChange) {
     this.setVideoFilter.emit(val.checked);
+  }
+
+  onlyFavoritesFilter(val: MatSlideToggleChange) {
+    this.setOnlyFavoritesFilter.emit(val.checked);
   }
 }

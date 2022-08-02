@@ -24,3 +24,8 @@ export const setSearchTerm = createAction(
   '[TrackFilter] Set search term',
   props<{ searchTerm: string }>()
 );
+
+export const setOnlyFavorites = createAction(
+  '[TrackFilter] Set only favorites',
+  props<{ onlyFavorites: boolean }>()
+);

@@ -24,6 +24,10 @@ const trackFilterReducer = createReducer(
   on(TrackFilterActions.setSearchTerm, (state, { searchTerm }) => ({
     ...state,
     searchTerm,
+  })),
+  on(TrackFilterActions.setOnlyFavorites, (state, { onlyFavorites }) => ({
+    ...state,
+    onlyFavorites,
   }))
 );
 

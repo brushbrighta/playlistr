@@ -9,6 +9,8 @@ export class TrackFilterApi {
   getGenreFilter: Observable<string[]> = this.trackFilterFacade.getGenreFilter$;
   getVideoFilter$: Observable<boolean> = this.trackFilterFacade.getVideoFilter$;
   getSearchTerm$: Observable<string> = this.trackFilterFacade.getSearchTerm$;
+  getOnlyFavoritesFilter$: Observable<boolean> =
+    this.trackFilterFacade.getOnlyFavoritesFilter$;
 
   constructor(private trackFilterFacade: TrackFilterFacade) {}
 }

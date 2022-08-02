@@ -4,6 +4,7 @@ import { select, Store } from '@ngrx/store';
 import * as TrackFilterActions from './track-filter.actions';
 import * as TrackFilterSelectors from './track-filter.selectors';
 import { Observable } from 'rxjs';
+import { getOnlyFavoritesFilter } from './track-filter.selectors';
 
 @Injectable()
 export class TrackFilterFacade {
@@ -21,6 +22,9 @@ export class TrackFilterFacade {
   );
   getSearchTerm$: Observable<string> = this.store.pipe(
     select(TrackFilterSelectors.getSearchTerm)
+  );
+  getOnlyFavoritesFilter$: Observable<boolean> = this.store.pipe(
+    select(TrackFilterSelectors.getOnlyFavoritesFilter)
   );
 
   constructor(private readonly store: Store) {}
@@ -43,5 +47,9 @@ export class TrackFilterFacade {
 
   setSearchTerm(searchTerm: string) {
     this.store.dispatch(TrackFilterActions.setSearchTerm({ searchTerm }));
+  }
+
+  setOnlyFavorites(onlyFavorites: boolean) {
+    this.store.dispatch(TrackFilterActions.setOnlyFavorites({ onlyFavorites }));
   }
 }

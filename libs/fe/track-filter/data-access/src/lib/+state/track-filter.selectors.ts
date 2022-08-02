@@ -39,3 +39,10 @@ export const getSearchTerm = createSelector(
     return state.searchTerm;
   }
 );
+
+export const getOnlyFavoritesFilter = createSelector(
+  getTrackFilterState,
+  (state: State): boolean => {
+    return state.onlyFavorites;
+  }
+);

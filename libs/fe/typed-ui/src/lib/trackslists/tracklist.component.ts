@@ -19,6 +19,9 @@ import { ConductedTrack } from '@playlistr/fe/data-conductor';
     >
       <div style="margin-bottom: 3px;">
         <ng-content></ng-content>
+        <small style="padding: 2px; color: #999999;"
+          >Currently {{ tracks.length }} Tracks</small
+        >
       </div>
       <cdk-virtual-scroll-viewport
         class="styled-scrollbars"

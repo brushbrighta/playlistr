@@ -95,6 +95,7 @@ export class ConductedDataService {
       this.trackFilterApi.getGenreFilter,
       this.trackFilterApi.getVideoFilter$,
       this.trackFilterApi.getSearchTerm$,
+      this.trackFilterApi.getOnlyFavoritesFilter$,
     ]).pipe(
       debounceTime(200),
       map(
@@ -105,6 +106,7 @@ export class ConductedDataService {
           genreFilter,
           onlyVideo,
           searchTerm,
+          onlyFavs,
         ]) => {
           return tracks.filter((track) => {
             const am = track.appleMusicTrack;
@@ -123,6 +125,10 @@ export class ConductedDataService {
               : true;
             const filterByVideo = onlyVideo ? !!track.video : true;
 
+            const filterByFavOnly = onlyFavs
+              ? track.appleMusicTrack.Loved === ''
+              : true;
+
             const filterByTerm =
               searchTerm && searchTerm.length
                 ? (
@@ -138,7 +144,8 @@ export class ConductedDataService {
               filteredByMood &&
               filteredByGenre &&
               filterByVideo &&
-              filterByTerm
+              filterByTerm &&
+              filterByFavOnly
             );
           });
         }
