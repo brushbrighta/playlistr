@@ -1,6 +1,8 @@
 import {
   AfterViewInit,
+  ChangeDetectorRef,
   Component,
+  ElementRef,
   EventEmitter,
   Input,
   OnInit,
@@ -8,19 +10,33 @@ import {
   ViewChild,
 } from '@angular/core';
 import { YouTubePlayer } from '@angular/youtube-player';
+import { Observable, Subscriber } from 'rxjs';
 
 let apiLoaded = false;
+
+function resizeObservable(elem: Element) {
+  return new Observable((subscriber: Subscriber<any>) => {
+    var ro = new ResizeObserver((entries) => {
+      subscriber.next(entries);
+    });
+
+    // Observe one or multiple elements
+    ro.observe(elem);
+    return function unsubscribe() {
+      ro.unobserve(elem);
+    };
+  });
+}
 
 @Component({
   selector: 'pl-yt-player',
   template: `
-    <!--    <div *ngFor="let vid of [videoId]">-->
-    <div #parent style="width: 100%">
+    <div #parent class="w-full">
       <youtube-player
         #ytPLayer
         [videoId]="videoId"
-        [width]="parent.getBoundingClientRect().width"
-        [height]="(parent.getBoundingClientRect().width * 3) / 4"
+        [width]="w"
+        [height]="h"
         (ready)="play($event)"
         (stateChange)="stateChange($event)"
       ></youtube-player>
@@ -31,13 +47,27 @@ let apiLoaded = false;
 export class YtPlayerComponent implements OnInit, AfterViewInit {
   // @ViewChild('ytPLayer', { static: true }) pLayer?: YouTubePlayer;
   @ViewChild(YouTubePlayer, { static: false }) tubePlayer?: YouTubePlayer;
+  @ViewChild('parent', { static: true }) parent: ElementRef | undefined;
   @Input() videoId: string | null = null;
   @Input() fullScreen = true;
   @Output() stopped: EventEmitter<void> = new EventEmitter<void>();
-
-  constructor() {}
+  w = 100;
+  h = 100;
+  constructor(private changeDetectorRef: ChangeDetectorRef) {}
 
   ngAfterViewInit() {
+    if (this.parent) {
+      resizeObservable(this.parent.nativeElement).subscribe((entries) => {
+        const entry: ResizeObserverEntry = entries[0];
+        this.w = entry.contentRect.width;
+        this.h = entry.contentRect.height;
+        this.changeDetectorRef.detectChanges();
+        console.log('resizeObservable');
+      });
+
+      this.parent.nativeElement.dispatchEvent(new Event('resize'));
+    }
+
     try {
       // @ts-ignore
       this.tubePlayer.playerVars = {
@@ -48,7 +78,6 @@ export class YtPlayerComponent implements OnInit, AfterViewInit {
     } catch (e) {
       alert(e);
     }
-    // alert(this.tubePlayer);
   }
 
   play(event?: YT.PlayerEvent) {

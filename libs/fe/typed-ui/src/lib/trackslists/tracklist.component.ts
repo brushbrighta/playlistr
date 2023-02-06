@@ -3,15 +3,42 @@ import {
   Component,
   EventEmitter,
   Input,
+  OnInit,
   Output,
   ViewChild,
 } from '@angular/core';
 import { Track } from 'ngx-audio-player/lib/model/track.model';
-import { AudioPlayerComponent } from 'ngx-audio-player';
-import { ConductedTrack } from '@playlistr/fe/data-conductor';
+import { AudioPlayerComponent, NgxAudioPlayerModule } from 'ngx-audio-player';
+import {
+  ConductedTrack,
+  FeDataConductorModule,
+} from '@playlistr/fe/data-conductor';
+import { CommonModule } from '@angular/common';
+import {
+  ConductedTrackItemModule,
+  YoutubeUiModule,
+} from '@playlistr/fe/typed-ui';
+import { ScrollingModule } from '@angular/cdk/scrolling';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { AngularSplitModule } from 'angular-split';
+import { SimpleTrackItem } from '../simple-track-item/simple-track-item.component';
 
 @Component({
   selector: 'plstr-tracklist-ui',
+  standalone: true,
+  imports: [
+    CommonModule,
+    ConductedTrackItemModule,
+    FeDataConductorModule,
+    YoutubeUiModule,
+    ScrollingModule,
+    NgxAudioPlayerModule,
+    MatIconModule,
+    MatButtonModule,
+    AngularSplitModule,
+    SimpleTrackItem,
+  ],
   template: `
     <div
       *ngIf="tracks"
@@ -26,51 +53,53 @@ import { ConductedTrack } from '@playlistr/fe/data-conductor';
         <as-split-area [size]="40">
           <div style="margin-bottom: 3px;" #headerHere>
             <ng-content></ng-content>
-            <small style="padding: 2px; color: #999999;"
-              >Currently {{ tracks.length }} Tracks</small
-            >
           </div>
           <cdk-virtual-scroll-viewport
             class="styled-scrollbars"
             style="height: calc(100% - {{
               headerHere.getBoundingClientRect().height + 3
             }}px)"
-            [itemSize]="190.5"
+            [itemSize]="172"
           >
-            <plstr-single-track-ui
-              style="margin-bottom: 10px; display: block"
-              *cdkVirtualFor="let track of tracks"
-              [track]="track"
-              (addToPlaylist)="onAddToPlaylist($event)"
-              (fetchImage)="onFetchImage($event)"
-              (playVideo)="playVideo($event)"
-              (currentlyPlaying)="currentlyPlaying = $event"
-              (refreshRelease)="onRefreshRelease($event)"
-            >
-            </plstr-single-track-ui>
+            <section class="p-3">
+              <plstr-simple-track-ui
+                class="mb-3 block"
+                *cdkVirtualFor="let track of tracks"
+                [track]="track"
+                (addToPlaylist)="onAddToPlaylist($event)"
+                (fetchImage)="onFetchImage($event)"
+                (playVideo)="playVideo($event)"
+                (currentlyPlaying)="currentlyPlaying = $event"
+                (refreshRelease)="onRefreshRelease($event)"
+              ></plstr-simple-track-ui>
+            </section>
           </cdk-virtual-scroll-viewport>
         </as-split-area>
-        <as-split-area [size]="60">
-          <ngx-audio-player
-            *ngIf="!minimalUi"
-            [playlist]="playlist"
-            [displayArtist]="true"
-          ></ngx-audio-player>
-          <pl-yt-player
-            [videoId]="videoId"
-            (stopped)="playNextVideo()"
-          ></pl-yt-player>
-          <plstr-single-track-ui
-            *ngIf="currentlyPlaying"
-            [track]="currentlyPlaying"
-            [minimal]="true"
-          >
-            <div style="position: absolute; right: 20px; top: 26px">
-              <button mat-icon-button (click)="playNextVideo()">
-                <mat-icon>skip_next</mat-icon>
-              </button>
+        <as-split-area [size]="60" class="relative">
+          <div class="flex flex-col h-screen">
+            <div class="flex-grow flex items-stretch">
+              <pl-yt-player
+                class="flex-grow flex items-stretch"
+                [videoId]="videoId"
+                (stopped)="playNextVideo()"
+              ></pl-yt-player>
             </div>
-          </plstr-single-track-ui>
+            <div style="height: 150px">
+              <plstr-simple-track-ui
+                *ngIf="currentlyPlaying || videoId"
+                [track]="currentlyPlaying"
+                [minimal]="true"
+              >
+                <button
+                  mat-icon-button
+                  (click)="playNextVideo()"
+                  class="text-gray-100"
+                >
+                  <mat-icon>skip_next</mat-icon>
+                </button>
+              </plstr-simple-track-ui>
+            </div>
+          </div>
         </as-split-area>
       </as-split>
     </div>
@@ -78,7 +107,7 @@ import { ConductedTrack } from '@playlistr/fe/data-conductor';
   styles: [``],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class TracklistComponent {
+export class TracklistComponent implements OnInit {
   @ViewChild(AudioPlayerComponent, { static: true }) player:
     | AudioPlayerComponent
     | undefined;
@@ -140,4 +169,6 @@ export class TracklistComponent {
     this.videoId = this._videoId;
     this._videoId = null;
   }
+
+  ngOnInit() {}
 }

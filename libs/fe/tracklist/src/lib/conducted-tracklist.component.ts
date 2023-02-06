@@ -25,17 +25,18 @@ import {
     <!--      Refresh-->
     <!--    </button>-->
     <!--    <br /><br /><br /><br />-->
+
     <plstr-tracklist-ui
       [tracks]="tracks$ | async"
       [minimalUi]="minmalUi"
       (refreshRelease)="discogsReleasesApi.refreshRelease($event)"
       (fetchImage)="discogsReleasesApi.fetchImage($event)"
     >
-      <pl-tracks-filter
-        [allGenres]="appleMusicApi.getAllGenres$ | async"
-        [allMoods]="appleMusicApi.allMoods$ | async"
-        [allSets]="appleMusicApi.allSets$ | async"
-      ></pl-tracks-filter>
+      <!--      <pl-tracks-filter-->
+      <!--        [allGenres]="appleMusicApi.getAllGenres$ | async"-->
+      <!--        [allMoods]="appleMusicApi.allMoods$ | async"-->
+      <!--        [allSets]="appleMusicApi.allSets$ | async"-->
+      <!--      ></pl-tracks-filter>-->
     </plstr-tracklist-ui>`,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

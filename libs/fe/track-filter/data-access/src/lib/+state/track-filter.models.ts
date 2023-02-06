@@ -14,10 +14,10 @@ export interface TrackFilterPartialState {
 }
 
 export const inititalState: State = {
-  setFilters: [],
+  setFilters: ['SET2'],
   moodFilters: [],
   genreFilters: [],
-  onlyFavorites: false,
+  onlyFavorites: true,
   searchTerm: '',
-  onlyWithVideos: false,
+  onlyWithVideos: true,
 };

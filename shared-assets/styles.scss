@@ -1,17 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   height: 100%;
 }
 body {
   margin: 0;
-  font-family: Roboto, 'Helvetica Neue', sans-serif;
-  background: #222;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 .as-split-gutter {
-  background: repeating-linear-gradient(-45deg, #333 1px, #333 7px, #d8de3f 3px, #d8de3f 11px);
+  //background: repeating-linear-gradient(-45deg, #333 1px, #333 7px, #d8de3f 3px, #d8de3f 11px);
 }
 
 // icons

@@ -12,15 +12,7 @@ import { ConductedTrack } from '@playlistr/fe/data-conductor';
   selector: 'plstr-single-track-ui',
   template: `
     <mat-card style="position: relative">
-      <div
-        *ngIf="track.discogsRelease"
-        [style.backgroundImage]="
-          'url(images/' + track.discogsRelease.id + '.png)'
-        "
-        style="opacity: .4; position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-repeat: no-repeat;
-        background-position: center center;
-  background-size: cover;"
-      >
+      <div *ngIf="track.discogsRelease">
         <!-- filter: blur(.2rem); -->
       </div>
       <div

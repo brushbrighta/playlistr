@@ -4,8 +4,8 @@ import { Video } from '@playlistr/shared/types';
   selector: 'plstr-release-video',
   template: `
     <button mat-icon-button (click)="onPlayVideo()" [disabled]="!video">
-      <!--      <mat-icon>music_video</mat-icon>-->
-      <img style="width: 28px; height: 28px;" src="assets/youtube.svg" />
+      <mat-icon>play_arrow</mat-icon>
+      <!--      <img style="width: 28px; height: 28px;" src="assets/youtube.svg" />-->
     </button>
   `,
 })
