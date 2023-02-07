@@ -16,12 +16,12 @@ import { MatSlideToggleChange } from '@angular/material/slide-toggle';
         />
       </mat-form-field>
       &nbsp;
-      <mat-slide-toggle
-        [checked]="onlyVideo"
-        (change)="videoFilterChange($event)"
-        >Video only</mat-slide-toggle
-      >
-      &nbsp;
+      <!--      <mat-slide-toggle-->
+      <!--        [checked]="onlyVideo"-->
+      <!--        (change)="videoFilterChange($event)"-->
+      <!--        >Video only</mat-slide-toggle-->
+      <!--      >-->
+      <!--      &nbsp;-->
       <mat-slide-toggle
         [checked]="onlyFavorites"
         (change)="onlyFavoritesFilter($event)"
