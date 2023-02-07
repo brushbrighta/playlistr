@@ -104,7 +104,12 @@ export class MergedTracksService {
   // }
 
   private normalizeName(string): string {
-    return string.replace(/[^a-zA-Z]/g, '_').toUpperCase();
+    return string
+      .replace(/[^a-zA-Z]/g, '_')
+      .replace('various', 'v')
+      .replace('Various', 'v')
+      .replace('Verschiedene Interpreten', 'v')
+      .toUpperCase();
   }
 
   private findDiscogsReleaseByApple(

@@ -67,6 +67,7 @@ export class DiscogsCollectionService {
           return {
             id: s.id,
             url: s.basic_information.resource_url,
+            date_added: s.date_added,
           };
         })
       ),
@@ -112,6 +113,5 @@ export class DiscogsCollectionService {
         );
       })
     );
-
   }
 }
