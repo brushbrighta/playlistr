@@ -5,6 +5,7 @@ import { TrackFilterFacade } from '@playlistr/fe/track-filter/data-access';
   selector: 'pl-tracks-filter',
   template: `
     <pl-tracks-filter-ui
+      [resultCount]="resultCount"
       [genreFilter]="trackFilterFacade.getGenreFilter$ | async"
       [moodFilter]="trackFilterFacade.getMoodFilter$ | async"
       [setFilter]="trackFilterFacade.getSetFilter$ | async"
@@ -27,6 +28,7 @@ export class TracksFilterComponent {
   @Input() allGenres: string[] = [];
   @Input() allMoods: string[] = [];
   @Input() allSets: string[] = [];
+  @Input() resultCount = 0;
 
   constructor(public trackFilterFacade: TrackFilterFacade) {}
 }

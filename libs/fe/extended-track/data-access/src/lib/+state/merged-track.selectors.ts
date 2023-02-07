@@ -17,6 +17,11 @@ export const getMergedTracksLoaded = createSelector(
   (state: State) => state.loaded
 );
 
+export const getMergedTracksLoading = createSelector(
+  getMergedTrackState,
+  (state: State) => !state.loaded
+);
+
 export const getAllMergedTracks = createSelector(
   getMergedTrackState,
   (state: State) => selectAll(state)

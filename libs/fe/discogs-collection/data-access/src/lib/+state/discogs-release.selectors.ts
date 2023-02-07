@@ -17,6 +17,11 @@ export const getDiscogsReleaseLoaded = createSelector(
   (state: State) => state.loaded
 );
 
+export const getDiscogsReleaseLoading = createSelector(
+  getDiscogsReleaseState,
+  (state: State) => !state.loaded
+);
+
 export const getDiscogsReleaseError = createSelector(
   getDiscogsReleaseState,
   (state: State) => state.error

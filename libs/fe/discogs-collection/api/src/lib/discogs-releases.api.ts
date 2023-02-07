@@ -10,7 +10,7 @@ export class DiscogsReleasesApi {
     this.discogsReleaseFacade.allDiscogsRelease$;
   allDiscogsReleaseDictionary$: Observable<Dictionary<Release>> =
     this.discogsReleaseFacade.allDiscogsReleaseDictionary$;
-
+  loading$ = this.discogsReleaseFacade.loading$;
   constructor(private discogsReleaseFacade: DiscogsReleaseFacade) {}
 
   fetchImage(releaseId: number) {

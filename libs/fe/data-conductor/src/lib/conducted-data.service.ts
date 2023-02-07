@@ -28,6 +28,11 @@ export class ConductedDataService {
   public conductedTracksFiltered$: Observable<ConductedTrack[]> =
     this.combineDataWithFilters();
 
+  loading$: Observable<boolean> = combineLatest([
+    this.tracksApiService.loading$,
+    this.discogsReleasesApiService.loading$,
+  ]).pipe(map(([a, b]) => a || b));
+
   constructor(
     private appleMusicApiService: AppleMusicApi,
     private discogsReleasesApiService: DiscogsReleasesApi,

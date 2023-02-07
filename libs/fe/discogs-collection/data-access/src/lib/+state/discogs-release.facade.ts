@@ -16,6 +16,9 @@ export class DiscogsReleaseFacade {
   loaded$ = this.store.pipe(
     select(DiscogsReleaseSelectors.getDiscogsReleaseLoaded)
   );
+  loading$ = this.store.pipe(
+    select(DiscogsReleaseSelectors.getDiscogsReleaseLoading)
+  );
   allDiscogsRelease$ = this.store.pipe(
     select(DiscogsReleaseSelectors.getAllDiscogsRelease)
   );

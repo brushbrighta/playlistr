@@ -5,7 +5,6 @@ import * as MergedTrackActions from './merged-track.actions';
 import * as MergedTrackSelectors from './merged-track.selectors';
 import { Observable } from 'rxjs';
 import { Dictionary, MergedTrack } from '@playlistr/shared/types';
-import { mergedTracksByAppleId } from './merged-track.selectors';
 
 @Injectable()
 export class MergedTrackFacade {
@@ -21,6 +20,9 @@ export class MergedTrackFacade {
 
   mergedTracksByAppleId$: Observable<Dictionary<MergedTrack>> = this.store.pipe(
     select(MergedTrackSelectors.mergedTracksByAppleId)
+  );
+  loading$: Observable<boolean> = this.store.pipe(
+    select(MergedTrackSelectors.getMergedTracksLoading)
   );
 
   constructor(private readonly store: Store) {}

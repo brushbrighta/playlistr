@@ -59,7 +59,7 @@ import { SimpleTrackItem } from '../simple-track-item/simple-track-item.componen
             style="height: calc(100% - {{
               headerHere.getBoundingClientRect().height + 3
             }}px)"
-            [itemSize]="172"
+            [itemSize]="72"
           >
             <section class="p-3">
               <plstr-simple-track-ui
@@ -76,7 +76,7 @@ import { SimpleTrackItem } from '../simple-track-item/simple-track-item.componen
           </cdk-virtual-scroll-viewport>
         </as-split-area>
         <as-split-area [size]="60" class="relative">
-          <div class="flex flex-col h-screen">
+          <div class="flex flex-col h-screen overflow-hidden">
             <div class="flex-grow flex items-stretch">
               <pl-yt-player
                 class="flex-grow flex items-stretch"

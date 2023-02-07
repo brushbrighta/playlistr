@@ -7,6 +7,7 @@ import { Dictionary, MergedTrack } from '@playlistr/shared/types';
 export class MergedTracksApi {
   mergedTracksByAppleId$: Observable<Dictionary<MergedTrack>> =
     this.mergedTrackFacade.mergedTracksByAppleId$;
+  loading$ = this.mergedTrackFacade.loading$;
 
   constructor(private mergedTrackFacade: MergedTrackFacade) {}
 }

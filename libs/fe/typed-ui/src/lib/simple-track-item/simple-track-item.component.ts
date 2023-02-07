@@ -14,19 +14,21 @@ import { CommonModule } from '@angular/common';
   selector: 'plstr-simple-track-ui',
   standalone: true,
   template: `
-    <div class="w-full relative">
+    <div class="w-full relative @container/item">
       <div class="bg-gray-800 shadow-lg rounded p-3 flex">
-        <div class="group relative w-32 shrink-0">
+        <div
+          class="group relative w-12 h-12 @md/item:w-32 @md/item:h-32 shrink-0"
+        >
           <img
             *ngIf="track.discogsRelease"
-            class="w-full md:w-32 block rounded"
+            class="w-full block rounded"
             (error)="fetchImage.emit(track.discogsRelease.id)"
             [attr.src]="'images/' + track.discogsRelease.id + '.png'"
             alt=""
           />
           <img
             *ngIf="!track.discogsRelease"
-            class="w-full md:w-32 block rounded"
+            class="w-full h-full block rounded"
             [attr.src]="'assets/unknown_album.jpeg'"
             alt=""
           />
@@ -48,8 +50,8 @@ import { CommonModule } from '@angular/common';
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="40"
-                height="40"
+                width="32"
+                height="32"
                 fill="currentColor"
                 class="bi bi-play-circle-fill"
                 viewBox="0 0 16 16"
@@ -61,9 +63,9 @@ import { CommonModule } from '@angular/common';
             </button>
           </div>
         </div>
-        <div class="p-5">
+        <div class="px-2 @md/item:p-5">
           <div class="">
-            <h3 class="text-white text-lg ">
+            <h3 class="text-white text-md @md/item:text-lg ">
               {{ track.title }}
             </h3>
             <p class="text-gray-400">
