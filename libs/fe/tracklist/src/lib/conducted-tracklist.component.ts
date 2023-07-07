@@ -18,10 +18,8 @@ import {
 
 @Component({
   selector: 'plstr-conducted-tracks',
-  template: `<!-- <button-->
-    <!--      style="position: absolute; z-index: 33;"-->
-    <!--      (click)="refresh()"-->
-    <!--    >-->
+  template: `
+    <!--    <button style="position: absolute; z-index: 33;" (click)="refresh()">-->
     <!--      Refresh-->
     <!--    </button>-->
     <!--    <br /><br /><br /><br />-->
@@ -75,7 +73,8 @@ import {
           ></span>
         </span>
       </div>
-    </div> `,
+    </div>
+  `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ConductedTracklistComponent implements OnInit {
